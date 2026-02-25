@@ -3,7 +3,10 @@ name: Sync characteristics_and_matchups.json
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -12,16 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch JSON from Worker
-        run: |
-          curl -sS "$WORKER_URL" -o characteristics_and_matchups.json
+      - name: Fetch JSON
+        run: curl -f -sS "$WORKER_URL" -o characteristics_and_matchups.json
         env:
           WORKER_URL: ${{ secrets.WORKER_URL }}
 
       - name: Commit if changed
         run: |
           git add characteristics_and_matchups.json
-      
+
           if git diff --cached --quiet; then
             echo "No changes"
           else
