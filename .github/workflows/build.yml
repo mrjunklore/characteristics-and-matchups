@@ -1,0 +1,31 @@
+name: Sync characteristics_and_matchups.json
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch JSON from Worker
+        run: |
+          curl -sS "$WORKER_URL" -o characteristics_and_matchups.json
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git add characteristics_and_matchups.json
+            git commit -m "auto: sync from worker"
+            git push
+          fi
