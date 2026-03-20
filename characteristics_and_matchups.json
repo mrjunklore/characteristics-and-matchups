@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-19T19:55:43.016Z",
+    "generated_at": "2026-03-20T05:07:20.017Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -986,7 +986,11 @@
           "name": "Storyteller Interaction"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "cannibal": {
           "warning": "Cannibal will try to use the ability whenever possible"
@@ -1441,6 +1445,9 @@
       "groups": [
         {
           "name": "Explains modified visible Outsider count"
+        },
+        {
+          "name": "Can differentiate Demons and Minions"
         },
         {
           "name": "Benefits from longer games"
@@ -2118,7 +2125,7 @@
           "good": "Extra deaths work well with this Outsider"
         },
         "pukka": {
-          "warning": "Pukka disables death abilities"
+          "warning": "Pukka disables death abilities. A new Pukka doesn't kill on its first night"
         },
         "shabaloth": {
           "good": "Extra deaths work well with this Outsider"
@@ -4113,7 +4120,11 @@
           "name": "Storyteller Agency"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "engineer": {
           "good": "Engineer can limit the Minion or Demon pool"
@@ -4801,6 +4812,9 @@
       ],
       "groups": [
         {
+          "name": "Can differentiate Demons and Minions"
+        },
+        {
           "name": "Explains no night deaths"
         }
       ],
@@ -5454,6 +5468,9 @@
           "name": "Pushes good to nominate and execute"
         },
         {
+          "name": "Can differentiate Demons and Minions"
+        },
+        {
           "name": "Benefits from longer games"
         }
       ],
@@ -5834,6 +5851,9 @@
         }
       ],
       "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        },
         {
           "name": "Explains extra night deaths"
         }
@@ -6453,7 +6473,11 @@
           "name": "Public Hard Confirmable"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "puzzlemaster": {
           "warning": "Puzzlemaster benefits from long games"
@@ -7382,7 +7406,7 @@
           "good": "Interesting Demon to change into"
         },
         "pukka": {
-          "warning": "If changed into a Pukka, no death will happen tonight"
+          "warning": "A new Pukka doesn't kill on its first night"
         },
         "zombuul": {
           "conflict": "If a \"dead\" Zombuul changes character, they live, but still appear as dead"
@@ -7916,7 +7940,11 @@
           "name": "Information"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "lycanthrope": {
           "good": "First night info roles are good targets for Lycanthrope kills"
@@ -8113,7 +8141,11 @@
           "name": "Social Oxygen"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "lycanthrope": {
           "good": "Used once per game roles are good target for Lycanthrope kills"
@@ -8692,7 +8724,11 @@
           "name": "Information"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "lycanthrope": {
           "good": "First night info roles are good targets for Lycanthrope kills"
@@ -11933,7 +11969,7 @@
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "pukka": {
-          "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+          "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track. A new Pukka doesn't kill on its first night"
         },
         "zombuul": {
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
@@ -13163,7 +13199,11 @@
           "name": "On Death"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "sage": {
           "warning": "Beware too many \"trap\" characters"
@@ -13580,7 +13620,11 @@
           "name": "On Death"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        }
+      ],
       "matchups": {
         "slayer": {
           "great": "Good synergy"
@@ -14130,6 +14174,9 @@
       ],
       "groups": [
         {
+          "name": "Can differentiate Demons and Minions"
+        },
+        {
           "name": "Benefits from longer games"
         }
       ],
@@ -14570,6 +14617,9 @@
         }
       ],
       "groups": [
+        {
+          "name": "Can differentiate Demons and Minions"
+        },
         {
           "name": "Benefits from longer games"
         }
@@ -15628,6 +15678,9 @@
       "groups": [
         {
           "name": "Pushes good to nominate and execute"
+        },
+        {
+          "name": "Can differentiate Demons and Minions"
         }
       ],
       "matchups": {
