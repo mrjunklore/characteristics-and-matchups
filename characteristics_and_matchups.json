@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-02T13:02:06.359Z",
+    "generated_at": "2026-04-02T18:50:57.508Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -460,6 +460,9 @@
       "groups": [
         {
           "name": "Benefits from longer games"
+        },
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -1119,7 +1122,7 @@
           "good": "Artist can ask about arbitrary game changes"
         },
         "vortox": {
-          "warning": "This role can easily confirm a Vortox"
+          "warning": "This role can easily confirm a Vortox. Can also circumvent the Vortox with an XOR statement"
         },
         "shabaloth": {
           "warning": "When resurrected, this gets another use of its ability"
@@ -1167,7 +1170,7 @@
           "warning": "This ability is hard to do when wearing the hat"
         },
         "knaves": {
-          "warning": "This role can easily detect which ST is lying"
+          "warning": "This role can easily detect which ST is lying. Can also circumvent the Knaves with an XOR statement"
         },
         "pope": {
           "good": "Cross-referencing information can be powerful"
@@ -1923,6 +1926,9 @@
         "snake charmer": {
           "good": "Outed characters are safe picks"
         },
+        "soldier": {
+          "warning": "Beware too many \"trap\" characters"
+        },
         "steward": {
           "good": "Steward can allow trust of hidden Townsfolk"
         },
@@ -2124,7 +2130,7 @@
           "warning": "Dying is part of this character's ability and balance"
         },
         "knaves": {
-          "warning": "This role's info is immune to Vortox"
+          "warning": "This role's info is immune to Knaves"
         },
         "pope": {
           "warning": "Beware too much confirmation"
@@ -3242,6 +3248,9 @@
       "groups": [
         {
           "name": "Is a (potential) source of misinformation for others"
+        },
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -3548,6 +3557,9 @@
         "goon": {
           "warning": "Goon might become evil before the Chef acts"
         },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
         "ogre": {
           "info": "Ogre doesn't change the Chef number (acts after the Chef)"
         },
@@ -3715,6 +3727,9 @@
         "snake charmer": {
           "warning": "Snake Charmer can move the Demon"
         },
+        "soldier": {
+          "warning": "Beware too many \"trap\" characters"
+        },
         "steward": {
           "good": "Steward can allow trust of hidden Townsfolk"
         },
@@ -3876,6 +3891,9 @@
         },
         "sweetheart": {
           "warning": "First night info is immune to Sweetheart"
+        },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
         },
         "snitch": {
           "good": "Snitch can help Minions hide"
@@ -4816,6 +4834,9 @@
         "recluse": {
           "good": "Recluse can appear evil"
         },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
         "ogre": {
           "good": "This role can learn the Ogre's alignment"
         },
@@ -5170,7 +5191,7 @@
           "warning": "The Demon can move around"
         },
         "lunatic": {
-          "good": "Exorcist can help a Lunatic (can't be affected)"
+          "good": "Lunatic can believe they were affected by an Exorcist (which prevents them from picking)"
         },
         "puzzlemaster": {
           "good": "Exorcist can help confirm Puzzlemaster info. Puzzlemaster benefits from long games"
@@ -5355,6 +5376,9 @@
         "snake charmer": {
           "good": "Outed characters are safe picks"
         },
+        "soldier": {
+          "warning": "Beware too many \"trap\" characters"
+        },
         "steward": {
           "good": "First night info roles are a good target for Farmer. Steward can allow trust of hidden Townsfolk"
         },
@@ -5366,6 +5390,9 @@
         },
         "moonchild": {
           "warning": "Moonchild can kill this role"
+        },
+        "lunatic": {
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role"
         },
         "damsel": {
           "good": "Good Farmer target, encouraging early guesses"
@@ -5427,10 +5454,10 @@
           "good": "Killing the Farmer is an interesting cost"
         },
         "imp": {
-          "good": "Imp can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "fang gu": {
-          "good": "Fang Gu can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "vigormortis": {
           "good": "Minions can bluff this character"
@@ -5448,7 +5475,7 @@
           "good": "Trap characters with multi kill Demons work well"
         },
         "zombuul": {
-          "good": "Zombuul can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "alhadikhia": {
           "warning": "Trap characters are likely to pick death"
@@ -5877,6 +5904,9 @@
         "tinker": {
           "warning": "Flowergirl benefits from long games"
         },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
         "golem": {
           "warning": "Flowergirl benefits from long games"
         },
@@ -6173,6 +6203,9 @@
         "gnome": {
           "good": "This role can survive this Traveller"
         },
+        "doomsayer": {
+          "warning": "Can cause a doomsay to have no effect (check if both teams have characters that can explain this)"
+        },
         "god of ug": {
           "good": "This role can be said in ug speak. Helps with execution"
         },
@@ -6337,10 +6370,10 @@
           "good": "Can confirm Wizard is in-play"
         },
         "imp": {
-          "good": "Imp can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "fang gu": {
-          "good": "Fang Gu can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "vortox": {
           "warning": "This role's info is immune to Vortox"
@@ -6352,7 +6385,7 @@
           "warning": "Death-based characters like being resurrected"
         },
         "zombuul": {
-          "good": "Extra deaths can hide nights with no kills"
+          "good": "Extra deaths can hide nights with no kills. This Demon can die safely in the night"
         },
         "alhadikhia": {
           "warning": "If not picked by Al-had, Gambler death is confirmed",
@@ -6517,6 +6550,9 @@
         },
         "hermit": {
           "warning": "Hermit can impact the General info quite a lot"
+        },
+        "baron": {
+          "good": "Extra starting Outsiders can give a reason for the game to start neutral or even evil sided"
         },
         "poisoner": {
           "good": "General can detect if someone important was poisoned"
@@ -6988,6 +7024,9 @@
         "fibbin": {
           "warning": "Mechanical info is immune to Fibbin"
         },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
+        },
         "revolutionary": {
           "warning": "Double confirmation if in the Rev pair"
         },
@@ -7154,7 +7193,8 @@
           "warning": "If there's an extra evil player, this role can't change alignment"
         },
         "god of ug": {
-          "good": "This role can be said in ug speak"
+          "good": "This role can be said in ug speak",
+          "warning": "If an extra evil gets the hat, evil can even more easily out vote town"
         },
         "knaves": {
           "info": "Role/alignment changes are immune to Knaves"
@@ -7232,6 +7272,9 @@
       "groups": [
         {
           "name": "Explains extra night deaths"
+        },
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -7298,6 +7341,9 @@
         },
         "slayer": {
           "good": "Used once per game roles are good target for Gossip kills"
+        },
+        "soldier": {
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
         },
         "steward": {
           "good": "First night info roles are good targets for Gossip kills"
@@ -7593,6 +7639,9 @@
         "angel": {
           "warning": "Angel protecting the grandchild makes it unlikely for the Grandmother to be double killed"
         },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
+        },
         "hindu": {
           "warning": "Dying is part of this character's ability and balance"
         },
@@ -7693,6 +7742,9 @@
         },
         {
           "name": "Explains day deaths"
+        },
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -8647,6 +8699,9 @@
       "groups": [
         {
           "name": "Can differentiate Demons and Minions"
+        },
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -8687,7 +8742,8 @@
           "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
         "soldier": {
-          "good": "Confirming this role is in-play is good"
+          "good": "Confirming this role is in-play is good",
+          "warning": "Juggling trap characters doesn't help them"
         },
         "undertaker": {
           "good": "Used once per game roles can be executed to be confirmed"
@@ -8705,7 +8761,7 @@
           "good": "Juggler can find Mutant"
         },
         "lunatic": {
-          "good": "Juggler can find Lunatic"
+          "good": "Juggler can find Lunatic. Public info can help Lunatic find out they're the Lunatic"
         },
         "spy": {
           "good": "Spy can appear as any Townsfolk or Outsider. Spy can simulate this role"
@@ -8928,6 +8984,9 @@
         "moonchild": {
           "warning": "Moonchild can kill King",
           "good": "Multiple deaths works well with King"
+        },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
         },
         "golem": {
           "warning": "Golem can kill King"
@@ -9188,6 +9247,9 @@
         "fibbin": {
           "warning": "Mechanical info is immune to Fibbin"
         },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
+        },
         "revolutionary": {
           "good": "Partner can help this role out"
         },
@@ -9301,7 +9363,8 @@
           "warning": "First night info is immune to Sweetheart"
         },
         "lunatic": {
-          "warning": "Knight shouldn't see a Lunatic"
+          "warning": "Knight shouldn't see a Lunatic",
+          "good": "Public info can help Lunatic find out they're the Lunatic"
         },
         "golem": {
           "info": "Both do similar work"
@@ -9663,7 +9726,7 @@
           "good": "Moonchild is a hidden Outsider"
         },
         "lunatic": {
-          "good": "Luantic is a hidden Outsider"
+          "good": "Lunatic is a hidden Outsider"
         },
         "damsel": {
           "warning": "Evil Librarian should not see Damsel",
@@ -9817,6 +9880,9 @@
         "angel": {
           "warning": "The Angel-protected player makes for an obvious host. The Lleech can't die"
         },
+        "doomsayer": {
+          "warning": "Can cause a doomsay to have no effect (check if both teams have characters that can explain this). Good doomsays can't kill the host"
+        },
         "fiddler": {
           "warning": "Outed Lleech can't win a Fiddler contest"
         },
@@ -9859,6 +9925,9 @@
         "golem": {
           "good": "Golem can find a Lunatic"
         },
+        "puzzlemaster": {
+          "warning": "A puzzledrunk Lunatic won't signal itself or its kills to the Demon"
+        },
         "hatter": {
           "good": "Lunatic can \"change character\" at any time"
         },
@@ -9866,7 +9935,8 @@
           "warning": "Ogre with Lunatic can make it hard to figure out their alignment"
         },
         "hermit": {
-          "warning": "Demon can find the Hermit easier"
+          "good": "Good reason for a Lunatic learning a Lunatic",
+          "warning": "Demon can find the Hermit easier. There can be multiple Lunatics"
         },
         "baron": {
           "good": "Baron works better with hidden Outsiders"
@@ -9881,7 +9951,8 @@
           "good": "Can have the Lunatic die without thinking they're the Lunatic. The Lunatic can learn the good twin as their Minion"
         },
         "pithag": {
-          "good": "Lunatic can believe they changed role"
+          "good": "Lunatic can believe they changed role",
+          "warning": "Someone pit-hagged into a Lunatic can't believe they're the Demon (without other explanations), since Pit-Hag can't change alignment"
         },
         "cerenovus": {
           "warning": "This role is hard to be convincingly mad as"
@@ -9918,7 +9989,7 @@
           "good": "If the Lunatic thinks they are the Vigormortis, the Outsider count will be \"correct\""
         },
         "pukka": {
-          "warning": "A droisoned Lunatic doesn't give its picks to the Demon"
+          "warning": "A droisoned Lunatic doesn't give its picks to the Demon. The Lunatic must believe they're the Pukka, otherwise following kills will be very hard"
         },
         "zombuul": {
           "good": "Can have the Lunatic die without thinking they're the Lunatic if they think they are the Zombuul"
@@ -9956,14 +10027,29 @@
         "barista": {
           "warning": "A doubled Lunatic prevents the Demon from keeping up the illusion"
         },
+        "bone collector": {
+          "warning": "Bone Collector is useless on this role"
+        },
         "harlot": {
           "good": "Gives a good reason for difference of claims (unlikley to say yes)"
+        },
+        "matron": {
+          "good": "Prevents the Lunatic from talking with their \"minions\""
+        },
+        "scapegoat": {
+          "good": "A Scapegoat save could help the Lunatic be convinced they're the Demon, if they didn't talk"
         },
         "angel": {
           "info": "Lunatic is responsible for the deaths if they chose them"
         },
+        "fiddler": {
+          "warning": "Lunatic immediately learns they are the Lunatic by not waking up"
+        },
         "revolutionary": {
           "conflict": "Lunatic in the pair prevents the Revolutionary from being used an accessibility tool"
+        },
+        "pope": {
+          "warning": "There can be multiple Lunatics"
         },
         "storm catcher": {
           "good": "This role can't announce they're stormcaught"
@@ -10018,9 +10104,6 @@
       "groups": [
         {
           "name": "Is a (potential) source of misinformation for others"
-        },
-        {
-          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -10079,7 +10162,7 @@
           "good": "Obvious faux paw"
         },
         "soldier": {
-          "warning": "Soldier can confirm they were killed by Lycanthrope if no killing Minions are in-play"
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
         },
         "steward": {
           "good": "First night info roles are good targets for Lycanthrope kills",
@@ -10332,6 +10415,9 @@
         "preacher": {
           "great": "Good synergy"
         },
+        "sage": {
+          "warning": "Sage info can reveal who the Demon is if the Magician isn't in the pings"
+        },
         "seamstress": {
           "good": "Public info can help evil find each other"
         },
@@ -10342,6 +10428,9 @@
           "good": "Public info can help evil find each other"
         },
         "town crier": {
+          "good": "Public info can help evil find each other"
+        },
+        "undertaker": {
           "good": "Public info can help evil find each other"
         },
         "village idiot": {
@@ -10509,6 +10598,9 @@
           "name": "Is a (potential) source of misinformation for others"
         },
         {
+          "name": "Explains modified visible Outsider count"
+        },
+        {
           "name": "Fully ignores droison during the game"
         },
         {
@@ -10577,6 +10669,9 @@
         },
         "duchess": {
           "good": "Gives a reason for an evil player to unknowingly visit"
+        },
+        "fiddler": {
+          "warning": "Non-neighbors of the fiddlers will know they can't be the Marionette without extra reasons"
         },
         "revolutionary": {
           "conflict": "Marionette in the pair prevents the Revolutionary from being used an accessibility tool"
@@ -11081,7 +11176,7 @@
           "warning": "If there's already an extra evil player, Mezepheles has no ability"
         },
         "god of ug": {
-          "warning": "This ability is hard to do when wearing the hat"
+          "warning": "This ability is hard to do when wearing the hat. If an extra evil gets the hat, evil can even more easily out vote town"
         },
         "storm catcher": {
           "warning": "Stormcaught can be evil"
@@ -11852,6 +11947,9 @@
         "fibbin": {
           "warning": "Hard to fib convincingly"
         },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
+        },
         "hindu": {
           "warning": "Confirmed good Traveller can be very powerful"
         },
@@ -12145,6 +12243,9 @@
         "spirit of ivory": {
           "warning": "Ogre can easily trigger the Spirit of Ivory. If there are other sources of alignment change on night 1, the Ogre ability can fail"
         },
+        "god of ug": {
+          "warning": "If an extra evil gets the hat, evil can even more easily out vote town"
+        },
         "pope": {
           "warning": "Beware too many extra evils"
         },
@@ -12247,6 +12348,9 @@
         },
         "tinker": {
           "warning": "Additional deaths makes the Oracle job harder"
+        },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
         },
         "golem": {
           "warning": "Additional deaths makes the Oracle job harder"
@@ -12540,6 +12644,9 @@
         },
         "goon": {
           "warning": "Beware two extra evil players"
+        },
+        "lunatic": {
+          "warning": "A day 1 Philo-Lunatic can bait the Demon kills and make it way clearer to the actual Lunatic"
         },
         "puzzlemaster": {
           "warning": "This role can make it hard to find the Puzzle drunk"
@@ -12899,6 +13006,9 @@
         "lord of typhon": {
           "good": "Great bluff for Minions"
         },
+        "apprentice": {
+          "warning": "Apprentice must be mad \"as\" the character, not that they have the ability for it to work, which doesn't really work"
+        },
         "bone collector": {
           "good": "Start knowing roles are good to bone collect"
         },
@@ -13125,11 +13235,17 @@
         "gnome": {
           "warning": "This amigo can change alignment"
         },
+        "fiddler": {
+          "good": "Politician could attempt to lose the fiddle contest"
+        },
         "revolutionary": {
           "conflict": "Politican either can't trigger or acts on both Revolutionaries, effectively adding two extra evils"
         },
         "spirit of ivory": {
           "warning": "If there's an extra evil player, this role can't change alignment"
+        },
+        "god of ug": {
+          "warning": "If an extra evil gets the hat, evil can even more easily out vote town"
         },
         "hindu": {
           "warning": "This Outsider can be killed to remove its downside"
@@ -13303,6 +13419,9 @@
         },
         "slayer": {
           "good": "Can be executed day 1 for a Princess"
+        },
+        "soldier": {
+          "warning": "Beware too much protection without multiple sources of death"
         },
         "steward": {
           "good": "Can be executed day 1 for a Princess"
@@ -13625,6 +13744,9 @@
         },
         "fibbin": {
           "warning": "Mechanical info is immune to Fibbin"
+        },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
         },
         "revolutionary": {
           "good": "Partner can help this role out. Rev can misregister to get resurrected"
@@ -13970,7 +14092,7 @@
           "warning": "This Outsider can be killed to remove its downside"
         },
         "knaves": {
-          "conflict": "Knaves invalidate the need to find the drunk player, as it overrides the truthiness"
+          "conflict": "Knaves invalidate the need to find the drunk player, as it overrides the truthiness (the Puzzlemaster only needs to find the truth-telling ST)"
         },
         "storm catcher": {
           "good": "This role benefits from the extra survivability"
@@ -14036,6 +14158,9 @@
         "moonchild": {
           "warning": "Moonchild can kill this role"
         },
+        "lunatic": {
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role"
+        },
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
         },
@@ -14096,10 +14221,10 @@
           "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "imp": {
-          "good": "Imp can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "fang gu": {
-          "good": "Fang Gu can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "vigormortis": {
           "good": "Minions can bluff this character"
@@ -14117,7 +14242,7 @@
           "good": "Trap characters with multi kill Demons work well"
         },
         "zombuul": {
-          "good": "Zombuul can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "alhadikhia": {
           "warning": "Trap characters are likely to pick death"
@@ -14422,8 +14547,14 @@
         "angel": {
           "warning": "Riot doesn't give time for punishments"
         },
+        "doomsayer": {
+          "warning": "Riot and Doomsayer might be redundant"
+        },
         "ferryman": {
           "warning": "Ferryman is useless with Riot"
+        },
+        "fiddler": {
+          "warning": "Riot and Fiddler are redundant"
         },
         "god of ug": {
           "warning": "Votes only matter before day 3"
@@ -14467,6 +14598,9 @@
         "slayer": {
           "great": "Good synergy"
         },
+        "soldier": {
+          "warning": "Beware too many \"trap\" characters"
+        },
         "steward": {
           "good": "Steward can allow trust of hidden Townsfolk"
         },
@@ -14482,6 +14616,9 @@
         },
         "moonchild": {
           "warning": "Non-Demon kills don't trigger Sage"
+        },
+        "lunatic": {
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Public info can help Lunatic find out they're the Lunatic"
         },
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -14520,7 +14657,7 @@
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
         },
         "psychopath": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Dying during the day doesn't help trap characters"
         },
         "widow": {
           "warning": "Seeing the Grimoire disables trap characters"
@@ -14534,17 +14671,14 @@
         "xaan": {
           "good": "Xaan can disable this role (although hard to time)"
         },
-        "wizard": {
-          "good": "Killing the Sage is an interesting cost"
-        },
         "wraith": {
           "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
         },
         "imp": {
-          "good": "Imp can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "fang gu": {
-          "good": "Fang Gu can fake dying in the night"
+          "good": "This Demon can die safely in the night"
         },
         "vigormortis": {
           "good": "Minions can bluff this character"
@@ -14562,7 +14696,7 @@
           "good": "Trap characters with multi kill Demons work well"
         },
         "zombuul": {
-          "good": "Zombuul can fake dying in the night. Sage can see dead players"
+          "good": "This Demon can die safely in the night. Sage can see dead players"
         },
         "alhadikhia": {
           "warning": "Trap characters are likely to pick death"
@@ -14571,7 +14705,7 @@
           "warning": "Knowing who the Demon is isn't very useful for Lleech"
         },
         "legion": {
-          "warning": "Legion targets are chosen by the ST"
+          "warning": "Legion targets are chosen by the ST. Sage targets could effectively be anyone in a Legion game"
         },
         "lil' monsta": {
           "warning": "LM targets are chosen by the ST. Demon can move around. Hard role to bluff for Minions",
@@ -14600,16 +14734,16 @@
           "warning": "Bone Collector is useless on this role"
         },
         "gangster": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Dying during the day doesn't help trap characters"
         },
         "gunslinger": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Dying during the day doesn't help trap characters"
         },
         "harlot": {
           "warning": "Non-Demon kills don't trigger Sage"
         },
         "gnome": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Dying during the day doesn't help trap characters"
         },
         "cacklejack": {
           "good": "Turning a powerful role into a trap role can be interesting"
@@ -14618,7 +14752,7 @@
           "warning": "Angel protecting trap characters doesn't help them"
         },
         "doomsayer": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Dying during the day doesn't help trap characters"
         },
         "god of ug": {
           "good": "This role can be said in ug speak"
@@ -14799,6 +14933,9 @@
         "gnome": {
           "good": "This role can survive this Traveller"
         },
+        "doomsayer": {
+          "warning": "Can cause a doomsay to have no effect (check if both teams have characters that can explain this)"
+        },
         "god of ug": {
           "good": "Helps with execution"
         },
@@ -14836,7 +14973,11 @@
           "name": "Win/Loss (Good)"
         }
       ],
-      "groups": [],
+      "groups": [
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
+        }
+      ],
       "matchups": {
         "barber": {
           "warning": "Barber can \"resurrect\" this role"
@@ -15211,6 +15352,9 @@
         "mutant": {
           "good": "Seamstress can check if the double claim is evil or not"
         },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
         "golem": {
           "warning": "Confirmed characters make Seamstress powerful"
         },
@@ -15379,6 +15523,9 @@
         "goon": {
           "warning": "Change of alignment can make Shugenja info obsolete"
         },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
         "ogre": {
           "warning": "Ogre can make Shugenja info hard to parse"
         },
@@ -15525,6 +15672,9 @@
         },
         "tinker": {
           "good": "Tinker can fake a kill"
+        },
+        "lunatic": {
+          "good": "Slayer can confirm a Lunatic"
         },
         "golem": {
           "good": "Golem can confirm itself or find a Demon"
@@ -15803,11 +15953,23 @@
         "washerwoman": {
           "good": "Confirming this role is in-play is good"
         },
+        "moonchild": {
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
+        },
+        "lunatic": {
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role"
+        },
+        "golem": {
+          "warning": "Dying during the day doesn't help trap characters"
+        },
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
         },
+        "spy": {
+          "warning": "Seeing the Grimoire disables trap characters"
+        },
         "witch": {
-          "good": "Witch can kill a Soldier"
+          "warning": "Non-Demon kills ignore Soldier"
         },
         "evil twin": {
           "warning": "Bad choice for a Twin"
@@ -15820,19 +15982,22 @@
           "good": "Making players that died in the night mad as the Soldier is interesting"
         },
         "assassin": {
-          "good": "Assassin can kill Soldier"
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
         },
         "godfather": {
-          "good": "Godfather can kill Soldier"
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
         },
         "psychopath": {
-          "good": "Psychopath can kill Soldier"
+          "warning": "Dying during the day doesn't help trap characters"
+        },
+        "widow": {
+          "warning": "Seeing the Grimoire disables trap characters"
         },
         "harpy": {
-          "good": "Harpy can kill a Soldier"
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
         },
         "boffin": {
           "warning": "This ability is useless to the Demon"
@@ -15862,8 +16027,14 @@
           "warning": "LM targets are chosen by the ST",
           "good": "Soldier is also protected from the Minion that is babysitting"
         },
+        "ojo": {
+          "warning": "This role will never be killed unless the Ojo misses"
+        },
         "yaggababble": {
           "warning": "Yaggababble targets are chosen by the ST"
+        },
+        "apprentice": {
+          "warning": "Bad Apprentice ability"
         },
         "barista": {
           "warning": "Useless to double"
@@ -15871,20 +16042,41 @@
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
         },
+        "gangster": {
+          "warning": "Dying during the day doesn't help trap characters"
+        },
+        "gunslinger": {
+          "warning": "Dying during the day doesn't help trap characters"
+        },
+        "harlot": {
+          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
+        },
+        "gnome": {
+          "warning": "Dying during the day doesn't help trap characters"
+        },
+        "cacklejack": {
+          "good": "Turning a powerful role into a trap role can be interesting"
+        },
         "angel": {
           "warning": "Angel protecting trap characters doesn't help them"
+        },
+        "doomsayer": {
+          "warning": "Dying during the day doesn't help trap characters"
         },
         "knaves": {
           "good": "This role benefits from longer games"
         },
         "pope": {
-          "warning": "Beware too much protection"
+          "warning": "Beware too much protection. Beware too many trap characters"
         },
         "storm catcher": {
           "warning": "Storm catching protected roles is not a great idea"
         },
         "tor": {
           "warning": "Not knowing you're this role makes it hard to play"
+        },
+        "ventriloquist": {
+          "good": "Trap characters prefer to die at night"
         },
         "zenomancer": {
           "good": "Longer games are good for quests"
@@ -16074,7 +16266,7 @@
           "great": "Good synergy"
         },
         "lunatic": {
-          "good": "Steward can find a Lunatic (or make Demon believe they are the Lunatic)"
+          "good": "Steward can find a Lunatic (or make Demon believe they are the Lunatic). Public info can help Lunatic find out they're the Lunatic"
         },
         "heretic": {
           "warning": "Steward seeing Heretic is powerful"
@@ -16172,6 +16364,9 @@
         "duchess": {
           "great": "Good synergy"
         },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
+        },
         "knaves": {
           "warning": "Knaves can make this info very powerful"
         }
@@ -16263,6 +16458,9 @@
         },
         "angel": {
           "good": "This Minion needs to remain alive"
+        },
+        "fiddler": {
+          "info": "In a fiddle contest before night 3, the Summoner will fiddle"
         },
         "revolutionary": {
           "warning": "Summoner cannot summon in the Rev pair without changing both"
@@ -16630,6 +16828,9 @@
         },
         {
           "name": "Can differentiate Demons and Minions"
+        },
+        {
+          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -16666,6 +16867,9 @@
         },
         "tinker": {
           "warning": "Undertaker benefits from long games"
+        },
+        "lunatic": {
+          "good": "Public info can help Lunatic find out they're the Lunatic"
         },
         "plague doctor": {
           "good": "Undertaker can know when this role was executed"
@@ -16907,6 +17111,9 @@
         "ogre": {
           "good": "Virgin is confirmed as good"
         },
+        "baron": {
+          "warning": "In Teensy with a Baron, a Virgin might have to nominate themself to work"
+        },
         "spy": {
           "great": "Spy can appear as Townsfolk"
         },
@@ -17019,6 +17226,9 @@
         },
         "fibbin": {
           "warning": "Mechanical info is immune to Fibbin"
+        },
+        "fiddler": {
+          "warning": "Confirmed players are a bad choice for fiddling"
         },
         "revolutionary": {
           "warning": "Double confirmation if in the Rev pair"
