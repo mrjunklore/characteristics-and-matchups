@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T07:00:59.440Z",
+    "generated_at": "2026-04-18T12:52:53.153Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -136,6 +136,9 @@
         "sweetheart": {
           "good": "Acrobat can narrow down incidental droison"
         },
+        "goon": {
+          "good": "Can confirm that a player chose the Goon"
+        },
         "puzzlemaster": {
           "good": "Acrobat can help find the Puzzle drunk",
           "warning": "Puzzlemaster benefits from long games"
@@ -154,6 +157,9 @@
         },
         "mastermind": {
           "good": "Acrobat can hide a Mastermind day"
+        },
+        "marionette": {
+          "good": "Acrobat can't detect a Marionette, despite acting like a Drunk"
         },
         "widow": {
           "good": "Acrobat is good at finding Widow target"
@@ -369,6 +375,9 @@
         "goon": {
           "good": "Goon can check the Alchemist's alignment"
         },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
+        },
         "damsel": {
           "info": "Alchemist can be confirmed with a Damsel guess (though a risky move)"
         },
@@ -383,6 +392,9 @@
         },
         "evil twin": {
           "good": "Evil Twin can prevent Alchemist from winning through certain abilities"
+        },
+        "pithag": {
+          "warning": "Pit-Hag can turn Minions into the Alchemist, then recreate the given Minion, effectively hiding the Minion and duplicating the ability"
         },
         "cerenovus": {
           "warning": "Alch-Cerenovus is pretty weak"
@@ -824,13 +836,17 @@
           "good": "Evil Amnesiac can get a Minion-like ability"
         },
         "cannibal": {
-          "good": "Cannibal getting the Amnesiac ability can give it more time to figure it out (if ST allows them to share their ability)"
+          "good": "Copying the Amnesiac ability can give it more time to figure it out (if ST allows them to share their ability)",
+          "warning": "When copying the Amnesiac, they might get a different ability (ST-dependent)"
         },
         "courtier": {
           "good": "No/less night deaths can allow the Amnesiac to get more guesses"
         },
         "exorcist": {
           "good": "No/less night deaths can allow the Amnesiac to get more guesses"
+        },
+        "farmer": {
+          "warning": "Amnesiac getting changed prevents figuring out the ability"
         },
         "fool": {
           "good": "No/less night deaths can allow the Amnesiac to get more guesses"
@@ -865,6 +881,14 @@
         },
         "pacifist": {
           "good": "Amnesiac benefits from longer games"
+        },
+        "philosopher": {
+          "good": "Copying the Amnesiac ability can give it more time to figure it out (if ST allows them to share their ability)",
+          "warning": "When copying the Amnesiac, they might get a different ability (ST-dependent)"
+        },
+        "pixie": {
+          "good": "Copying the Amnesiac ability can give it more time to figure it out (if ST allows them to share their ability)",
+          "warning": "When copying the Amnesiac, they might get a different ability (ST-dependent)"
         },
         "princess": {
           "good": "No/less night deaths can allow the Amnesiac to get more guesses"
@@ -1086,7 +1110,7 @@
           "good": "Can be executed day 1 for a Princess"
         },
         "professor": {
-          "good": "When resurrected, it gets another use of its ability"
+          "good": "When resurrected, it gets another use of its ability. Can help figure out why a resurrection failed"
         },
         "sailor": {
           "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
@@ -1098,7 +1122,7 @@
           "good": "Used once per game roles can be executed to be confirmed"
         },
         "virgin": {
-          "good": "Used once per game roles can be executed to be confirmed"
+          "good": "Used once per game roles can be executed to be confirmed. Can help figure out why an instant execution didn't happen"
         },
         "recluse": {
           "good": "Recluse can muddle Artist info"
@@ -1384,7 +1408,7 @@
           "good": "Can help fake Atheist"
         },
         "lunatic": {
-          "good": "Can make payers believe there are evil players (initially)"
+          "good": "Can make payers believe there are evil players (initially). Good choice for a fake Minion (if they don't talk in private)"
         },
         "golem": {
           "good": "Golem miss can be an indicator"
@@ -1939,7 +1963,7 @@
           "good": "Helps with execution"
         },
         "virgin": {
-          "warning": "Beware too much confirmation"
+          "warning": "Beware too much confirmation. Instant execution might mean no voting"
         },
         "drunk": {
           "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
@@ -1950,8 +1974,14 @@
         "sweetheart": {
           "warning": "Banshee can stop working which confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
+        "mutant": {
+          "warning": "Instant execution might mean no voting"
+        },
         "moonchild": {
           "warning": "Non-Demon kills don't trigger Banshee"
+        },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
         "damsel": {
           "good": "Damsel can safely out to this role once confirmed"
@@ -1984,11 +2014,14 @@
         "pithag": {
           "good": "Pit-Hag can change the role of the Banshee once dead. Pit-Hag can create an evil Banshee"
         },
+        "cerenovus": {
+          "warning": "Instant execution might mean no voting"
+        },
         "assassin": {
-          "warning": "Non-Demon kills don't trigger Banshee"
+          "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "godfather": {
-          "warning": "Non-Demon kills don't trigger Banshee"
+          "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "boomdandy": {
           "good": "Helps with execution"
@@ -1997,7 +2030,7 @@
           "good": "Helps with execution"
         },
         "marionette": {
-          "warning": "\"Droisoned\" Banshee needs other reasons to die at night or is confirmed droisoned"
+          "warning": "\"Droisoned\" Banshee needs other reasons to die at night or is confirmed droisoned. Confirmation roles can be dangerous as Marionettes"
         },
         "mezepheles": {
           "good": "Confirmable evil characters are powerful and throw shade on their ability"
@@ -2231,8 +2264,11 @@
         "boomdandy": {
           "good": "Moving Boomdandy around is interesting"
         },
+        "fearmonger": {
+          "warning": "Demon can move"
+        },
         "marionette": {
-          "good": "Moving Marionette can be silent"
+          "good": "Moving Marionette can be silent. Marionette can think they changed characters, as long as it remains good"
         },
         "mezepheles": {
           "warning": "Beware two extra evil players"
@@ -3261,13 +3297,13 @@
           "warning": "This role can make players survive Cerenovus madness break"
         },
         "boomdandy": {
-          "warning": "Cerenovus should not trigger Boomdandy"
+          "warning": "Cerenovus should not trigger Boomdandy. Instant, likely good execution prevents this role from triggering"
         },
         "fearmonger": {
           "warning": "Cerenovus execution can't trigger Fearmonger"
         },
         "goblin": {
-          "warning": "Cerenovus should not trigger Goblin",
+          "warning": "Cerenovus should not trigger Goblin. Instant, likely good execution prevents this role from triggering",
           "good": "Powerful ability to hide behind a Goblin claim"
         },
         "organ grinder": {
@@ -3605,6 +3641,9 @@
         "alhadikhia": {
           "good": "First night info roles will always pick death. Dead ones are more likely to pick live (and appear as Minions)"
         },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game"
+        },
         "lleech": {
           "warning": "First night info must be false if Lleech host"
         },
@@ -3753,6 +3792,9 @@
         },
         "evil twin": {
           "warning": "Bad choice for a Twin"
+        },
+        "marionette": {
+          "warning": "If the King is the Marionette, the Choirboy has no ability (and technically invalid setup)"
         },
         "widow": {
           "conflict": "Widow and Choirboy can't be in game together"
@@ -3923,7 +3965,7 @@
           "conflict": "Clockmaker and outed Minions can make the ability very powerful"
         },
         "summoner": {
-          "warning": "Clockmaker no on 5-9 players (10-12 with Marionette)"
+          "warning": "Clockmaker no on 5-9 players"
         },
         "boffin": {
           "warning": "This ability is useless to the Demon"
@@ -4132,6 +4174,9 @@
         "harpy": {
           "good": "This Minion can help against a Courtier"
         },
+        "summoner": {
+          "warning": "The jinx makes choosing the Summoner near useless"
+        },
         "boffin": {
           "good": "Good Boffin ability"
         },
@@ -4146,6 +4191,10 @@
         },
         "vigormortis": {
           "warning": "If the Vigormortis is droisoned, the Minions lose their ability"
+        },
+        "zombuul": {
+          "good": "No night deaths can make it look like Zombuul",
+          "warning": "Droisoned Zombuul can be a rules nightmare"
         },
         "leviathan": {
           "conflict": "Can cause multiple extra days and free executions"
@@ -4238,7 +4287,7 @@
           "warning": "Godfather already knows if a Damsel is in-play or not"
         },
         "marionette": {
-          "warning": "If Marionette is the only Minion, no one knows a Damsel is in-play"
+          "warning": "If Marionette is the only Minion, no one knows a Damsel is in-play. If the Damsel is the Marionette, the Huntsman has no ability (and technically invalid setup)"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -4859,6 +4908,9 @@
         "fearmonger": {
           "good": "This bluff gives a good reason to execute their neighbors"
         },
+        "marionette": {
+          "warning": "Marionette Empath might want to execute its neighbors"
+        },
         "psychopath": {
           "warning": "Psychopath can't easily be executed, but is outed"
         },
@@ -4886,6 +4938,9 @@
         },
         "vortox": {
           "good": "Forcing executions works well with this role"
+        },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game"
         },
         "lleech": {
           "warning": "Lleech can't be executed"
@@ -5242,6 +5297,10 @@
         "pukka": {
           "good": "The lack of deaths due to the Exorcist is delayed by a day, hiding the fact the demon was picked"
         },
+        "zombuul": {
+          "good": "No night deaths can make it look like Zombuul",
+          "warning": "Protection roles can make it even harder for Zombuul to kill"
+        },
         "legion": {
           "warning": "Exorcist is useless in a Legion game"
         },
@@ -5392,7 +5451,7 @@
           "warning": "Moonchild can kill this role"
         },
         "lunatic": {
-          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role"
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Good choice for a fake Minion (if they don't talk in private)"
         },
         "damsel": {
           "good": "Good Farmer target, encouraging early guesses"
@@ -5427,6 +5486,9 @@
         },
         "fearmonger": {
           "warning": "Outed good players make the Fearmonger less powerful"
+        },
+        "marionette": {
+          "good": "Marionette can think they changed characters, as long as it remains good"
         },
         "mezepheles": {
           "good": "Confirmable evil characters are powerful and throw shade on their ability"
@@ -5885,6 +5947,9 @@
         "tea lady": {
           "good": "No/less night deaths can allow the Flowergirl to get more guesses"
         },
+        "virgin": {
+          "warning": "Instant execution might mean no voting"
+        },
         "washerwoman": {
           "good": "WW is good for role swaps with powerful info roles"
         },
@@ -5894,6 +5959,9 @@
         "barber": {
           "warning": "The Demon can move around",
           "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
+        },
+        "mutant": {
+          "warning": "Instant execution might mean no voting"
         },
         "goon": {
           "good": "No/less night deaths can allow the Flowergirl to get more info"
@@ -5931,6 +5999,9 @@
         },
         "pithag": {
           "warning": "The Demon can move around"
+        },
+        "cerenovus": {
+          "warning": "Instant execution might mean no voting"
         },
         "assassin": {
           "warning": "Flowergirl benefits from long games"
@@ -6009,6 +6080,12 @@
         },
         "barista": {
           "warning": "Useless to double"
+        },
+        "bureaucrat": {
+          "good": "A Demon with extra votes is more likely to use them"
+        },
+        "thief": {
+          "warning": "A Demon with a negative vote might be less likely to vote"
         },
         "voudon": {
           "warning": "Voudon makes Flowergirl information useless"
@@ -6141,6 +6218,9 @@
         "fearmonger": {
           "good": "Good target for Fearmonger"
         },
+        "marionette": {
+          "warning": "Confirmation roles can be dangerous as Marionettes"
+        },
         "psychopath": {
           "good": "This role can hide a Psychopath kill"
         },
@@ -6164,7 +6244,8 @@
           "warning": "When resurrected, this gets another use of its ability"
         },
         "zombuul": {
-          "good": "Execution protection can allow the Zombuul to kill"
+          "good": "Execution protection can allow the Zombuul to kill. No night deaths can make it look like Zombuul",
+          "warning": "Protection roles can make it even harder for Zombuul to kill"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter. Fools that choose die might die a second time if all other pllayers live"
@@ -7580,6 +7661,9 @@
         "godfather": {
           "good": "Grandmother can help confirm Godfather"
         },
+        "marionette": {
+          "good": "Good target for fake Grandmother info"
+        },
         "mezepheles": {
           "warning": "Grandmother target can become evil"
         },
@@ -7881,7 +7965,8 @@
           "warning": "Changing to a loud Minion is confirmed"
         },
         "marionette": {
-          "good": "Marionette can become an active Minion and would learn they are the Marionette"
+          "good": "Marionette can become an active Minion and would learn they are the Marionette",
+          "warning": "Demon can move"
         },
         "mezepheles": {
           "warning": "Beware two extra evil players"
@@ -8031,6 +8116,9 @@
         },
         "mastermind": {
           "warning": "Preventing an evil loss with a Heretic is detrimental for evil"
+        },
+        "marionette": {
+          "warning": "Marionette Heretic is tough to play, and can confirm the lack of Heretic to the evil team"
         },
         "mezepheles": {
           "conflict": "An evil Heretic wins the game immediately"
@@ -8209,6 +8297,9 @@
         "sailor": {
           "good": "Used or not planned to be used once per game abilities can be drunked safely (ST dependent)"
         },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
+        },
         "damsel": {
           "info": "Linked"
         },
@@ -8220,6 +8311,9 @@
         },
         "pithag": {
           "warning": "Pit-Hag can bring a new Damsel in-game"
+        },
+        "marionette": {
+          "good": "Marionette can think they changed characters, as long as it remains good"
         },
         "boffin": {
           "good": "Good Boffin ability"
@@ -8445,6 +8539,10 @@
         },
         "shabaloth": {
           "good": "Protection with multi-kill Demons works well"
+        },
+        "zombuul": {
+          "good": "No night deaths can make it look like Zombuul",
+          "warning": "Protection roles can make it even harder for Zombuul to kill"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
@@ -9135,6 +9233,9 @@
         "moonchild": {
           "good": "Moonchild can kill this role"
         },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
+        },
         "golem": {
           "warning": "Golem can kill this role"
         },
@@ -9174,6 +9275,9 @@
         },
         "boomdandy": {
           "warning": "Klutz should probably not get killed when Boomdandy explodes"
+        },
+        "marionette": {
+          "good": "A Marionette Klutz can \"confirm\" evil players"
         },
         "mezepheles": {
           "warning": "Evil Klutz is a liability"
@@ -9383,6 +9487,9 @@
         },
         "fearmonger": {
           "good": "First night roles are good targets for Fearmonger"
+        },
+        "marionette": {
+          "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team"
@@ -9922,11 +10029,17 @@
         }
       ],
       "matchups": {
+        "damsel": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
+        },
         "golem": {
           "good": "Golem can find a Lunatic"
         },
         "puzzlemaster": {
           "warning": "A puzzledrunk Lunatic won't signal itself or its kills to the Demon"
+        },
+        "plague doctor": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
         "hatter": {
           "good": "Lunatic can \"change character\" at any time"
@@ -9964,7 +10077,8 @@
           "good": "Can have the Lunatic die without thinking they're the Lunatic immediately"
         },
         "marionette": {
-          "good": "Lunatic can believe they have a Marionette next to it"
+          "good": "Lunatic can believe they have a Marionette next to it",
+          "warning": "A Lunatic can't be the Marionette due to their conflicting abilities"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team"
@@ -9983,7 +10097,8 @@
           "good": "Can have the Lunatic die without thinking they're the Lunatic immediately"
         },
         "fang gu": {
-          "good": "If Fang Gu jumps to a Lunatic, they could not learn anything"
+          "good": "If Fang Gu jumps to a Lunatic, they learn again that they \"are the Fang Gu\", since they lost their ability. This can be faked to prevent them from killing",
+          "warning": "Fang Gu starts immediately knowing an Outsider"
         },
         "vigormortis": {
           "good": "If the Lunatic thinks they are the Vigormortis, the Outsider count will be \"correct\""
@@ -10047,6 +10162,9 @@
         },
         "revolutionary": {
           "conflict": "Lunatic in the pair prevents the Revolutionary from being used an accessibility tool"
+        },
+        "hindu": {
+          "warning": "Upon becoming a Traveler, the Lunatic learns they are good"
         },
         "pope": {
           "warning": "There can be multiple Lunatics"
@@ -10306,6 +10424,10 @@
         "zombuul": {
           "good": "Can hide Zombuul sleeps. Zombuul can fake dying in the night"
         },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game",
+          "warning": "Lycanthrope kills are confirmed without other sources of kills (other Demons count)"
+        },
         "leviathan": {
           "warning": "Killing roles in a Leviathan game are confirmed if alone. Leviathan can't bluff Lycanthrope. Faux Paw registers as evil and doesn't count for executions"
         },
@@ -10485,7 +10607,7 @@
           "warning": "Magician can't fake this Minion without double claim"
         },
         "marionette": {
-          "good": "Magician can appear as the Marionette to the Demon"
+          "good": "Magician can appear as the Marionette to the Demon. This role doesn't have many ways to know if they're the Marionette"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -10611,6 +10733,9 @@
         "mezepheles": {
           "info": "Marionette does not trigger the Mezepheles"
         },
+        "widow": {
+          "good": "Without Magician, this role knows who the Marionette is. Widow can poison a neighbor to convince them they're the Marionette"
+        },
         "vizier": {
           "warning": "Marionette does not count as a good vote"
         },
@@ -10633,6 +10758,9 @@
         "no dashii": {
           "good": "No Dashii poison extends past Marionette (and is guaranteed to be neighbors)"
         },
+        "vortox": {
+          "good": "Marionette can learn true info"
+        },
         "shabaloth": {
           "warning": "Not much use in getting resurrected (except social plays)"
         },
@@ -10641,6 +10769,12 @@
         },
         "riot": {
           "good": "Marionette can help appear socially good before becoming Riot"
+        },
+        "lleech": {
+          "warning": "Outed Lleech makes the Marionette more predictable"
+        },
+        "legion": {
+          "good": "Legion can make it easier to make a good player believe they're a Marionette"
         },
         "lil' monsta": {
           "good": "A dead Minion has no reason to hide to a Marionette. Minions choose where the Marionette can be"
@@ -10660,12 +10794,28 @@
         "bone collector": {
           "warning": "Bone Collector is useless on this role (though the bluff might be interesting)"
         },
+        "bureaucrat": {
+          "good": "Bureaucreated players might vote less on their neighbors to protect them"
+        },
         "harlot": {
           "good": "Gives a good reason for difference of claims",
           "warning": "Marionette can unknowingly out to a good Harlot, revealing the Demon"
         },
         "matron": {
           "warning": "Matron can move Marionette away from the Demon and vice versa"
+        },
+        "thief": {
+          "good": "Thieved players might vote more on their neighbors to protect them"
+        },
+        "gnome": {
+          "warning": "Gnome could accidentally tell the Marionette they are evil"
+        },
+        "cacklejack": {
+          "good": "Marionette can think they changed characters, as long as it remains good",
+          "warning": "Creating Marionettes is silent"
+        },
+        "doomsayer": {
+          "warning": "A solo Marionette could accidentally kill the Demon"
         },
         "duchess": {
           "good": "Gives a reason for an evil player to unknowingly visit"
@@ -10676,8 +10826,14 @@
         "revolutionary": {
           "conflict": "Marionette in the pair prevents the Revolutionary from being used an accessibility tool"
         },
+        "spirit of ivory": {
+          "info": "Less likely to have an evil majority if one of the evil players believes they are good"
+        },
         "gardener": {
           "good": "Garderner is one way to let you choose which character is the Marionette"
+        },
+        "hindu": {
+          "warning": "Upon becoming a Traveler, the Marionette learns they are evil"
         },
         "pope": {
           "good": "Marionette can duplicate a good character"
@@ -10991,6 +11147,9 @@
         "boomdandy": {
           "warning": "Boomdandy explosion ignores the Mayor"
         },
+        "marionette": {
+          "good": "This role doesn't have many ways to know if they're the Marionette"
+        },
         "mezepheles": {
           "good": "Evil Mayor can win with evil team"
         },
@@ -11226,6 +11385,9 @@
         "village idiot": {
           "warning": "Incidental droisoning can make it impossible for VIs to solve their info"
         },
+        "virgin": {
+          "warning": "Instant good execution prevents this role from triggering"
+        },
         "washerwoman": {
           "good": "Confirming this role is in-play is good"
         },
@@ -11234,6 +11396,9 @@
         },
         "recluse": {
           "good": "Recluse can appear as a�Minion"
+        },
+        "mutant": {
+          "warning": "Instant good execution prevents this role from triggering"
         },
         "moonchild": {
           "good": "If Moonchild is droisoned in the night after their choice, the target can appear evil"
@@ -11267,6 +11432,9 @@
         },
         "fearmonger": {
           "good": "Minstrel encourages executions of potential Minions"
+        },
+        "marionette": {
+          "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team"
@@ -11387,7 +11555,14 @@
           "warning": "Bad choice for a Twin"
         },
         "pithag": {
-          "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+          "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track",
+          "good": "If Pit-Hag makes a new Demon, the protected player can die"
+        },
+        "assassin": {
+          "warning": "Non-Demon kills ignore Monk. Needs more than one extra killing source, or a droison source to not be confirmed"
+        },
+        "godfather": {
+          "warning": "Non-Demon kills ignore Monk. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -11422,6 +11597,10 @@
         },
         "shabaloth": {
           "good": "Protection with multi-kill Demons works well"
+        },
+        "zombuul": {
+          "good": "No night deaths can make it look like Zombuul",
+          "warning": "Protection roles can make it even harder for Zombuul to kill"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
@@ -11484,6 +11663,9 @@
       "matchups": {
         "tinker": {
           "good": "Tinker can fake a kill"
+        },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
         "damsel": {
           "warning": "Moonchild can kill this role"
@@ -11567,6 +11749,9 @@
         "alhadikhia": {
           "warning": "Al-Had will be forced to pick this role's targets in its own to avoid confirmation",
           "good": "This role can explain non-picked deaths"
+        },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game"
         },
         "leviathan": {
           "warning": "Killing roles in a Leviathan games are confirmed if alone"
@@ -11681,6 +11866,9 @@
         "moonchild": {
           "warning": "Moonchild can kill this role"
         },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
+        },
         "golem": {
           "good": "Golem can kill this role"
         },
@@ -11699,6 +11887,12 @@
         },
         "godfather": {
           "great": "Mutant can't defend itself by saying it's an Outsider"
+        },
+        "boomdandy": {
+          "warning": "Instant good execution prevents this role from triggering"
+        },
+        "goblin": {
+          "warning": "Instant good execution prevents this role from triggering"
         },
         "boffin": {
           "warning": "This ability is useless to the Demon"
@@ -11874,7 +12068,8 @@
           "warning": "Outed good players make the Fearmonger less powerful"
         },
         "marionette": {
-          "good": "Fear of being a Marionette might give Nightwatchman to hide a failed ability"
+          "good": "Fear of being a Marionette might give Nightwatchman a reason to hide a failed ability",
+          "warning": "Confirmation roles can be dangerous as Marionettes"
         },
         "mezepheles": {
           "good": "Confirmable evil characters are powerful and throw shade on their ability"
@@ -12089,6 +12284,9 @@
         },
         "alhadikhia": {
           "good": "First night info roles will always pick death. Dead ones are more likely to pick live (and appear as Minions)"
+        },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game"
         },
         "lleech": {
           "warning": "First night info must be false if Lleech host",
@@ -12534,6 +12732,9 @@
         "fearmonger": {
           "good": "Pacifist encourages executions"
         },
+        "marionette": {
+          "good": "This role doesn't have many ways to know if they're the Marionette"
+        },
         "psychopath": {
           "warning": "Pacifist doesn't save from day deaths from this role"
         },
@@ -12740,17 +12941,21 @@
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
         "mastermind": {
-          "good": "Mastermind allows the Pit-Hag to create a new Demon after the first one has died",
+          "good": "Mastermind allows the Pit-Hag to create a new Demon after the first one has died. A good Mastermind is still chaotic",
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+        },
+        "boomdandy": {
+          "good": "A good Boomdandy is still chaotic"
         },
         "fearmonger": {
           "warning": "Adding a loud Minion is confirmed"
         },
         "marionette": {
-          "good": "Creating this Minion can be silent"
+          "good": "Creating this Minion can be silent. Marionette can think they changed characters, as long as it remains good",
+          "warning": "Demon can move"
         },
         "mezepheles": {
-          "warning": "Beware two extra evil players",
+          "warning": "Beware two extra evil players. Pit-Hag can effectively turn someone evil by making them the Mezepeheles",
           "good": "Pit-Hag can turn the evil player into a Minion or Demon"
         },
         "psychopath": {
@@ -12772,7 +12977,8 @@
           "warning": "Pit-Hag can change the Boffed character by creating it"
         },
         "xaan": {
-          "info": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is"
+          "warning": "Creating a Xaan midgame uses the setup's outsider count. Changing the number of Outsiders midgame doesn't affect when the Xaan night is",
+          "good": "A good Xaan is still chaotic"
         },
         "wizard": {
           "warning": "Pit-Hag can muddle a potential Wizard wish. Beware multiple wishes"
@@ -12935,6 +13141,9 @@
         },
         "moonchild": {
           "good": "Multiple deaths work well with Pixie"
+        },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
         "spy": {
           "good": "Spy can appear as any Townsfolk. Spy can simulate this role"
@@ -13114,6 +13323,9 @@
         }
       ],
       "matchups": {
+        "marionette": {
+          "good": "Poisoner can poison a neighbor to convince them they're the Marionette"
+        },
         "goblin": {
           "good": "Powerful ability to hide behind a Goblin claim"
         },
@@ -13198,6 +13410,9 @@
         },
         "fearmonger": {
           "good": "Politician can help a Fearmonger nomination go through on them"
+        },
+        "marionette": {
+          "warning": "A Marionette Politician just forces them to play for evil"
         },
         "mezepheles": {
           "warning": "Evil Politician is a liablity. Beware two extra evil players"
@@ -13321,7 +13536,8 @@
           "warning": "If Mastermind loses their ability after a Demon execution, the game ends immediately"
         },
         "marionette": {
-          "warning": "Marionette that gets hit by Preacher learns this, and stops having their fake ability"
+          "warning": "Marionette that gets hit by Preacher learns this, and stops having their fake ability",
+          "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team. Once per game Minions can be preached without consequence"
@@ -13334,6 +13550,9 @@
         },
         "vizier": {
           "great": "Interesting interaction if an edict fails"
+        },
+        "summoner": {
+          "warning": "The jinx makes choosing the Summoner near useless"
         },
         "boffin": {
           "warning": "This ability is near-useless to the Demon"
@@ -14159,7 +14378,7 @@
           "warning": "Moonchild can kill this role"
         },
         "lunatic": {
-          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role"
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Good choice for a fake Minion (if they don't talk in private)"
         },
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -14339,6 +14558,9 @@
         "moonchild": {
           "warning": "Moonchild can kill this role",
           "good": "Recluse can appear as evil"
+        },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
         "damsel": {
           "info": "Recluse can appear as a Minion (don't)"
@@ -14618,7 +14840,7 @@
           "warning": "Non-Demon kills don't trigger Sage"
         },
         "lunatic": {
-          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Public info can help Lunatic find out they're the Lunatic"
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Public info can help Lunatic find out they're the Lunatic. Good choice for a fake Minion (if they don't talk in private)"
         },
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -14648,10 +14870,10 @@
           "good": "Sage can potentially detect Pit-Hag deaths"
         },
         "assassin": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "godfather": {
-          "warning": "Non-Demon kills don't trigger Sage"
+          "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -14876,6 +15098,9 @@
         "fearmonger": {
           "good": "Good target for Fearmonger"
         },
+        "marionette": {
+          "warning": "Confirmation roles can be dangerous as Marionettes"
+        },
         "psychopath": {
           "good": "This role can hide a Psychopath kill"
         },
@@ -14892,7 +15117,8 @@
           "good": "Pukka disables self protected characters"
         },
         "zombuul": {
-          "good": "Execution protection can allow the Zombuul to kill"
+          "good": "Execution protection can allow the Zombuul to kill. No night deaths can make it look like Zombuul",
+          "warning": "Protection roles can make it even harder for Zombuul to kill"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
@@ -14987,6 +15213,9 @@
         },
         "moonchild": {
           "warning": "Moonchild can kill this role"
+        },
+        "lunatic": {
+          "good": "Good choice for a fake Minion (if they don't talk in private)"
         },
         "golem": {
           "good": "Golem can kill this role"
@@ -15370,6 +15599,9 @@
         "cerenovus": {
           "good": "Seamstress can check if the double claim is evil or not"
         },
+        "marionette": {
+          "good": "Seamstress can learn a true \"no\" on players that believe to be good"
+        },
         "psychopath": {
           "warning": "Confirmed characters make Seamstress powerful"
         },
@@ -15387,6 +15619,9 @@
         },
         "alhadikhia": {
           "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
+        },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game"
         },
         "lil' monsta": {
           "good": "Great bluff for Minions"
@@ -15567,13 +15802,19 @@
           "great": "Good synergy for evil"
         },
         "shabaloth": {
-          "warning": "When resurrected, this gets the same info"
+          "warning": "When resurrected, this gets the same info (unless equidistant or extra evils)"
+        },
+        "riot": {
+          "good": "Alignment checkers are more powerful in a Riot game"
         },
         "leviathan": {
           "warning": "Good confirmation is very powerful in a Leviathan game"
         },
         "lleech": {
           "warning": "Lleech can be easier to find out"
+        },
+        "legion": {
+          "warning": "Shugenja info is likely to be useless/abirtrary in Legion games"
         },
         "lil' monsta": {
           "good": "Great bluff for Minions"
@@ -15583,13 +15824,13 @@
         },
         "lord of typhon": {
           "good": "Great bluff for Minions",
-          "warning": "Shugenja will always point towards the Demon"
+          "warning": "Shugenja will always point towards the entire evil team, reducing the possibilities for LoT drastically"
         },
         "apprentice": {
           "good": "Once per game abilities are good for arriving late or leaving early"
         },
         "barista": {
-          "warning": "Useless to double"
+          "warning": "Useless to double (unless equidistant). Useless to sober if equidistant"
         },
         "beggar": {
           "great": "Good synergy"
@@ -15696,6 +15937,9 @@
         },
         "mastermind": {
           "warning": "Mastermind can't protect from a Slayer shot"
+        },
+        "marionette": {
+          "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -15957,7 +16201,7 @@
           "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
         },
         "lunatic": {
-          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role"
+          "good": "A Lunatic that has figured out they're the Lunatic could bait the Demon into killing this role. Good choice for a fake Minion (if they don't talk in private)"
         },
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -15982,10 +16226,10 @@
           "good": "Making players that died in the night mad as the Soldier is interesting"
         },
         "assassin": {
-          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
+          "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "godfather": {
-          "warning": "Non-Demon kills ignore Soldier. Needs more than one extra killing source to not be confirmed"
+          "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team beyond disabling it"
@@ -16013,6 +16257,10 @@
         },
         "pukka": {
           "good": "Soldier is immue to Pukka poison"
+        },
+        "zombuul": {
+          "good": "No night deaths can make it look like Zombuul",
+          "warning": "Protection roles can make it even harder for Zombuul to kill"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
@@ -16103,13 +16351,16 @@
           "info": "Spy can appear as good (probably not a good idea)"
         },
         "pithag": {
-          "info": "Spy can appear as any good role (not a good idea)"
+          "good": "This role can help the Pit-hag not create in-play character"
         },
         "godfather": {
           "good": "Spy can appear as an Outsider when executed"
         },
         "mastermind": {
           "good": "Information helps to setup the Mastermind day"
+        },
+        "marionette": {
+          "good": "Without Magician, this role knows who the Marionette is"
         },
         "mezepheles": {
           "good": "Information can help the decision of who to turn evil"
@@ -16144,9 +16395,6 @@
         },
         "vigormortis": {
           "good": "Spy can appear as not a Minion to disable the poison"
-        },
-        "no dashii": {
-          "info": "Spy can appear as a Townsfolk (not a good idea)"
         },
         "vortox": {
           "info": "Spy can appear as a Townsfolk (not a good idea)"
@@ -16828,9 +17076,6 @@
         },
         {
           "name": "Can differentiate Demons and Minions"
-        },
-        {
-          "name": "Pushes good to lie/bluff beyond hiding powerful abilities"
         }
       ],
       "matchups": {
@@ -17111,6 +17356,9 @@
         "ogre": {
           "good": "Virgin is confirmed as good"
         },
+        "zealot": {
+          "warning": "Instant execution might mean no voting"
+        },
         "baron": {
           "warning": "In Teensy with a Baron, a Virgin might have to nominate themself to work"
         },
@@ -17131,12 +17379,16 @@
         "devil's advocate": {
           "warning": "This role can make executions survivable"
         },
+        "boomdandy": {
+          "warning": "Instant good execution prevents this role from triggering"
+        },
         "fearmonger": {
           "good": "This bluff gives a good reason to execute",
           "warning": "Outed good players make the Fearmonger less powerful"
         },
         "marionette": {
-          "great": "Interesting interaction (non-obvious fail)"
+          "great": "Interesting interaction (non-obvious fail)",
+          "warning": "Confirmation roles can be dangerous as Marionettes"
         },
         "mezepheles": {
           "good": "Confirmable evil characters are powerful and throw shade on their ability"
@@ -17146,6 +17398,9 @@
         },
         "widow": {
           "good": "Good target for Widow poison"
+        },
+        "goblin": {
+          "warning": "Instant good execution prevents this role from triggering"
         },
         "vizier": {
           "warning": "Outed Minions can nominate the Virgin before anyone else if it's public"
