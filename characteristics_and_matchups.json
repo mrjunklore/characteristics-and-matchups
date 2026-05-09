@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-09T07:49:59.680Z",
+    "generated_at": "2026-05-09T13:05:52.386Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -143,6 +143,9 @@
           "good": "Acrobat can help find the Puzzle drunk",
           "warning": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Good killing characters lose their downside in a Heretic game"
+        },
         "poisoner": {
           "good": "Acrobat can narrow down incidental droison"
         },
@@ -189,11 +192,17 @@
           "good": "Acrobat gives drunkeness mechanical value in Vortox games",
           "warning": "This role's info is immune to Vortox"
         },
+        "po": {
+          "good": "Extra deaths can hide nights with no kills"
+        },
         "pukka": {
-          "good": "Acrobat can narrow down incidental droison"
+          "good": "Acrobat can narrow down incidental droison. Extra deaths can hide Pukka target executions"
         },
         "shabaloth": {
           "warning": "Death-based characters like being resurrected. In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
+        },
+        "zombuul": {
+          "good": "Extra deaths can hide Zombuul sleeps"
         },
         "alhadikhia": {
           "warning": "This role needs explanation for non-picked deaths"
@@ -218,6 +227,9 @@
         },
         "barista": {
           "warning": "Doubling this ability obscures how they died"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -271,6 +283,9 @@
       "matchups": {
         "barista": {
           "warning": "Loud double"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "voudon": {
           "good": "More deaths is good for Voudon"
@@ -678,6 +693,9 @@
         "snitch": {
           "warning": "Having bluffs makes minions harder to narrow down"
         },
+        "heretic": {
+          "warning": "In a Heretic game, this role almost always hurts the good team"
+        },
         "hatter": {
           "warning": "Alsaahir targets can change (with the alternative rules)"
         },
@@ -996,7 +1014,7 @@
           "good": "Powerful role to double or guarantee"
         },
         "deviant": {
-          "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
+          "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes. The ST can also make the ability more wild with the Deviant in-play"
         },
         "angel": {
           "good": "Gives time to figure out their ability",
@@ -1142,6 +1160,9 @@
         "barber": {
           "good": "This Townsfolk can help differentiate if a Demon-Minion swap happened"
         },
+        "heretic": {
+          "warning": "Confirmed Heretic is powerful"
+        },
         "spy": {
           "good": "Spy can muddle Artist info"
         },
@@ -1250,6 +1271,9 @@
         "vigormortis": {
           "great": "Good synergy"
         },
+        "po": {
+          "good": "Extra deaths can hide nights with no kills"
+        },
         "pukka": {
           "good": "Extra deaths can hide Pukka target executions"
         },
@@ -1270,6 +1294,9 @@
         },
         "barista": {
           "good": "Powerful role to double or guarantee"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "gangster": {
           "good": "Used abilities are safe to die"
@@ -2071,7 +2098,7 @@
           "warning": "Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "wizard": {
-          "good": "Killing the Banshee is an interesting cost. Wizard could fake this role"
+          "good": "Killing the Banshee can be an interesting/clue depending on the wish. Wizard could fake this role"
         },
         "imp": {
           "warning": "Imp can't fake Banshee"
@@ -2126,6 +2153,9 @@
         },
         "barista": {
           "warning": "Trap characters will generally not be doubled, unless the ST decides after the Demon choice"
+        },
+        "beggar": {
+          "warning": "An activated Banshee doesn't need to give its vote token"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -2213,6 +2243,9 @@
         "sweetheart": {
           "warning": "Barber can \"resurrect\" this role"
         },
+        "mutant": {
+          "warning": "Barber can \"resurrect\" this role"
+        },
         "klutz": {
           "warning": "Barber can \"resurrect\" this role"
         },
@@ -2232,7 +2265,7 @@
           "warning": "Golem can kill this role"
         },
         "politician": {
-          "conflict": "Swapping a player with an evil Policitian can create an evil Politician"
+          "conflict": "Swapping an evil player with a Politician can create an evil Politician"
         },
         "puzzlemaster": {
           "warning": "Demon can move. Changing who the Puzzlemaster is might change who is drunk, even if the new Puzzlemaster is dead"
@@ -2601,8 +2634,32 @@
       "characteristics": [],
       "groups": [],
       "matchups": {
+        "bone collector": {
+          "good": "Both Travellers like more deaths"
+        },
+        "bureaucrat": {
+          "good": "More executions means more use for the Beggar"
+        },
+        "butcher": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
+        "gangster": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
+        "gunslinger": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
+        "harlot": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
+        "thief": {
+          "warning": "Less executions means less use for the Beggar"
+        },
         "voudon": {
-          "good": "Giving a dead vote has no consequence until the Voudon is exiled"
+          "good": "Giving a dead vote has no consequence until the Voudon is exiled. Both Travellers like more deaths"
+        },
+        "gnome": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "doomsayer": {
           "good": "Lots of deaths and less nominations means Beggar can be more frivolous with their votes"
@@ -2613,11 +2670,17 @@
         "fibbin": {
           "warning": "Can cause the Beggar to receive false information"
         },
+        "big wig": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
         "god of ug": {
           "warning": "Players without dead votes don't need the hat"
         },
         "knaves": {
           "warning": "Beggar is not immune to Knaves"
+        },
+        "ventriloquist": {
+          "warning": "Protection gives less use to the Beggar"
         },
         "zenomancer": {
           "good": "Interesting role to give information about"
@@ -2969,6 +3032,9 @@
         "godfather": {
           "good": "Godfather can avoid loud Outsiders"
         },
+        "marionette": {
+          "warning": "This role doesn't have many ways to tell they're the Marionette"
+        },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team"
         },
@@ -3205,10 +3271,10 @@
           "warning": "Cannibal dying keeps the Puzzlemaster ability"
         },
         "snitch": {
-          "good": "Cannibal can give a reason for the Snitch to stay alive"
+          "good": "Cannibal can give a small reason for the Snitch to stay alive (giving additional bluffs, which might not be that useful, and confirming the Snitch just died)"
         },
         "heretic": {
-          "good": "The Cannibal cancels the Heretic while they have their ability"
+          "warning": "The Cannibal cancels the Heretic while they have their ability"
         },
         "plague doctor": {
           "warning": "Potential double Minion added is powerful"
@@ -3353,6 +3419,9 @@
         },
         "barista": {
           "warning": "Loud double"
+        },
+        "deviant": {
+          "good": "Madness give good opportunities to be funny"
         },
         "harlot": {
           "good": "Gives a good reason for difference of claims"
@@ -3824,7 +3893,7 @@
           "good": "Xaan can disable this role (although hard to time)"
         },
         "wizard": {
-          "good": "Killing the King is an interesting cost"
+          "good": "Killing the King can be an interesting/clue depending on the wish"
         },
         "wraith": {
           "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
@@ -4138,7 +4207,7 @@
           "good": "Puzzlemaster benefits from long games"
         },
         "heretic": {
-          "warning": "Droison and Heretic can cause confusing game states"
+          "warning": "Droison and Heretic can cause confusing game states. Protection characters are going against the good win condition in Heretic games"
         },
         "hatter": {
           "good": "Hatter death can explain a loud Minion disappearing"
@@ -4235,6 +4304,9 @@
         "barista": {
           "good": "Powerful role to double or guarantee"
         },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
+        },
         "deviant": {
           "warning": "Don't drunk the Deviant, it's rude"
         },
@@ -4326,7 +4398,7 @@
           "warning": "Hidden Outsiders make Xaan hard to solve for. Damsel announcement can help Xaan get the Outsider count"
         },
         "wizard": {
-          "good": "KIlling the Damsel can be an interesting cost"
+          "good": "Killing the Damsel can be an interesting cost/clue depending on the wish"
         },
         "wraith": {
           "good": "Wraith can see that this role never wakes, and can know when the Damsel changed character"
@@ -4366,6 +4438,9 @@
         },
         "harlot": {
           "warning": "This role is fine to die to this Traveller"
+        },
+        "matron": {
+          "warning": "Damsel will be harder to find if they don't neighbor an evil player"
         },
         "scapegoat": {
           "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
@@ -4563,6 +4638,9 @@
         "puzzlemaster": {
           "good": "Dreamer can help confirm Puzzlemaster info"
         },
+        "heretic": {
+          "warning": "Confirmed Heretic is powerful"
+        },
         "zealot": {
           "good": "Easy bluff for a Minion to show to a Dreamer"
         },
@@ -4694,6 +4772,9 @@
         "puzzlemaster": {
           "warning": "This role can make it hard to find the Puzzle drunk"
         },
+        "heretic": {
+          "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination"
+        },
         "baron": {
           "good": "Baron works better with hidden Outsiders"
         },
@@ -4777,6 +4858,9 @@
         "sentinel": {
           "warning": "Sentinel adding a Drunk is completely untraceable"
         },
+        "gardener": {
+          "warning": "Drunk is less of a useful balance tool when players can be arranged how the ST wants"
+        },
         "god of ug": {
           "good": "This role can be said in ug speak"
         },
@@ -4838,7 +4922,7 @@
           "great": "Interesting combination"
         },
         "puzzlemaster": {
-          "warning": "The Hermit Drunk cannot know they're the other role"
+          "warning": "Allows anyone who thinks they're a Townsfolk to do a Puzzlemaster guess, which will confirm to the Hermit-Drunk they are the Hermit (can be bluffed)"
         },
         "snitch": {
           "warning": "The Hermit Drunk cannot know they're the other role"
@@ -4917,6 +5001,12 @@
         },
         "lunatic": {
           "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
+        "politician": {
+          "good": "Shown as good despite playing for evil"
+        },
+        "heretic": {
+          "good": "Shown as good despite \"playing for evil\""
         },
         "ogre": {
           "good": "This role can learn the Ogre's alignment"
@@ -5286,6 +5376,9 @@
         "puzzlemaster": {
           "good": "Exorcist can help confirm Puzzlemaster info. Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Protection characters are going against the good win condition in Heretic games"
+        },
         "poisoner": {
           "good": "Targeted Minion abilities are powerful against Exorcist"
         },
@@ -5350,6 +5443,9 @@
         },
         "barista": {
           "good": "Powerful role to double or guarantee"
+        },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
         },
         "angel": {
           "warning": "Angel protected Exorcist leaves the Demon in a bind once they have chosen them"
@@ -5494,6 +5590,9 @@
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
         },
+        "heretic": {
+          "good": "Farmer replacing powerful abilities can help the good team/indicate a Heretic"
+        },
         "poisoner": {
           "good": "Poisoner can disable this role before a kill"
         },
@@ -5548,7 +5647,7 @@
           "good": "If this role triggers successfully, it confirms a non-Xaan-night. Xaan can disable this role (although hard to time)"
         },
         "wizard": {
-          "good": "Killing the Farmer is an interesting cost"
+          "good": "Killing the Farmer can be an interesting/clue depending on the wish"
         },
         "imp": {
           "good": "This Demon can die safely in the night"
@@ -5849,6 +5948,9 @@
         },
         "damsel": {
           "good": "Advice can help the Damsel hide/die"
+        },
+        "snitch": {
+          "good": "Advice can point to the Minion bluffs"
         },
         "spy": {
           "warning": "Spy can muddle Fisherman info (not a good idea)"
@@ -6235,6 +6337,9 @@
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Protection characters are going against the good win condition in Heretic games"
+        },
         "zealot": {
           "good": "Helps with execution"
         },
@@ -6306,6 +6411,9 @@
         "yaggababble": {
           "good": "Protection with multi-kill Demons works well",
           "warning": "Yaggababble targets are chosen by the ST"
+        },
+        "beggar": {
+          "warning": "This role is more unlikely to die and so can't give its vote token"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -6443,6 +6551,9 @@
         "puzzlemaster": {
           "warning": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Good killing characters lose their downside in a Heretic game"
+        },
         "scarlet woman": {
           "good": "With a Scarlet Woman, the Demon can fake dying in the night"
         },
@@ -6500,14 +6611,18 @@
         "vortox": {
           "warning": "This role's info is immune to Vortox"
         },
-        "pukka": {
+        "po": {
           "good": "Extra deaths can hide nights with no kills"
+        },
+        "pukka": {
+          "good": "Extra deaths can hide Pukka target executions",
+          "warning": "Gambler wakes before Pukka, and is therefore immune to the poison"
         },
         "shabaloth": {
           "warning": "Death-based characters like being resurrected. In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
         },
         "zombuul": {
-          "good": "Extra deaths can hide nights with no kills. This Demon can die safely in the night"
+          "good": "Extra deaths can hide Zombuul sleeps. This Demon can die safely in the night"
         },
         "alhadikhia": {
           "warning": "If not picked by Al-had, Gambler death is confirmed",
@@ -6541,6 +6656,9 @@
         },
         "barista": {
           "warning": "Doubling this ability obscures how they died"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -6821,6 +6939,9 @@
         "barista": {
           "warning": "Cannot be doubled"
         },
+        "beggar": {
+          "warning": "This role is more unlikely to die and so can't give its vote token"
+        },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
         },
@@ -6829,6 +6950,9 @@
         },
         "butcher": {
           "good": "Extra executions gives more chances for this role to do something"
+        },
+        "deviant": {
+          "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
         },
         "gangster": {
           "warning": "Can kill this role without executions"
@@ -6946,6 +7070,9 @@
         "vortox": {
           "good": "Forcing executions works well with this role"
         },
+        "po": {
+          "good": "Extra deaths can hide nights with no kills"
+        },
         "pukka": {
           "good": "Extra deaths can hide Pukka target executions"
         },
@@ -6972,6 +7099,9 @@
         },
         "barista": {
           "good": "Powerful role to double or guarantee"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "bureaucrat": {
           "good": "Helps with execution"
@@ -7042,6 +7172,9 @@
         "puzzlemaster": {
           "warning": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Good killing characters lose their downside in a Heretic game"
+        },
         "plague doctor": {
           "warning": "Golem can kill this role"
         },
@@ -7072,6 +7205,9 @@
         },
         "fearmonger": {
           "good": "This bluff gives a good reason to execute"
+        },
+        "marionette": {
+          "good": "Interesting Marionette"
         },
         "mezepheles": {
           "good": "Confirmable evil characters are powerful and throw shade on their ability"
@@ -7127,6 +7263,9 @@
         },
         "barista": {
           "warning": "Useless to double"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "gangster": {
           "warning": "This role is fine to die to this Traveller once used"
@@ -7307,7 +7446,7 @@
           "warning": "Beware not having picking non-Demon evil picking players with a Goon"
         },
         "fang gu": {
-          "warning": "Beware two extra evil players"
+          "warning": "Beware two extra evil players. Fang Gu will have a hard time jumping to this Outsider"
         },
         "vigormortis": {
           "warning": "If the Vigormortis is droisoned, the Minions lose their ability"
@@ -7335,6 +7474,9 @@
         },
         "barista": {
           "warning": "Useless to double"
+        },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
         },
         "scapegoat": {
           "warning": "Hard to determine the alignment if saved by Scapegoat"
@@ -7540,6 +7682,9 @@
         "puzzlemaster": {
           "warning": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Good killing characters lose their downside in a Heretic game"
+        },
         "spy": {
           "warning": "Spy can muddle Gossip info (use sparingly)"
         },
@@ -7570,14 +7715,17 @@
         "vortox": {
           "warning": "This role's info is immune to Vortox"
         },
-        "pukka": {
+        "po": {
           "good": "Extra deaths can hide nights with no kills"
+        },
+        "pukka": {
+          "good": "Extra deaths can hide Pukka target executions"
         },
         "shabaloth": {
           "warning": "In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
         },
         "zombuul": {
-          "good": "Extra deaths can hide nights with no kills"
+          "good": "Extra deaths can hide Zombuul sleeps"
         },
         "alhadikhia": {
           "warning": "If not picked by Al-had, Gossip kills are confirmed",
@@ -7598,6 +7746,9 @@
         },
         "barista": {
           "warning": "Double Gossip obscures which one(s) were true"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "bone collector": {
           "warning": "Needs to \"use\" their ability the day before they are bone collected for it to work"
@@ -7737,7 +7888,7 @@
           "warning": "Puzzlemaster benefits from long games"
         },
         "heretic": {
-          "warning": "Confirmed Heretic is powerful"
+          "warning": "Confirmed Heretic is powerful. Good killing characters lose their downside in a Heretic game"
         },
         "spy": {
           "good": "Spy can appear as any good role. Spy can simulate this role"
@@ -7806,6 +7957,9 @@
         },
         "lord of typhon": {
           "good": "Good players don't neighbor the Demon in LoT games"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "bone collector": {
           "good": "Start knowing roles are good to bone collect"
@@ -7964,6 +8118,12 @@
         },
         "barista": {
           "warning": "Loud double"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
+        "deviant": {
+          "good": "Madness give good opportunities to be funny"
         },
         "voudon": {
           "good": "More deaths is good for Voudon"
@@ -8192,26 +8352,47 @@
         }
       ],
       "matchups": {
+        "plague doctor": {
+          "warning": "Killing Minion abilities help the good team in a Heretic game"
+        },
+        "ogre": {
+          "good": "Outsiders that don't claim after death prevent Heretic from being found out by elimination"
+        },
         "hermit": {
           "warning": "Can cause a double Heretic that cancel out, which might be good depending on the combination"
-        },
-        "baron": {
-          "info": "Recommended to have 5 Outsiders to avoid weird Baron being impossible with base 2 Outsiders"
         },
         "poisoner": {
           "warning": "Droison and Heretic can cause confusing game states"
         },
         "scarlet woman": {
-          "warning": "Preventing an evil loss with a Heretic is detrimental for evil"
+          "warning": "This Minion almost always hurts the evil team in a Heretic game"
+        },
+        "witch": {
+          "good": "Killing Minions provide a quick way to kill the Demon",
+          "warning": "Killing Minions help the good team in a Heretic game"
         },
         "evil twin": {
-          "warning": "Preventing an evil loss with a Heretic is detrimental for evil"
+          "warning": "This Minion almost always hurts the evil team in a Heretic game"
         },
         "pithag": {
           "conflict": "Pit-Hag can make itself the evil Heretic"
         },
+        "assassin": {
+          "good": "Killing Minions provide a quick way to kill the Demon",
+          "warning": "Killing Minions help the good team in a Heretic game"
+        },
+        "godfather": {
+          "good": "Killing Minions provide a quick way to kill the Demon",
+          "warning": "Killing Minions help the good team in a Heretic game"
+        },
         "mastermind": {
-          "warning": "Preventing an evil loss with a Heretic is detrimental for evil"
+          "warning": "This Minion almost always hurts the evil team in a Heretic game"
+        },
+        "devil's advocate": {
+          "good": "Preventing deaths is good for evil in a Heretic game"
+        },
+        "fearmonger": {
+          "warning": "This Minion almost always hurts the evil team in a Heretic game"
         },
         "marionette": {
           "warning": "Marionette Heretic is tough to play, and can confirm the lack of Heretic to the evil team"
@@ -8220,25 +8401,48 @@
           "conflict": "An evil Heretic wins the game immediately"
         },
         "psychopath": {
-          "good": "Psychopath is a quick way to kill the Demon"
-        },
-        "widow": {
-          "conflict": "Widow and Heretic cannot be in-game together"
+          "good": "Killing Minions provide a quick way to kill the Demon",
+          "warning": "Killing Minions help the good team in a Heretic game"
         },
         "goblin": {
-          "good": "A Heretic makes executing a Goblin more likely"
+          "good": "A Heretic makes executing a Goblin more likely",
+          "warning": "This Minion almost always hurts the evil team in a Heretic game"
         },
         "vizier": {
           "good": "Vizier is a quick way to kill the Demon"
         },
+        "harpy": {
+          "warning": "Killing Minions help the good team in a Heretic game"
+        },
+        "summoner": {
+          "good": "Summoner can turn a dead player into a non-Zombuul Demon to win"
+        },
+        "xaan": {
+          "warning": "Arbitrary Outsiders make determining if the Heretic is in-play harder"
+        },
+        "wraith": {
+          "good": "Wraith can see that this role never wakes"
+        },
         "imp": {
           "warning": "Demon can't suicide if Minions live"
+        },
+        "fang gu": {
+          "warning": "Can confirm the Heretic isn't in-play by jumping to it"
         },
         "pukka": {
           "warning": "Pukka can't suicide in a Heretic game. Also, droison and Heretic can cause confusing game states"
         },
+        "zombuul": {
+          "warning": "Zombuul will have a harder time killing themself if they suspect Heretic"
+        },
+        "alhadikhia": {
+          "good": "Heretic inverts the usual dynamic of the Al-Hadikhia, pushing good players to die"
+        },
         "leviathan": {
           "warning": "Leviathan can't suicide in a Heretic game"
+        },
+        "legion": {
+          "warning": "Legion can more easily find out if it's a Heretic game, but can't act on it"
         },
         "lil' monsta": {
           "info": "Lil Monsta can be killed by giving it to a dead player"
@@ -8248,7 +8452,7 @@
         },
         "kazali": {
           "good": "Hidden Outsiders work well with Kazali, unless chosen as Minions",
-          "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play"
+          "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play. Arbitrary Outsiders make determining if the Heretic is in-play harder"
         },
         "yaggababble": {
           "good": "This role gives good opportunities for phrases",
@@ -8256,16 +8460,55 @@
         },
         "lord of typhon": {
           "good": "Hidden Outsiders work well with LoT, unless they become Minions",
-          "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play"
+          "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play. Arbitrary Outsiders make determining if the Heretic is in-play harder"
         },
         "barista": {
           "warning": "Shouldn't be doubled"
         },
+        "beggar": {
+          "good": "Shown as good despite \"playing for evil\""
+        },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
         },
+        "butcher": {
+          "warning": "Heretic flips the dynamic of this Traveller, encouraging more kills if good and less if evil"
+        },
+        "gangster": {
+          "warning": "Heretic flips the dynamic of this Traveller, encouraging more kills if good and less if evil",
+          "good": "Evil killing Travellers can kill the Demon in a Heretic game"
+        },
+        "gunslinger": {
+          "warning": "Heretic flips the dynamic of this Traveller, encouraging more kills if good and less if evil",
+          "good": "Evil killing Travellers can kill the Demon in a Heretic game"
+        },
+        "harlot": {
+          "good": "Heretic gives a reason for the Demon to say yes"
+        },
+        "judge": {
+          "warning": "Heretic flips the dynamic of this Traveller, encouraging more kills if good and less if evil",
+          "good": "Evil killing Travellers can kill the Demon in a Heretic game"
+        },
+        "matron": {
+          "warning": "Heretic info will be harder to spread in a Matron game"
+        },
+        "scapegoat": {
+          "warning": "This Traveller will harm almost always harm its team in a Heretic game",
+          "good": "Shown as good despite \"playing for evil\""
+        },
+        "gnome": {
+          "warning": "Heretic flips the dynamic of this Traveller, encouraging more kills if good and less if evil",
+          "good": "Evil killing Travellers can kill the Demon in a Heretic game"
+        },
         "cacklejack": {
-          "good": "Hidden Outsiders give a reason not to out a character change (but for this one, please don't)"
+          "good": "Hidden Outsiders give a reason not to out a character change (but for this one, please don't)",
+          "warning": "Multiple instances of the Heretic power can be confusing"
+        },
+        "doomsayer": {
+          "warning": "Heretic in a Doomsayer game encourages all players to doomsay"
+        },
+        "ferryman": {
+          "good": "Heretic can only safely come out on the last day, which makes it more interesting if everyone dead can vote"
         },
         "fiddler": {
           "warning": "Heretic doesn't affect Fiddler"
@@ -8622,7 +8865,7 @@
           "good": "Puzzlemaster benefits from long games"
         },
         "heretic": {
-          "warning": "Droison and Heretic can cause confusing game states"
+          "warning": "Droison and Heretic can cause confusing game states. Protection characters are going against the good win condition in Heretic games"
         },
         "pithag": {
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
@@ -8661,6 +8904,9 @@
         },
         "yaggababble": {
           "good": "Protection with multi-kill Demons works well, but is weaker on Yaggababble games"
+        },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
         },
         "deviant": {
           "warning": "Don't drunk the Deviant, it's rude"
@@ -8752,6 +8998,9 @@
         },
         "mutant": {
           "good": "This role is a good false target"
+        },
+        "tinker": {
+          "warning": "Tinker is likely to die on its own, and so might be a bad Investigator ping (or it means not using its ability)"
         },
         "snitch": {
           "good": "Snitch can help Minions hide"
@@ -8962,6 +9211,9 @@
         },
         "lunatic": {
           "good": "Juggler can find Lunatic. Public info can help Lunatic find out they're the Lunatic"
+        },
+        "heretic": {
+          "warning": "Confirmed Heretic is powerful"
         },
         "spy": {
           "good": "Spy can appear as any Townsfolk or Outsider. Spy can simulate this role"
@@ -9176,7 +9428,7 @@
           "warning": "Virgin can kill King"
         },
         "drunk": {
-          "warning": "May be hard to tell if drunk"
+          "warning": "May be hard to tell if drunk until they get info, or die early"
         },
         "butler": {
           "warning": "Obvious master"
@@ -9192,7 +9444,7 @@
           "good": "Multiple deaths works well with King"
         },
         "tinker": {
-          "good": "Multiple deaths works well with King"
+          "good": "Multiple deaths works well with King. King could learn Tinker right before they die as an indicator"
         },
         "lunatic": {
           "good": "Public info can help Lunatic find out they're the Lunatic"
@@ -9587,6 +9839,9 @@
         "golem": {
           "info": "Both do similar work"
         },
+        "heretic": {
+          "warning": "This ability is less useful in a Heretic game"
+        },
         "hatter": {
           "warning": "Demon can move (with the Hatter variant)"
         },
@@ -9755,6 +10010,9 @@
         },
         "barista": {
           "warning": "Useless to double"
+        },
+        "beggar": {
+          "great": "Interesting bluff for an evil Beggar"
         },
         "matron": {
           "warning": "Matron doesn't matter much on a Legion game, but makes it very unlikely for the good team to effectively coordinate"
@@ -10307,7 +10565,7 @@
           "great": "Interesting combination"
         },
         "puzzlemaster": {
-          "warning": "Just a drunk"
+          "warning": "Allows anyone that thinks they are the Demon to do a Puzzlemaster guess, which will confirm to the Hermit-Lunatic they are the Hermit (can be bluffed)"
         },
         "heretic": {
           "great": "Interesting combination"
@@ -10437,6 +10695,7 @@
           "good": "Faux Paw registers as evil"
         },
         "tinker": {
+          "info": "If you intend on killing the Tinker that night, you could kill them before this character picks to avoid wasting their ability",
           "good": "Good target for the Lycanthrope"
         },
         "lunatic": {
@@ -10697,6 +10956,9 @@
         },
         "snitch": {
           "info": "Magician will need to invent bluffs anyways"
+        },
+        "heretic": {
+          "warning": "In a Heretic game, Minions killing the Demon accidentally gives evil the win instead"
         },
         "scarlet woman": {
           "warning": "SW will immediately know if it's a Magician when one of the Demons is executed"
@@ -11021,7 +11283,7 @@
           "conflict": "Can cause a 6th day"
         },
         "lleech": {
-          "good": "Knowing when the LLeech is killed can be complicated. Also gives a reason not to double tap on a Mastermind day"
+          "warning": "Knowing when the Lleech is killed can be complicated. Also gives a reason not to double tap on a Mastermind day"
         },
         "lil' monsta": {
           "good": "Knowing when LM is killed can be complicated",
@@ -11142,7 +11404,7 @@
           "good": "Good source of malfunction"
         },
         "evil twin": {
-          "good": "Can help figure out the twins if one of them would be a malfunction"
+          "good": "Can help figure out the twins if one of them would be a malfunction. Causes a malfunction if it prevents another good win ability"
         },
         "marionette": {
           "good": "Good source of malfunction (if using the optional jinx)"
@@ -11332,6 +11594,9 @@
         },
         "barista": {
           "good": "Powerful role to guarantee"
+        },
+        "beggar": {
+          "warning": "This role is more unlikely to die and so can't give its vote token"
         },
         "bureaucrat": {
           "warning": "More votes means less likely to not get any executions"
@@ -11526,7 +11791,7 @@
           "good": "Puzzlemaster benefits from long games"
         },
         "heretic": {
-          "warning": "Droison and Heretic can cause confusing game states"
+          "warning": "Droison and Heretic can cause confusing game states. Protection characters are going against the good win condition in Heretic games"
         },
         "zealot": {
           "good": "Helps with execution"
@@ -11582,6 +11847,9 @@
         "barista": {
           "good": "Can allow a player to work through Minstrel party",
           "warning": "Useless to double"
+        },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -11670,6 +11938,9 @@
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Protection characters are going against the good win condition in Heretic games"
+        },
         "evil twin": {
           "warning": "Bad choice for a Twin"
         },
@@ -11741,6 +12012,9 @@
         "barista": {
           "good": "Powerful role to double or guarantee"
         },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
+        },
         "god of ug": {
           "good": "This role can be said in ug speak"
         },
@@ -11795,6 +12069,9 @@
         "puzzlemaster": {
           "warning": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Good killing characters lose their downside in a Heretic game"
+        },
         "plague doctor": {
           "good": "Moonchild can kill this role"
         },
@@ -11832,6 +12109,9 @@
         "fearmonger": {
           "good": "This bluff gives a good reason to execute"
         },
+        "marionette": {
+          "good": "Interesting Marionette"
+        },
         "psychopath": {
           "warning": "Outed evils are obvious choice for this role"
         },
@@ -11859,14 +12139,17 @@
         "vortox": {
           "good": "Forcing executions works well with this role"
         },
-        "pukka": {
+        "po": {
           "good": "Extra deaths can hide nights with no kills"
+        },
+        "pukka": {
+          "good": "Extra deaths can hide Pukka target executions"
         },
         "shabaloth": {
           "warning": "In a 6-player game, can cause the game to last only 1 day with 3 night deaths (and an execution)"
         },
         "zombuul": {
-          "good": "Extra deaths can hide nights with no kills"
+          "good": "Extra deaths can hide Zombuul sleeps"
         },
         "alhadikhia": {
           "warning": "Al-Had will be forced to pick this role's targets in its own to avoid confirmation",
@@ -11896,6 +12179,9 @@
         },
         "lord of typhon": {
           "warning": "Good players can't neighbor the Demon in LoT games"
+        },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -12348,7 +12634,7 @@
           "good": "Good target for Noble"
         },
         "tinker": {
-          "warning": "Tinker is likely to die on its own, and so might be a bad Noble ping"
+          "warning": "Tinker is likely to die on its own, and so might be a bad Noble ping (or it means not using its ability)"
         },
         "lunatic": {
           "good": "Good target for Noble"
@@ -12684,6 +12970,12 @@
         "golem": {
           "warning": "Additional deaths makes the Oracle job harder"
         },
+        "politician": {
+          "good": "Shown as good despite playing for evil"
+        },
+        "heretic": {
+          "good": "Shown as good despite \"playing for evil\""
+        },
         "ogre": {
           "good": "This role can learn the Ogre's alignment"
         },
@@ -12835,8 +13127,15 @@
         "mutant": {
           "info": "This role can make other players survive Mutant madness break (not a good idea)"
         },
+        "politician": {
+          "good": "Shown as good despite playing for evil"
+        },
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
+        },
+        "heretic": {
+          "warning": "Protection characters are going against the good win condition in Heretic games",
+          "good": "Shown as good despite \"playing for evil\""
         },
         "zealot": {
           "good": "Helps with execution"
@@ -12981,7 +13280,8 @@
           "warning": "Beware two extra evil players"
         },
         "tinker": {
-          "warning": "ST can't kill the actual Tinker until the Philo-Tinker is dead"
+          "warning": "ST can't kill the actual Tinker until the Philo-Tinker is dead",
+          "good": "Depending on the ST, could act as a confirmation ability by dying at a random time"
         },
         "lunatic": {
           "warning": "A day 1 Philo-Lunatic can bait the Demon kills and make it way clearer to the actual Lunatic"
@@ -13001,6 +13301,9 @@
         "heretic": {
           "good": "Philosopher can guarantee this role is active",
           "warning": "When the Philo-Heretic dies, if a Heretic is in-play, they cancel each other"
+        },
+        "plague doctor": {
+          "good": "Depending on the ST, could effectively act as a delayed Alchemist with less control"
         },
         "ogre": {
           "warning": "Beware two extra evil players"
@@ -13431,6 +13734,10 @@
         "barista": {
           "warning": "Potentially loud double"
         },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable",
+          "warning": "Less deaths give less use to the Beggar"
+        },
         "voudon": {
           "good": "More deaths is good for Voudon"
         },
@@ -13532,7 +13839,7 @@
       "matchups": {
         "heretic": {
           "warning": "Politician is an additional player who can snitch on the Heretic",
-          "good": "Politician can bluff Heretic and Heretic can bluff Politician (both want \"evil to win\")"
+          "good": "Politician can bluff Heretic and Heretic can bluff Politician (both want \"evil to win\"). Outsiders that don't claim after death prevent Heretic from being found out by elimination"
         },
         "zealot": {
           "good": "Politician can use a Zealot to help them"
@@ -13588,8 +13895,14 @@
         "barista": {
           "warning": "Cannot be doubled"
         },
+        "beggar": {
+          "good": "Shown as good despite playing for evil"
+        },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
+        },
+        "scapegoat": {
+          "good": "Shown as good despite playing for evil"
         },
         "gnome": {
           "warning": "This amigo can change alignment"
@@ -13611,6 +13924,9 @@
         },
         "hindu": {
           "warning": "This Outsider can be killed to remove its downside"
+        },
+        "knaves": {
+          "good": "Can try to convince town that the true and false ST are the opposite way around"
         },
         "pope": {
           "warning": "Beware too many extra evils"
@@ -13838,6 +14154,9 @@
         "snitch": {
           "good": "Can be executed day 1 for a Princess"
         },
+        "heretic": {
+          "warning": "Protection characters are going against the good win condition in Heretic games"
+        },
         "zealot": {
           "good": "Helps with execution (but also could harm it if other nominations are made)"
         },
@@ -13957,6 +14276,9 @@
         "barista": {
           "warning": "Cannot be doubled"
         },
+        "beggar": {
+          "warning": "Protection gives less use to the Beggar"
+        },
         "bishop": {
           "conflict": "Doesn't work together"
         },
@@ -14063,6 +14385,9 @@
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Resurrecting characters goes against the good win condition in Heretic games"
+        },
         "spy": {
           "good": "Spy can appear as a Townsfolk"
         },
@@ -14107,6 +14432,9 @@
         },
         "barista": {
           "warning": "Loud double"
+        },
+        "beggar": {
+          "warning": "Resurrecting can allow a player to regain their vote token"
         },
         "cacklejack": {
           "good": "Cacklejack can either replace this ability once used or give a use mid-game"
@@ -14219,6 +14547,12 @@
         "barista": {
           "warning": "Loud double"
         },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
+        "deviant": {
+          "good": "Publicly claiming roles & roles that visit the ST for info opens room for jokes"
+        },
         "voudon": {
           "good": "More deaths is good for Voudon"
         },
@@ -14282,6 +14616,9 @@
         "barista": {
           "good": "Single kill Demons can kill twice with a Barista",
           "warning": "Potentially loud double"
+        },
+        "beggar": {
+          "warning": "Less deaths give less use to the Beggar"
         },
         "deviant": {
           "warning": "Don't poison the Deviant, it's rude"
@@ -14539,6 +14876,9 @@
         "puzzlemaster": {
           "good": "Ravenkeeper can help confirm Puzzlemaster info"
         },
+        "heretic": {
+          "warning": "Confirmed Heretic is powerful"
+        },
         "poisoner": {
           "good": "Poisoner can disable this role before a kill"
         },
@@ -14587,7 +14927,7 @@
           "good": "Xaan can disable this role (although hard to time)"
         },
         "wizard": {
-          "good": "Killing the Ravenkeeper is an interesting cost"
+          "good": "Killing the Ravenkeeper can be an interesting/clue depending on the wish"
         },
         "wraith": {
           "warning": "This role ignores the Wraith optional rule as their ability already triggered when they wake"
@@ -14913,6 +15253,9 @@
         "barista": {
           "warning": "Useless to double"
         },
+        "beggar": {
+          "warning": "Few dead players means few tokens to be given out to the Beggar"
+        },
         "voudon": {
           "warning": "Few dead players means Voudon has a lot of power. Dead players are more often evil in a Riot game"
         },
@@ -15220,6 +15563,7 @@
           "good": "This role can appear evil if picked by Moonchild. If Moonchild is droisoned in the night after their choice, the target can appear evil"
         },
         "tinker": {
+          "info": "If you intend on killing the Tinker that night, you could kill them before this character picks to avoid wasting their ability",
           "good": "Extra deaths can hide nights with no kills"
         },
         "lunatic": {
@@ -15236,7 +15580,7 @@
           "good": "Puzzlemaster benefits from long games"
         },
         "heretic": {
-          "warning": "Droison and Heretic can cause confusing game states"
+          "warning": "Droison and Heretic can cause confusing game states. Protection characters are going against the good win condition in Heretic games"
         },
         "zealot": {
           "good": "Helps with execution"
@@ -15412,6 +15756,9 @@
         "fearmonger": {
           "warning": "This role gives a good reason not to execute"
         },
+        "marionette": {
+          "warning": "This role doesn't have many ways to tell they're the Marionette"
+        },
         "mezepheles": {
           "warning": "Evil Saint is a liability",
           "good": "An extra evil vote is good for voting against this role"
@@ -15469,6 +15816,9 @@
         },
         "barista": {
           "warning": "Cannot be doubled"
+        },
+        "beggar": {
+          "warning": "This role is more unlikely to die and so can't give its vote token"
         },
         "gangster": {
           "warning": "This role is fine to die to this Traveller"
@@ -15746,6 +16096,12 @@
         "golem": {
           "warning": "Confirmed characters make Seamstress powerful"
         },
+        "politician": {
+          "good": "Shown as good despite playing for evil"
+        },
+        "heretic": {
+          "good": "Shown as good despite \"playing for evil\""
+        },
         "ogre": {
           "good": "This role can learn the Ogre's alignment"
         },
@@ -15873,6 +16229,9 @@
         "barista": {
           "warning": "Potentially loud double"
         },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
         "voudon": {
           "good": "More deaths is good for Voudon"
         },
@@ -15919,6 +16278,12 @@
         },
         "lunatic": {
           "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
+        "politician": {
+          "good": "Shown as good despite playing for evil"
+        },
+        "heretic": {
+          "good": "Shown as good despite \"playing for evil\""
         },
         "ogre": {
           "warning": "Ogre can make Shugenja info hard to parse"
@@ -16081,6 +16446,9 @@
         },
         "puzzlemaster": {
           "good": "Puzzlemaster can help guide Slayer"
+        },
+        "heretic": {
+          "warning": "In a Heretic game, this role almost always hurts the good team"
         },
         "hatter": {
           "warning": "Demon can move (with the Hatter variant)"
@@ -16249,6 +16617,9 @@
         "fearmonger": {
           "good": "This Minion needs to remain alive"
         },
+        "marionette": {
+          "warning": "This role doesn't have many ways to tell they're the Marionette"
+        },
         "mezepheles": {
           "warning": "This role as evil can't do much for the evil team",
           "good": "This Minion prefers to remain alive until their ability is spent"
@@ -16257,8 +16628,7 @@
           "warning": "This Minion has no use for bluffs"
         },
         "widow": {
-          "warning": "This Minion has no use for bluffs",
-          "good": "Minions could learn there is no Widow"
+          "warning": "This Minion has no use for bluffs"
         },
         "goblin": {
           "good": "This Minion needs to remain alive, but also suspicious enough"
@@ -16374,6 +16744,9 @@
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Protection characters are going against the good win condition in Heretic games"
+        },
         "spy": {
           "warning": "Seeing the Grimoire disables trap characters"
         },
@@ -16451,6 +16824,9 @@
         },
         "barista": {
           "warning": "Useless to double"
+        },
+        "beggar": {
+          "warning": "This role is more unlikely to die and so can't give its vote token"
         },
         "bone collector": {
           "warning": "Bone Collector is useless on this role"
@@ -16684,8 +17060,12 @@
         "lunatic": {
           "good": "Steward can find a Lunatic (or make Demon believe they are the Lunatic). Public info can help Lunatic find out they're the Lunatic"
         },
+        "politician": {
+          "good": "Shown as good despite playing for evil"
+        },
         "heretic": {
-          "warning": "Steward seeing Heretic is powerful"
+          "warning": "Steward seeing Heretic is powerful",
+          "good": "Shown as good despite \"playing for evil\""
         },
         "ogre": {
           "warning": "This role cannot learn the Ogre's alignment (it acts after that info)"
@@ -16950,6 +17330,9 @@
         "godfather": {
           "good": "Extra deaths work well with this Outsider"
         },
+        "marionette": {
+          "warning": "This role doesn't have many ways to tell they're the Marionette"
+        },
         "psychopath": {
           "good": "Extra deaths work well with this Outsider"
         },
@@ -17109,6 +17492,9 @@
         "puzzlemaster": {
           "warning": "Puzzlemaster benefits from long games"
         },
+        "heretic": {
+          "warning": "Good killing characters lose their downside in a Heretic game"
+        },
         "plague doctor": {
           "good": "If there are killing Minions, the Tinker can support a dead Plague Doctor bluff"
         },
@@ -17124,17 +17510,23 @@
         "pithag": {
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
         },
+        "assassin": {
+          "good": "Tinker can fake a kill"
+        },
         "godfather": {
-          "good": "Tinker can trigger the Godfather at any time"
+          "good": "Tinker can trigger the Godfather at any time. Tinker can fake a kill"
         },
         "mastermind": {
           "good": "Tinker can die after the Demon is dead"
         },
         "devil's advocate": {
-          "info": "Could still \"die by execution\" if picked by DA (don't, this interacrts poorly with some abilities)"
+          "info": "Could still \"die by execution\" if picked by DA (don't, this interacts poorly with some abilities). If you intend on killing the Tinker that night, you could kill them before this character picks to avoid wasting their ability"
         },
         "boomdandy": {
           "info": "Don't kill a Tinker after the explosion"
+        },
+        "fearmonger": {
+          "info": "Don't kill a Tinker if they are the Fearmonger target"
         },
         "marionette": {
           "warning": "This role doesn't have many ways to tell they're the Marionette"
@@ -17145,8 +17537,11 @@
         "psychopath": {
           "good": "Tinker can fake a kill"
         },
+        "organ grinder": {
+          "good": "Tinker could look like they were executed during an OG day (beware bad interactions with roles that look at executions)"
+        },
         "harpy": {
-          "good": "Tinker can help fake a player being Harpy mad at them"
+          "good": "Tinker can help a player fake being Harpy mad at them"
         },
         "summoner": {
           "good": "Extra night deaths can hide Summoner"
@@ -17156,16 +17551,19 @@
         },
         "fang gu": {
           "good": "Fang Gu prevents loud Outsiders",
-          "warning": "Somewhat of a bad jump target (is supposed to die)"
+          "warning": "Somewhat of a bad jump target (is supposed to die, and will likely die before jumping)"
+        },
+        "po": {
+          "good": "Extra deaths can hide nights with no kills"
         },
         "pukka": {
-          "good": "Extra deaths can hide nights with no kills"
+          "good": "Extra deaths can hide Pukka target executions"
         },
         "shabaloth": {
           "good": "Tinker helps obscure extra night deaths (including if bluffed)"
         },
         "zombuul": {
-          "good": "Extra deaths can hide nights with no kills"
+          "good": "Extra deaths can hide Zombuul sleeps"
         },
         "alhadikhia": {
           "warning": "This Outsider will most likely choose death",
@@ -17195,8 +17593,25 @@
         "barista": {
           "warning": "Cannot be doubled"
         },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
         "bone collector": {
+          "info": "If you intend on killing the Tinker that night, you could kill them before this character picks to avoid wasting their ability",
           "warning": "Bone Collector is useless on this role"
+        },
+        "deviant": {
+          "info": "The Tinker could be killed to help with a Deviant joke"
+        },
+        "gangster": {
+          "warning": "This role is fine to die to this Traveller"
+        },
+        "gunslinger": {
+          "warning": "This role is fine to die to this Traveller"
+        },
+        "harlot": {
+          "info": "If you intend on killing the Tinker that night, you could kill them before this character picks to avoid wasting their ability",
+          "warning": "This role is fine to die to this Traveller"
         },
         "voudon": {
           "good": "More deaths is good for Voudon"
@@ -17204,8 +17619,11 @@
         "angel": {
           "warning": "Angel doesn't work with ST-controlled deaths"
         },
+        "fiddler": {
+          "info": "Don't kill Tinker during a fiddle contest"
+        },
         "hindu": {
-          "warning": "Dying is part of this character's ability and balance. Good players that can force good deaths reduce the likelihood of an evil reincarnation"
+          "warning": "Dying is part of this character's ability and balance"
         },
         "knaves": {
           "warning": "This role benefits from longer games"
@@ -17319,6 +17737,9 @@
         },
         "lunatic": {
           "good": "Public info can help Lunatic find out they're the Lunatic"
+        },
+        "heretic": {
+          "warning": "Confirmed Heretic is powerful"
         },
         "plague doctor": {
           "good": "Undertaker can know when this role was executed"
@@ -17552,7 +17973,7 @@
           "great": "Interesting interaction (non-obvious fail)"
         },
         "tinker": {
-          "warning": "Tinker can't fake an execution"
+          "info": "Tinker can't fake an Virgin execution"
         },
         "damsel": {
           "good": "Damsel can safely out to this role once confirmed"
@@ -18195,6 +18616,9 @@
         "barista": {
           "warning": "Potentially loud double"
         },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
         "bishop": {
           "conflict": "Witch doesn't work until the Bishop dies"
         },
@@ -18270,6 +18694,9 @@
         },
         "bone collector": {
           "warning": "Beware multiple wishes"
+        },
+        "deviant": {
+          "good": "Wishes give good opportunities for jokes (fake or not)"
         },
         "gnome": {
           "good": "Interesting amigo"
@@ -18497,6 +18924,9 @@
         "lord of typhon": {
           "good": "Yaggababble can fake extra minions"
         },
+        "beggar": {
+          "good": "Beggar likes more death and makes it more valuable"
+        },
         "deviant": {
           "good": "This role gives good opportunities for phrases"
         },
@@ -18577,6 +19007,9 @@
         },
         "fearmonger": {
           "good": "Helps with execution"
+        },
+        "marionette": {
+          "warning": "This role doesn't have many ways to tell they're the Marionette"
         },
         "goblin": {
           "good": "Helps with execution"
@@ -18698,6 +19131,9 @@
         "barista": {
           "good": "Single kill Demons can kill twice with a Barista",
           "warning": "Potentially loud double"
+        },
+        "beggar": {
+          "warning": "Less deaths give less use to the Beggar"
         },
         "gangster": {
           "warning": "Gangster can't fully kill a Zombuul. Gunslinger kill prevents a Zombuul kill"
