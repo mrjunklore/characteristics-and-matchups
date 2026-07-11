@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T19:17:53.297Z",
+    "generated_at": "2026-07-11T13:06:50.329Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -728,6 +728,7 @@
           "warning": "Alsaahir benefits from long games"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is useless to the Demon"
         },
         "cerenovus": {
@@ -761,13 +762,17 @@
           "warning": "The Demon can move around, and there can be two Demons"
         },
         "spy": {
-          "info": "Spy may not register as a Minion (don't)"
+          "info": "Spy may not register as a Minion (don't)",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "summoner": {
           "warning": "There can be no Demons"
         },
         "vizier": {
           "good": "Mute Vizier can blufff day protection"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "warning": "Alsaahir benefits from long games"
@@ -801,7 +806,8 @@
           "warning": "Lleech can be an outed Demon"
         },
         "lordoftyphon": {
-          "warning": "Evil players being sat next to each other makes the Alsaahir's work easier. But also, the possible extra Minion makes its work harder"
+          "warning": "Evil players being sat next to each other makes the Alsaahir's work easier. But also, the possible extra Minion makes its work harder",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "ojo": {
           "warning": "Ojo can kill this role directly after a public claim"
@@ -1555,7 +1561,7 @@
           "good": "Claiming to be the Atheist incorrectly can cause good to lose"
         },
         "puzzlemaster": {
-          "info": "Puzzlemaster doesn't prevent setup abilities"
+          "info": "Puzzlemaster doesn't prevent setup abilities (STs can rule against that)"
         },
         "recluse": {
           "good": "Can help fake Atheist"
@@ -2147,13 +2153,14 @@
           "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "boffin": {
-          "good": "Interesting if the Demon can safely die"
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "boomdandy": {
           "good": "Helps with execution"
         },
         "cerenovus": {
-          "warning": "Instant execution might mean no voting"
+          "warning": "Instant execution might mean no voting",
+          "good": "Making players mad as trap characters when they die is interesting"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -2194,9 +2201,11 @@
           "warning": "Demon can't fake Banshee"
         },
         "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Seeing the Grimoire disables trap characters"
         },
         "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Seeing the Grimoire disables trap characters. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "witch": {
@@ -2219,6 +2228,7 @@
           "warning": "Imp can't fake Banshee"
         },
         "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "legion": {
@@ -2229,6 +2239,7 @@
           "good": "If a Minion holding LM kills the Banshee, their ability activates"
         },
         "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "nodashii": {
@@ -2238,14 +2249,14 @@
           "warning": "This role will never be killed unless the Ojo misses, but is an interesting balance opportunity"
         },
         "po": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "pukka": {
           "good": "Pukka disables trap characters",
           "warning": "Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
         },
         "shabaloth": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "vigormortis": {
           "warning": "Minions can't fake Banshee. Activated Banshee that gets droisoned loses their vote if they try to vote (can be avoided by first trying to nominate), which also confirms droison. Droisoned Banshee needs other reasons to die at night or is confirmed droisoned"
@@ -2255,7 +2266,7 @@
         },
         "yaggababble": {
           "warning": "Yaggababble targets are chosen by the ST",
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "zombuul": {
           "warning": "Zombuul can't fake Banshee"
@@ -2405,9 +2416,6 @@
         },
         "baron": {
           "good": "Baron works better with hidden Outsiders"
-        },
-        "boffin": {
-          "good": "Interesting if the Demon can safely die"
         },
         "boomdandy": {
           "good": "Moving Boomdandy around is interesting"
@@ -3129,7 +3137,7 @@
           "great": "Good synergy"
         },
         "lycanthrope": {
-          "good": "Extra evil players increase the chance of a miss. Faux Paw registers as evil"
+          "good": "Extra evil players increase the chance of a miss. Faux paw registers as evil"
         },
         "magician": {
           "warning": "This role as evil can't do much for the evil team"
@@ -3633,7 +3641,7 @@
           "good": "Cannibal can get a second round of first night info"
         },
         "lycanthrope": {
-          "warning": "Faux Paw registers as evil"
+          "warning": "Faux paw registers as evil"
         },
         "magician": {
           "warning": "Ability is useless to a Cannibal"
@@ -3680,6 +3688,9 @@
         "tealady": {
           "warning": "This role can make executions survivable"
         },
+        "undertaker": {
+          "great": "Good synergy"
+        },
         "virgin": {
           "warning": "Doubling confirmation is very powerful"
         },
@@ -3702,7 +3713,7 @@
           "warning": "The Cannibal cancels the Heretic while they have their ability"
         },
         "klutz": {
-          "warning": "Cannibal must try to use the ability is possible"
+          "warning": "Cannibal must try to use the ability if possible"
         },
         "lunatic": {
           "good": "Cannibal can confirm this ability"
@@ -4091,7 +4102,7 @@
           "good": "First night info works well with HP"
         },
         "lycanthrope": {
-          "good": "First night info roles are good targets for Lycanthrope kills ? Faux Paw registers as evil"
+          "good": "First night info roles are good targets for Lycanthrope kills. Faux paw registers as evil"
         },
         "magician": {
           "good": "Public info can help evil find each other"
@@ -4149,8 +4160,14 @@
         "snitch": {
           "warning": "Having bluffs makes Minions harder to narrow down"
         },
+        "sweetheart": {
+          "warning": "First night info is immune to Sweetheart"
+        },
         "boffin": {
           "warning": "This ability is useless to the Demon"
+        },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "warning": "Outed evil is very powerful for Chef info"
@@ -4348,7 +4365,11 @@
           "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "The Demon with a King's abilitty appears as the King to the Choirboy"
+        },
+        "cerenovus": {
+          "good": "Making a player that just died in the night mad as the King can throw shade on a Choirboy that received nothing"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -4363,10 +4384,12 @@
           "good": "Poisoner can disable this role before a kill"
         },
         "spy": {
-          "conflict": "Spy and Choirboy can't be in game together"
+          "conflict": "Spy and Choirboy can't be in a game together",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "widow": {
-          "conflict": "Widow and Choirboy can't be in game together"
+          "conflict": "Widow and Choirboy can't be in a game together",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "wizard": {
           "good": "Killing the King can be an interesting/clue depending on the wish"
@@ -4378,7 +4401,8 @@
           "good": "Xaan can disable this role (although hard to time)"
         },
         "kazali": {
-          "conflict": "Kazali can delete the King"
+          "conflict": "Kazali can delete the King",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "leviathan": {
           "warning": "Leviathan can't kill the King"
@@ -4390,7 +4414,8 @@
           "warning": "Knowing who the Demon is isn't very useful for Lleech"
         },
         "lordoftyphon": {
-          "conflict": "LoT can delete the King"
+          "conflict": "LoT can delete the King",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "ojo": {
           "warning": "Ojo can kill this role directly"
@@ -4523,6 +4548,9 @@
         },
         "boomdandy": {
           "warning": "Clockmaker and outed Minions can make the ability very powerful"
+        },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "warning": "Clockmaker and outed Minions can make the ability very powerful"
@@ -4703,6 +4731,9 @@
         },
         "saint": {
           "good": "Droison can cause a safe Saint execution"
+        },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart drunk"
         },
         "tinker": {
           "good": "Extra deaths can hide nights with no kills"
@@ -5568,7 +5599,7 @@
           "good": "Baron works better with hidden Outsiders"
         },
         "cerenovus": {
-          "good": "Can force players to build worlds that their information is wrong by making them mad as the drunk"
+          "good": "Can force players to build worlds that their information is wrong by making them mad as the Drunk. Also forces Outsiders to bluff Townsfolk that think they are the Drunk"
         },
         "eviltwin": {
           "good": "Can explain the Twins not claiming the same role"
@@ -6344,6 +6375,9 @@
         "snitch": {
           "good": "Great bluff for Minions"
         },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart drunk"
+        },
         "tinker": {
           "good": "Extra deaths can hide nights with no kills"
         },
@@ -6573,7 +6607,7 @@
         },
         "lycanthrope": {
           "great": "Lycanthrope and trap charaters are powerful",
-          "warning": "Faux Paw cannot become a Farmer"
+          "warning": "Faux paw cannot become a Farmer"
         },
         "magician": {
           "good": "First night info roles are a good target for Farmer"
@@ -6636,7 +6670,8 @@
           "good": "Good Farmer target, encouraging early guesses"
         },
         "drunk": {
-          "warning": "Hard to tell if this role is drunk (if they never die at night)"
+          "warning": "Hard to tell if this role is drunk (if they never die at night)",
+          "good": "Drunk could be told they have become the Farmer RAW"
         },
         "golem": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -6661,7 +6696,10 @@
           "good": "Multiple night deaths are good for trap characters"
         },
         "boffin": {
-          "good": "Interesting if the Demon can safely die"
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "cerenovus": {
+          "good": "Can help support a Farmer bluff if evil dies in the night. Making players mad as trap characters when they die is interesting"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -6696,13 +6734,14 @@
         },
         "spy": {
           "warning": "Seeing the Grimoire disables trap characters",
-          "good": "Spy can appear as good (will become an evil Farmer)"
+          "good": "Spy can appear as good (will become an evil Farmer). Knowing this character isn't in-play is powerful for evil"
         },
         "summoner": {
           "good": "Farmer can safe the future Demon (although unlikely)"
         },
         "widow": {
-          "warning": "Seeing the Grimoire disables trap characters"
+          "warning": "Seeing the Grimoire disables trap characters",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -6723,7 +6762,8 @@
           "good": "This Demon can die safely in the night"
         },
         "kazali": {
-          "warning": "Hard role to bluff for Minions"
+          "warning": "Hard role to bluff for Minions",
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "legion": {
           "warning": "Legion targets are chosen by the ST"
@@ -6732,7 +6772,7 @@
           "warning": "LM targets are chosen by the ST. Hard role to bluff for Minions"
         },
         "lordoftyphon": {
-          "good": "Farmer can help narrow down the LoT line",
+          "good": "Farmer can help narrow down the LoT line. Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "nodashii": {
@@ -6742,13 +6782,13 @@
           "warning": "This role will never be killed unless the Ojo misses"
         },
         "po": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "pukka": {
           "good": "Pukka disables trap characters"
         },
         "shabaloth": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "vigormortis": {
           "good": "Minions can bluff this character"
@@ -6758,7 +6798,7 @@
         },
         "yaggababble": {
           "warning": "Yaggababble targets are chosen by the ST",
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "zombuul": {
           "good": "This Demon can die safely in the night"
@@ -7039,6 +7079,9 @@
         "snitch": {
           "good": "Advice can point to the Minion bluffs"
         },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart drunk"
+        },
         "boffin": {
           "good": "Interesting Boffin ability"
         },
@@ -7233,6 +7276,7 @@
           "warning": "Flowergirl benefits from long games"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is useless to the Demon"
         },
         "boomdandy": {
@@ -7265,12 +7309,18 @@
         "scarletwoman": {
           "warning": "The Demon can move around"
         },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "summoner": {
           "warning": "Flowergirl can detect a Summoner",
           "good": "Flowergirl can safe the future Demon"
         },
         "vizier": {
           "good": "Outed Minions are confirmed votes for Flowergirl"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "good": "Encouraging nominations works well with this Minion",
@@ -7280,7 +7330,7 @@
           "warning": "Flowergirl benefits from long games"
         },
         "kazali": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "legion": {
           "warning": "Flowergirl can figure out Legion easily. Flowergirl pushing voting can make Legion more likely to do an only-evil vote. Legion discourages good voting to bait out Legion"
@@ -7296,7 +7346,7 @@
           "warning": "Knowing who the Demon is isn't very useful for Lleech"
         },
         "lordoftyphon": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "po": {
           "warning": "Flowergirl benefits from long games"
@@ -7444,6 +7494,9 @@
         },
         "puzzlemaster": {
           "good": "Puzzlemaster benefits from long games"
+        },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart drunk"
         },
         "tinker": {
           "good": "Extra deaths can hide nights with no kills"
@@ -9149,6 +9202,9 @@
         "recluse": {
           "warning": "Recluse can muddle Gossip info (use sparingly)"
         },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart drunk"
+        },
         "tinker": {
           "good": "Tinker can obscure extra night deaths (including if bluffed)"
         },
@@ -9278,7 +9334,7 @@
         },
         "lycanthrope": {
           "good": "Grandmother can confirm Lycanthrope kill",
-          "warning": "Grandchild cannot be the Faux Paw"
+          "warning": "Grandchild cannot be the faux paw"
         },
         "mayor": {
           "good": "Confirming this role is in-play is good"
@@ -9693,9 +9749,6 @@
         "baron": {
           "good": "Baron can become an active Minion"
         },
-        "boffin": {
-          "good": "Interesting if the Demon can safely die"
-        },
         "boomdandy": {
           "good": "Swapping into a Boomdandy can be an interesting deterrent"
         },
@@ -9873,6 +9926,9 @@
         "saint": {
           "great": "Interesting interaction"
         },
+        "snitch": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "sweetheart": {
           "warning": "Droison and Heretic can cause confusing game states"
         },
@@ -9882,6 +9938,9 @@
         "assassin": {
           "good": "Killing Minions provide a quick way to kill the Demon",
           "warning": "Killing Minions help the good team in a Heretic game"
+        },
+        "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "devilsadvocate": {
           "good": "Preventing deaths is good for evil in a Heretic game"
@@ -9925,11 +9984,17 @@
         "scarletwoman": {
           "warning": "This Minion almost always hurts the evil team in a Heretic game"
         },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "summoner": {
           "good": "Summoner can turn a dead player into a non-Zombuul Demon to win"
         },
         "vizier": {
           "good": "Vizier is a quick way to kill the Demon"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "good": "Killing Minions provide a quick way to kill the Demon",
@@ -9951,7 +10016,7 @@
           "warning": "Demon can't suicide if Minions live"
         },
         "kazali": {
-          "good": "Hidden Outsiders work well with Kazali, unless chosen as Minions",
+          "good": "Hidden Outsiders work well with Kazali, unless chosen as Minions. Knowing this character isn't in-play is powerful for evil",
           "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play. Arbitrary Outsiders make determining if the Heretic is in-play harder"
         },
         "legion": {
@@ -9964,7 +10029,7 @@
           "info": "Lil Monsta can be killed by giving it to a dead player"
         },
         "lordoftyphon": {
-          "good": "Hidden Outsiders work well with LoT, unless they become Minions",
+          "good": "Hidden Outsiders work well with LoT, unless they become Minions. Knowing this character isn't in-play is powerful for evil",
           "warning": "If Heretic becomes a Minion, it can confirm that no Heretic is in-play. Arbitrary Outsiders make determining if the Heretic is in-play harder"
         },
         "ojo": {
@@ -10242,6 +10307,9 @@
         },
         "puzzlemaster": {
           "good": "High Priestess can help the Puzzlemaster"
+        },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart drunk"
         },
         "tinker": {
           "good": "High Priestess could be told to go see the Tinker to signal a death by their ability"
@@ -10562,6 +10630,9 @@
         "saint": {
           "good": "Droison can cause a safe Saint execution"
         },
+        "snitch": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "tinker": {
           "good": "Extra deaths can hide nights with no kills"
         },
@@ -10569,13 +10640,19 @@
           "good": "Assassin ignores protection"
         },
         "boffin": {
-          "good": "Good Boffin ability"
+          "good": "Good Boffin ability. Knowing this character isn't in-play is powerful for evil"
         },
         "mastermind": {
           "warning": "If Mastermind loses their ability after a Demon execution, the game ends immediately"
         },
         "pithag": {
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track"
+        },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
@@ -10586,8 +10663,14 @@
         "imp": {
           "good": "Innkeeper can prevent an Imp starpass"
         },
+        "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "lleech": {
           "warning": "Droisoned Lleech is a rules nightmare"
+        },
+        "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "ojo": {
           "warning": "Protection characters are weaker in an Ojo game (though the mind game can be interesting)",
@@ -10764,6 +10847,9 @@
         },
         "boomdandy": {
           "warning": "This role is severely handicapped if seen by Investigator"
+        },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "warning": "Investigator must see both Twins if it sees Evil Twin (not useful)"
@@ -10977,7 +11063,8 @@
           "good": "Interesting Boffin ability"
         },
         "cerenovus": {
-          "warning": "This role requires a public claim"
+          "warning": "This role requires a public claim",
+          "good": "Players doing a fake Juggle can be forced to commit by being made mad"
         },
         "eviltwin": {
           "good": "Good choice for a Twin"
@@ -11237,6 +11324,9 @@
         },
         "recluse": {
           "good": "Recluse can appear as any Minion or Demon"
+        },
+        "sweetheart": {
+          "warning": "Can be hard to tell if Sweetheart drunk"
         },
         "tinker": {
           "good": "Multiple deaths works well with King. King could learn Tinker right before they die as an indicator"
@@ -11630,6 +11720,9 @@
         },
         "boffin": {
           "warning": "This ability is useless to the Demon"
+        },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "good": "Good choice for a Twin"
@@ -12025,7 +12118,8 @@
           "good": "Interesting Boffin ability"
         },
         "cerenovus": {
-          "good": "Cerenovus can hide the Librarian target"
+          "good": "Cerenovus can hide the Librarian target",
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "warning": "Librarian Twin will have to invent targets"
@@ -12582,14 +12676,14 @@
           "good": "Used once per game roles are good target for Lycanthrope kills"
         },
         "noble": {
-          "good": "First night info roles are good targets for Lycanthrope kills. Faux Paw registers as evil"
+          "good": "First night info roles are good targets for Lycanthrope kills. Faux paw registers as evil"
         },
         "oracle": {
-          "good": "Faux Paw registers as evil",
+          "good": "Faux paw registers as evil",
           "warning": "Oracle number can decrease"
         },
         "pacifist": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "pixie": {
           "good": "Obvious faux paw"
@@ -12611,10 +12705,10 @@
           "warning": "Non-Demon kills don't trigger Sage"
         },
         "seamstress": {
-          "good": "Used once per game roles are good target for Lycanthrope kills. Faux Paw registers as evil"
+          "good": "Used once per game roles are good target for Lycanthrope kills. Faux paw registers as evil"
         },
         "shugenja": {
-          "good": "First night info roles are good targets for Lycanthrope kills. Faux Paw registers as evil"
+          "good": "First night info roles are good targets for Lycanthrope kills. Faux paw registers as evil"
         },
         "slayer": {
           "good": "Used once per game roles are good target for Lycanthrope kills"
@@ -12627,14 +12721,14 @@
         },
         "steward": {
           "good": "First night info roles are good targets for Lycanthrope kills",
-          "warning": "Faux Paw registers as evil"
+          "warning": "Faux paw registers as evil"
         },
         "tealady": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "villageidiot": {
           "great": "Good synergy",
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "washerwoman": {
           "good": "First night info roles are good targets for Lycanthrope kills"
@@ -12649,26 +12743,26 @@
           "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "goon": {
-          "good": "Extra evil players increase the chance of a miss. Faux Paw registers as evil"
+          "good": "Extra evil players increase the chance of a miss. Faux paw registers as evil"
         },
         "heretic": {
           "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "klutz": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "lunatic": {
           "good": "Lycanthrope can help a Lunatic. Obvious faux paw"
         },
         "moonchild": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "mutant": {
           "good": "Good target for the Lycanthrope. Obvious faux paw"
         },
         "ogre": {
           "good": "This role can help find the Ogre's alignment",
-          "warning": "Choosing the Faux Paw turns the Ogre evil"
+          "warning": "Choosing the faux paw turns the Ogre evil"
         },
         "politician": {
           "good": "Good target for the Lycanthrope"
@@ -12696,11 +12790,11 @@
           "good": "Targeted Minions prevent the Lycanthrope from outing"
         },
         "eviltwin": {
-          "warning": "Bad choice for a Twin. Lycanthrope can kill the good Twin (or the Demon can fake doing so). Faux Paw registers as evil and cannot be the good twin (unless Alchemist is involved)"
+          "warning": "Bad choice for a Twin. Lycanthrope can kill the good Twin (or the Demon can fake doing so). Faux paw registers as evil and cannot be the good twin (unless Alchemist is involved)"
         },
         "fearmonger": {
           "good": "This bluff gives a good reason to execute",
-          "warning": "Faux Paw registers as evil"
+          "warning": "Faux paw registers as evil"
         },
         "harpy": {
           "good": "Targeted Minions prevent the Lycanthrope from outing"
@@ -12716,7 +12810,7 @@
         },
         "poisoner": {
           "good": "Targeted Minions prevent the Lycanthrope from outing",
-          "warning": "Poisoning the Lycanthrope disables the Faux Paw"
+          "warning": "Poisoning the Lycanthrope disables the faux paw"
         },
         "psychopath": {
           "good": "Targeted Minions prevent the Lycanthrope from outing"
@@ -12733,27 +12827,28 @@
         },
         "vizier": {
           "good": "Targeted Minions prevent the Lycanthrope from outing",
-          "warning": "Faux Paw registers as evil"
+          "warning": "Faux paw registers as evil"
         },
         "widow": {
-          "warning": "Seeing the Grimoire helps finding the Lycanthrope. Poisoning the Lycanthrope disables the Faux Paw"
+          "good": "This role can help find the Ogre's alignment",
+          "warning": "Choosing the faux paw turns the Ogre evil"
         },
         "witch": {
           "good": "Targeted Minions prevent the Lycanthrope from outing"
         },
         "fanggu": {
-          "warning": "All this Demon's ability relies on killing",
+          "warning": "This Demon's ability relies on killing",
           "good": "Extra evil players increase the chance of a miss"
         },
         "imp": {
-          "warning": "All this Demon's ability relies on killing",
+          "warning": "This Demon's ability relies on killing",
           "good": "Imp can fake dying in the night"
         },
         "legion": {
           "conflict": "Lycanthrope in Legion game is a big liability"
         },
         "leviathan": {
-          "warning": "Killing roles in a Leviathan game are confirmed if alone. Leviathan can't bluff Lycanthrope. Faux Paw registers as evil and doesn't count for executions"
+          "warning": "Killing roles in a Leviathan game are confirmed if alone. Leviathan can't bluff Lycanthrope. Faux paw registers as evil and doesn't count for executions"
         },
         "lleech": {
           "warning": "Can kill the Lleech host. Easily detectable if droisoned"
@@ -12765,27 +12860,27 @@
           "good": "Ojo can't be sure if a Lycanthrope is in-play, but can kill it as soon as it misses"
         },
         "po": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "pukka": {
           "good": "Pukka doesn't need to kill the Lycanthrope to get rid of them",
-          "warning": "Pukka is hard to bluff Lycanthrope with. Poisoning the Lycanthrope disables the Faux Paw"
+          "warning": "Pukka is hard to bluff Lycanthrope with. Poisoning the Lycanthrope disables the faux paw"
         },
         "riot": {
           "good": "Alignment checkers are more powerful in a Riot game",
           "warning": "Lycanthrope kills are confirmed without other sources of kills (other Demons count)"
         },
         "shabaloth": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "vigormortis": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "vortox": {
           "warning": "This role's info is immune to Vortox"
         },
         "yaggababble": {
-          "warning": "All this Demon's ability relies on killing, but it allows it to hide its phrase"
+          "warning": "This Demon's ability relies on killing, but it allows it to hide its phrase"
         },
         "zombuul": {
           "good": "Can hide Zombuul sleeps. Zombuul can fake dying in the night"
@@ -12794,25 +12889,25 @@
           "warning": "Loud double"
         },
         "beggar": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "bishop": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "gnome": {
-          "info": "An evil Gnome can get the Faux Paw in a Lycanthrope game (don't)"
+          "info": "An evil Gnome can get the faux paw in a Lycanthrope game (don't)"
         },
         "scapegoat": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "angel": {
           "info": "Lycanthrope is a reason for a good player to be the most reponsible cause of death at night"
         },
         "doomsayer": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "duchess": {
-          "good": "Faux Paw registers as evil"
+          "good": "Faux paw registers as evil"
         },
         "fibbin": {
           "warning": "Mechanical info is immune to Fibbin"
@@ -12827,7 +12922,7 @@
           "warning": "Multiple copies of this role can interfere with each other, and are very hard to deal with for evil"
         },
         "stormcatcher": {
-          "good": "Faux Paw can be Storm Caught (or potentially learn the stormcaught player). Evil can try and discreetly guide a stormcaught Lycanthrope"
+          "good": "Faux paw can be Storm Caught (or potentially learn the stormcaught player). Evil can try and discreetly guide a stormcaught Lycanthrope"
         },
         "tor": {
           "good": "Can be confused for the Demon. Can help good players learn who they are"
@@ -13336,6 +13431,9 @@
       ],
       "groups": [],
       "matchups": {
+        "mayor": {
+          "good": "Can detect Mayor bounces"
+        },
         "minstrel": {
           "good": "Mathematician can detect day characters that were drunk the day afterward"
         },
@@ -13465,7 +13563,8 @@
           "good": "Philosopher can guarantee this role is active"
         },
         "pixie": {
-          "great": "Good synergy (Confirming this role is in-play is good)"
+          "great": "Good synergy (Confirming this role is in-play is good)",
+          "warning": "Mayor tends to not die, and the Pixie has no tell when it gets the ability"
         },
         "ravenkeeper": {
           "good": "Confirming this role is in-play is good. Trap characters can receive a Mayor bounce"
@@ -13473,8 +13572,17 @@
         "sage": {
           "good": "Trap characters can receive a Mayor bounce"
         },
+        "sailor": {
+          "warning": "If Sailor picks the Mayor on final day, there's no way to tell which is drunk"
+        },
+        "soldier": {
+          "warning": "Confirmed good Soldier can be tough for the evil team"
+        },
         "steward": {
           "good": "Steward can allow trust of hidden Townsfolk"
+        },
+        "tealady": {
+          "warning": "Confirmed good and protected Mayor can be tough for the evil team"
         },
         "villageidiot": {
           "good": "Village Idiot can help confirm this character"
@@ -13498,13 +13606,16 @@
           "warning": "Multiple night deaths can cause the 3-player day to be skipped"
         },
         "snitch": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
+        },
+        "sweetheart": {
+          "warning": "Hard to tell if Sweetheart runk"
         },
         "assassin": {
-          "warning": "Assassin ignores protection. Multiple night deaths can cause the 3-player day to be skipped"
+          "warning": "Can avoid the Mayor bounce. Multiple night deaths can cause the 3-player day to be skipped"
         },
         "boffin": {
-          "good": "Good Boffin ability"
+          "good": "Good Boffin ability. Knowing this character isn't in-play is powerful for evil"
         },
         "boomdandy": {
           "warning": "Boomdandy explosion ignores the Mayor"
@@ -13524,24 +13635,35 @@
         "marionette": {
           "good": "This role doesn't have many ways to know if they're the Marionette"
         },
+        "mastermind": {
+          "warning": "Mayor counters Mastermind on the last day"
+        },
         "mezepheles": {
           "good": "Evil Mayor can win with evil team"
         },
         "organgrinder": {
-          "warning": "Organ Grinder makes it hard for the Mayor to guarantee their ability works",
-          "good": "Organ Grinder is almost guaranteed to make it to final 3, and Mayor can really help the good team in this case"
+          "warning": "Organ Grinder makes it hard for the Mayor to guarantee their ability works"
         },
         "pithag": {
-          "warning": "Pit-Hag can disable Mayor by chaging its character"
+          "warning": "Pit-Hag can disable Mayor by changing its character"
         },
         "psychopath": {
-          "warning": "Psychopath ignores the Mayor's protection"
+          "warning": "Can avoid the Mayor bounce"
+        },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "summoner": {
+          "good": "Good target for the Summoner"
         },
         "vizier": {
           "warning": "Town will require very good coordination for a Mayor win in a Vizier game"
         },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "witch": {
-          "warning": "Witch ignores the Mayor's protection"
+          "warning": "Can avoid the Mayor bounce"
         },
         "wizard": {
           "good": "Mayor can help the good team win even with a powerful wish"
@@ -13550,7 +13672,7 @@
           "warning": "Mayor choice might not matter, and can be confirmed through non-picked death. Can also bounce twice (probably don't)"
         },
         "kazali": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "legion": {
           "warning": "Legion targets are chosen by the ST",
@@ -13561,10 +13683,13 @@
           "good": "Great bluff for Minions"
         },
         "lordoftyphon": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
+        },
+        "nodashii": {
+          "warning": "No Dashii makes Mayor win a lot harder to trust"
         },
         "ojo": {
-          "warning": "This role will never be killed unless the Ojo misses",
+          "warning": "This role will never be killed unless the Ojo misses. Multiple night deaths can cause the 3-player day to be skipped",
           "good": "Mayor can explain \"random\" kills"
         },
         "po": {
@@ -13578,6 +13703,9 @@
         },
         "shabaloth": {
           "warning": "Multiple night deaths can cause the 3-player day to be skipped"
+        },
+        "vortox": {
+          "good": "Mayor win ignores Vortox"
         },
         "yaggababble": {
           "warning": "Yaggababble targets are chosen by the ST"
@@ -13594,14 +13722,41 @@
         "beggar": {
           "warning": "This role is more unlikely to die and so can't give its vote token"
         },
+        "bishop": {
+          "warning": "Mayor win will be harder to coordinate with the ST nominating (although it's unlikely the Bishop won't be exiled by then)"
+        },
+        "bonecollector": {
+          "warning": "Bone Collector is useless on this role unless it's specifically on final day"
+        },
         "bureaucrat": {
           "warning": "More votes means less likely to not get any executions"
+        },
+        "gangster": {
+          "warning": "Can avoid the Mayor bounce"
+        },
+        "gnome": {
+          "warning": "Can avoid the Mayor bounce"
+        },
+        "gunslinger": {
+          "warning": "Can avoid the Mayor bounce"
+        },
+        "angel": {
+          "warning": "Angel doesn't work with ST-controlled deaths"
         },
         "doomsayer": {
           "warning": "Mayor can't protect from day death"
         },
+        "duchess": {
+          "good": "Mayor benefits from confirmation"
+        },
+        "ferryman": {
+          "warning": "Mayor win with every dead vote can be harder"
+        },
         "godofug": {
           "warning": "More votes means less likely to not get any executions"
+        },
+        "pope": {
+          "warning": "Multiple copies of this role is very powerful"
         },
         "stormcatcher": {
           "warning": "A stormcaught Mayor will never bounce"
@@ -13793,10 +13948,14 @@
         "recluse": {
           "good": "Recluse can appear as a�Minion"
         },
+        "snitch": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "zealot": {
           "good": "Helps with execution"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is useless to the Demon"
         },
         "boomdandy": {
@@ -13824,7 +13983,7 @@
           "conflict": "Psychopath almost can't be executed"
         },
         "spy": {
-          "good": "Spy can Hide from Minstrel"
+          "good": "Spy can hide from Minstrel. Knowing this character isn't in-play is powerful for evil"
         },
         "summoner": {
           "warning": "Minstrel can drunk the Summoner on night 3"
@@ -13832,11 +13991,20 @@
         "vizier": {
           "conflict": "Vizier can't be executed and should not be disabled"
         },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "leviathan": {
           "conflict": "Can cause a 6th day"
         },
         "lilmonsta": {
           "warning": "Lil Monsta is immune to Minstrel drunkeness"
+        },
+        "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "vigormortis": {
           "warning": "If the Vigormortis is droisoned, the Minions lose their ability, If the Vigormortis kills their Minions, the Minstrel can't be activated"
@@ -13948,7 +14116,8 @@
           "warning": "Non-Demon kills ignore Monk. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "boffin": {
-          "warning": "This ability is useless to the Demon (but could be interesting with certain Demons)"
+          "good": "Knowing this character isn't in-play is powerful for evil",
+          "warning": "This ability is useless to the Demon"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -13963,6 +14132,12 @@
           "warning": "Varying amount of night deaths makes Pit-Hag Demon changes harder to track",
           "good": "If Pit-Hag makes a new Demon, the protected player can die"
         },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "xaan": {
           "good": "Monk target death (with no other sources of extra death) can hint at Xaan night"
         },
@@ -13975,6 +14150,9 @@
         "imp": {
           "good": "Monk can prevent an Imp starpass"
         },
+        "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "lilmonsta": {
           "good": "Monk can also protect from the Minion that is babysitting",
           "warning": "LM targets are chosen by the ST"
@@ -13982,6 +14160,9 @@
         "lleech": {
           "good": "Monk can protect from this Demon's poison",
           "warning": "Protecting the host might make them impossible to find"
+        },
+        "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "nodashii": {
           "good": "Monk can protect from this Demon's poison"
@@ -14087,9 +14268,6 @@
         },
         "baron": {
           "good": "Baron works better with hidden Outsiders"
-        },
-        "boffin": {
-          "good": "Interesting if the Demon can safely die"
         },
         "cerenovus": {
           "warning": "This role must claim itself even if mad. Dead players mad as Moonchild is hard to convincingly pull off"
@@ -14692,6 +14870,9 @@
         },
         "boomdandy": {
           "good": "Noble ping on a Boomdandy can increase its chances of triggering"
+        },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "warning": "In 1 Minion games with Evil Twin, Noble is effectively a Steward"
@@ -15661,7 +15842,8 @@
           "warning": "Pixie seeing hidden characters is complicated"
         },
         "princess": {
-          "good": "Duplication is powerful for this role"
+          "good": "Duplication is powerful for this role",
+          "warning": "Town must decide between the two Princess claim"
         },
         "ravenkeeper": {
           "warning": "Pixie seeing hidden characters is complicated"
@@ -15693,7 +15875,7 @@
           "good": "Can allow other roles to nominate the Virgin if they have a Pixie"
         },
         "washerwoman": {
-          "good": "Pixie can get a second round of first night info"
+          "good": "Pixie can get a second round of first night info. Pixie explains Washerwoman seeing two people that claim the same character"
         },
         "lunatic": {
           "good": "Good choice for a fake Minion (if they don't talk in private)"
@@ -15858,9 +16040,6 @@
         "baron": {
           "good": "Baron works better with hidden Outsiders",
           "warning": "Plague Doctor + base Baron can result in 4 extra Outsiders, requiring extras or duplicates in most scripts"
-        },
-        "boffin": {
-          "good": "Interesting if the Demon can safely die"
         },
         "boomdandy": {
           "good": "The PD created Boomdandy can be either alignmnt"
@@ -16332,20 +16511,20 @@
           "warning": "Killing Minions are dangerous with Poppy Grower"
         },
         "baron": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "boffin": {
           "warning": "This ability is useless to the Demon",
           "good": "A Boffin ability can help the Demon scout its Minions"
         },
         "boomdandy": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
         },
         "goblin": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "godfather": {
           "warning": "Killing Minions are dangerous with Poppy Grower"
@@ -16354,13 +16533,13 @@
           "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "mastermind": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "mezepheles": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "organgrinder": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "pithag": {
           "warning": "Pit-Hag becomes very risky if it doesn't know the evil team"
@@ -16372,7 +16551,7 @@
           "warning": "Killing Minions are dangerous with Poppy Grower"
         },
         "scarletwoman": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "spy": {
           "conflict": "Spy doesn't see the Grimoire as long as the PG lives"
@@ -16418,11 +16597,11 @@
           "conflict": "Pukka disables the PG death ability (can be fixed with the optional rule)"
         },
         "shabaloth": {
-          "good": "This role doesn't need to know his evil team to work",
+          "good": "This role doesn't need to know their evil team to work",
           "warning": "No use being resurrected"
         },
         "vigormortis": {
-          "good": "This role doesn't need to know his evil team to work"
+          "good": "This role doesn't need to know their evil team to work"
         },
         "vortox": {
           "conflict": "When the PG dies, Vortox makes the evil team information false"
@@ -16696,8 +16875,8 @@
           "warning": "Boomdandy discourages executions"
         },
         "cerenovus": {
-          "good": "Making the succesful D1 executee mad as the Princess is interesting",
-          "warning": "While Cerenovus-mad, this role can't use its ability easily. Cerenovus-mad players can break madness if Princess nominated"
+          "good": "Making the successful D1 executor mad as the Princess is interesting",
+          "warning": "While Cerenovus-mad, this role can't use its ability easily. If multiple people claim Pricness, town must decide which to trust. Cerenovus-mad players can break madness if Princess nominated"
         },
         "devilsadvocate": {
           "warning": "Surviving execution still triggers the Princess"
@@ -16751,10 +16930,10 @@
           "warning": "Al-Had not killing confirms Princess if no other sources of protection are present"
         },
         "fanggu": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "imp": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "kazali": {
           "good": "This Demon's main ability is not disabled by the Princess"
@@ -16776,7 +16955,7 @@
           "warning": "Confirmed characters make No Dashii poison easier to track"
         },
         "ojo": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "po": {
           "good": "Po can charge to fake a Princess",
@@ -16786,16 +16965,16 @@
           "conflict": "Princess is useless with Riot"
         },
         "shabaloth": {
-          "warning": "All this Demon's ability relies on killing. Princess can prevent multiple deaths from this demon. When resurrected, this gets another use of its ability"
+          "warning": "This Demon's ability relies on killing. Princess can prevent multiple deaths from this demon. When resurrected, this gets another use of its ability"
         },
         "vigormortis": {
-          "warning": "All this Demon's ability relies on killing"
+          "warning": "This Demon's ability relies on killing"
         },
         "vortox": {
           "good": "This Demon's main ability is not disabled by the Princess. Vortox and Princess both encourage executions"
         },
         "yaggababble": {
-          "warning": "All this Demon's ability relies on killing (Princess can prevent multiple death from this demon)"
+          "warning": "This Demon's ability relies on killing (Princess can prevent multiple death from this demon)"
         },
         "apprentice": {
           "good": "Good ability to give to an Apprentice"
@@ -16916,10 +17095,11 @@
           "good": "Puzzlemaster benefits from long games"
         },
         "snitch": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "boffin": {
-          "good": "Good Boffin ability"
+          "good": "Good Boffin ability. Knowing this character isn't in-play is powerful for evil"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -16934,13 +17114,16 @@
           "good": "Psychopath can kill the newly resurrected player"
         },
         "spy": {
-          "good": "Spy can appear as a Townsfolk"
+          "good": "Spy can appear as a Townsfolk. Knowing this character isn't in-play is powerful for evil"
         },
         "summoner": {
           "good": "Professor can safe the future Demon (although unlikely)"
         },
         "vizier": {
           "good": "This role can bait the Vizier into executing it (once its ability is used)"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "wizard": {
           "good": "Wizard could fake this role"
@@ -16949,12 +17132,14 @@
           "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
         },
         "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "lilmonsta": {
           "warning": "Hard role to bluff for Minions"
         },
         "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "nodashii": {
@@ -17440,10 +17625,13 @@
           "good": "Multiple night deaths are good for trap characters"
         },
         "boffin": {
-          "good": "Interesting if the Demon can safely die"
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "boomdandy": {
           "warning": "Found Boomdandy is useless"
+        },
+        "cerenovus": {
+          "good": "Making players mad as trap characters when they die is interesting"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin. Ravenkeeper can resolve a Twin pair"
@@ -17468,14 +17656,14 @@
         },
         "spy": {
           "warning": "Seeing the Grimoire disables trap characters",
-          "good": "Spy can appear as any Townsfolk or Outsider and simulate this role"
+          "good": "Spy can appear as any Townsfolk or Outsider and simulate this role. Knowing this character isn't in-play is powerful for evil"
         },
         "summoner": {
           "good": "Ravenkeeper can safe the future Demon (although unlikely)"
         },
         "widow": {
           "warning": "Seeing the Grimoire disables trap characters",
-          "good": "Widow can simulate this role"
+          "good": "Widow can simulate this role. Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "warning": "Dying during the day doesn't help trap characters"
@@ -17499,6 +17687,7 @@
           "good": "This Demon can die safely in the night"
         },
         "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "legion": {
@@ -17508,19 +17697,20 @@
           "warning": "LM targets are chosen by the ST. Hard role to bluff for Minions"
         },
         "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Info on the Minions can be powerful in LoT game. Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "ojo": {
           "warning": "This role will never be killed unless the Ojo misses"
         },
         "po": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "pukka": {
           "good": "Pukka disables trap characters"
         },
         "shabaloth": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "vigormortis": {
           "good": "Minions can bluff this character"
@@ -17530,7 +17720,7 @@
         },
         "yaggababble": {
           "warning": "Yaggababble targets are chosen by the ST",
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "zombuul": {
           "good": "This Demon can die safely in the night"
@@ -17899,7 +18089,11 @@
           "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is useless to the Demon"
+        },
+        "cerenovus": {
+          "good": "Making players mad as trap characters when they die is interesting"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -17926,9 +18120,11 @@
           "good": "With a Scarlet Woman, the Demon can fake dying in the night"
         },
         "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Seeing the Grimoire disables trap characters"
         },
         "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Seeing the Grimoire disables trap characters"
         },
         "witch": {
@@ -17950,6 +18146,7 @@
           "good": "This Demon can die safely in the night"
         },
         "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "legion": {
@@ -17963,19 +18160,20 @@
           "warning": "Knowing who the Demon is isn't very useful for Lleech"
         },
         "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "ojo": {
           "warning": "This role will never be killed unless the Ojo misses"
         },
         "po": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "pukka": {
           "good": "Pukka disables trap characters"
         },
         "shabaloth": {
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "vigormortis": {
           "good": "Minions can bluff this character"
@@ -17985,7 +18183,7 @@
         },
         "yaggababble": {
           "warning": "Yaggababble targets are chosen by the ST",
-          "good": "Trap characters with multi kill Demons work well"
+          "good": "Trap characters with multi-kill Demons work well"
         },
         "zombuul": {
           "good": "This Demon can die safely in the night. Sage can see dead players"
@@ -18141,7 +18339,7 @@
           "good": "Helps with execution"
         },
         "boffin": {
-          "good": "Good Boffin ability (self-drunking only affects the Sailor ability)"
+          "good": "Good Boffin ability (self-drunking only affects the Sailor ability). Knowing this character isn't in-play is powerful for evil"
         },
         "boomdandy": {
           "warning": "This role can survive a Boomdandy explosion",
@@ -18165,14 +18363,23 @@
         "psychopath": {
           "good": "This role can hide a Psychopath kill"
         },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "vizier": {
           "good": "This role can bait the Vizier into executing it"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "wraith": {
           "good": "This role can survive the Wraith's optional rule"
         },
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
+        },
+        "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "leviathan": {
           "warning": "\"Can't die\" only matters for executions in a Vortox game (if there are no killing Minions), and still counts for the two executions"
@@ -18182,6 +18389,9 @@
         },
         "lleech": {
           "warning": "Sailor might want to be executed"
+        },
+        "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "pukka": {
           "good": "Pukka disables self protected characters"
@@ -18958,6 +19168,9 @@
         "boffin": {
           "warning": "This ability is useless to the Demon"
         },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
+        },
         "eviltwin": {
           "good": "Good choice for a Twin",
           "warning": "Outed evil players can make a lot of good players confirmed"
@@ -19126,6 +19339,7 @@
           "good": "Tinker can fake a kill"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is near-useless to the Demon (but interesting with a Heretic)"
         },
         "cerenovus": {
@@ -19149,14 +19363,20 @@
         "scarletwoman": {
           "good": "Scarlet Woman can catch a Demon that was shot"
         },
+        "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "summoner": {
           "warning": "Slayer is useless on the first two days"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "alhadikhia": {
           "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
         },
         "kazali": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "legion": {
           "good": "Legion is much more susceptible to Slayer shots"
@@ -19170,7 +19390,7 @@
         },
         "lordoftyphon": {
           "warning": "Slayer will have an easier job if LoT is confirmed",
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "riot": {
           "good": "Riot is more susceptible to Slayer shots on day 3"
@@ -19290,6 +19510,9 @@
         },
         "boffin": {
           "warning": "This ability is useless to the Demon"
+        },
+        "cerenovus": {
+          "warning": "Real Snake Charmers are unlikely to come out early"
         },
         "eviltwin": {
           "warning": "Snake Charmer with an evil Twin can cause a twin change"
@@ -19600,6 +19823,7 @@
           "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is useless to the Demon"
         },
         "cerenovus": {
@@ -19625,9 +19849,14 @@
           "warning": "Dying during the day doesn't help trap characters"
         },
         "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Seeing the Grimoire disables trap characters"
         },
+        "summoner": {
+          "good": "Good target for the Summoner"
+        },
         "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Seeing the Grimoire disables trap characters"
         },
         "witch": {
@@ -19639,6 +19868,9 @@
         "alhadikhia": {
           "warning": "Protected players choices don't matter"
         },
+        "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "legion": {
           "warning": "Legion targets are chosen by the ST"
         },
@@ -19648,6 +19880,9 @@
         },
         "lleech": {
           "warning": "Soldier is immune to Lleech poison, making it hard to detect"
+        },
+        "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "nodashii": {
           "good": "Soldier is immue to No Dashii poison"
@@ -19920,6 +20155,9 @@
         "boffin": {
           "warning": "This ability is useless to the Demon"
         },
+        "cerenovus": {
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
+        },
         "eviltwin": {
           "warning": "Steward can solve Twin pair immediately"
         },
@@ -20176,9 +20414,6 @@
         "baron": {
           "good": "Baron works better with hidden Outsiders"
         },
-        "boffin": {
-          "good": "Interesting if the Demon can safely die"
-        },
         "godfather": {
           "good": "Extra deaths work well with this Outsider"
         },
@@ -20351,7 +20586,7 @@
           "good": "Tea Lady can protect this Outsider"
         },
         "damsel": {
-          "warning": "Tea Lady can protect this Outsider, but it generally wants to di"
+          "warning": "Tea Lady can protect this Outsider, but it generally wants to die"
         },
         "golem": {
           "good": "This role can make its neighbors appear as the Demon if Golem nominated"
@@ -20405,6 +20640,9 @@
         "assassin": {
           "good": "Assassin ignores protection"
         },
+        "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "boomdandy": {
           "warning": "This role can make other players survive a Boomdandy explosion"
         },
@@ -20434,13 +20672,16 @@
           "good": "This role can hide a Psychopath kill"
         },
         "spy": {
-          "good": "Spy can appear as good"
+          "good": "Spy can appear as good. Knowing this character isn't in-play is powerful for evil"
         },
         "summoner": {
           "good": "Tea Lady can safe the future Demon (although unlikely)"
         },
         "vizier": {
           "good": "This role can bait the Vizier into executing one of its neighbors"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "wraith": {
           "good": "This role can make someone else survive the Wraith's optional rule"
@@ -20451,6 +20692,9 @@
         "fanggu": {
           "good": "If an Outsider or the Fang Gu is protected, the Fang Gu can't jump"
         },
+        "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
+        },
         "leviathan": {
           "warning": "\"Can't die\" only matters for executions in a Vortox game (if there are no killing Minions), and still counts for the two executions"
         },
@@ -20458,7 +20702,7 @@
           "warning": "LM targets are chosen by the ST"
         },
         "lordoftyphon": {
-          "good": "Good players don't neighbor the Demon in LoT games. Tea Lady can help narrow down the LoT line"
+          "good": "Good players don't neighbor the Demon in LoT games. Tea Lady can help narrow down the LoT line. Knowing this character isn't in-play is powerful for evil"
         },
         "nodashii": {
           "warning": "If the Tea Lady directly neighbors the No Dashii (or a Minion in between), the poison has no effect"
@@ -20797,7 +21041,7 @@
         },
         "snitch": {
           "warning": "Having bluffs makes Minions harder to narrow down",
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "tinker": {
           "warning": "Town Crier benefits from long games"
@@ -20806,6 +21050,7 @@
           "warning": "Town Crier benefits from long games"
         },
         "boffin": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "This ability is useless to the Demon"
         },
         "boomdandy": {
@@ -20832,10 +21077,13 @@
           "conflict": "Outed Minions can poison Town Crier info"
         },
         "spy": {
-          "good": "Spy can hide from Town Crier"
+          "good": "Spy can hide from Town Crier. Knowing this character isn't in-play is powerful for evil"
         },
         "vizier": {
           "conflict": "Outed Minions can poison Town Crier info"
+        },
+        "widow": {
+          "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "warning": "Town Crier benefits from long games",
@@ -20848,7 +21096,7 @@
           "warning": "Town Crier benefits from long games"
         },
         "kazali": {
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "legion": {
           "warning": "Town Crier can figure out Legion easily"
@@ -20861,7 +21109,7 @@
         },
         "lordoftyphon": {
           "warning": "Info on the Minions can be powerful in LoT game",
-          "good": "Great bluff for Minions"
+          "good": "Great bluff for Minions. Knowing this character isn't in-play is powerful for evil"
         },
         "po": {
           "warning": "Town Crier benefits from long games"
@@ -20986,6 +21234,7 @@
           "warning": "Saint can't be executed"
         },
         "snitch": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for certain Minions"
         },
         "sweetheart": {
@@ -21001,7 +21250,7 @@
           "warning": "Undertaker benefits from long games"
         },
         "boffin": {
-          "good": "Interesting Boffin ability"
+          "good": "Interesting Boffin ability. Knowing this character isn't in-play is powerful for evil"
         },
         "boomdandy": {
           "good": "Encouraging nominations works well with this Minion",
@@ -21044,13 +21293,13 @@
           "good": "Allows the Undertaker to realistically see a Demon"
         },
         "spy": {
-          "good": "Spy can appear as any good role. Spy can simulate this role"
+          "good": "Spy can appear as any good role. Spy can simulate this role. Knowing this character isn't in-play is powerful for evil"
         },
         "vizier": {
           "great": "Interesting synergy"
         },
         "widow": {
-          "good": "Widow can simulate this role"
+          "good": "Widow can simulate this role. Knowing this character isn't in-play is powerful for evil"
         },
         "witch": {
           "warning": "Other ways of dying during the day doesn't help the Undertaker. Undertaker benefits from long games",
@@ -21066,6 +21315,7 @@
           "warning": "Undertaker benefits from long games"
         },
         "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for certain Minions"
         },
         "legion": {
@@ -21081,6 +21331,7 @@
           "warning": "This role can make executions survivable. Undertaker encourages executions of a wider type of players"
         },
         "lordoftyphon": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Info on the Minions can be powerful in LoT game. Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "ojo": {
@@ -21489,6 +21740,7 @@
           "good": "Virgin is confirmed as good"
         },
         "snitch": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "tinker": {
@@ -21501,7 +21753,7 @@
           "warning": "In Teensy with a Baron, a Virgin might have to nominate themself to work"
         },
         "boffin": {
-          "good": "Good Boffin ability"
+          "good": "Good Boffin ability. Knowing this character isn't in-play is powerful for evil"
         },
         "boomdandy": {
           "warning": "Instant good execution prevents this role from triggering"
@@ -21541,6 +21793,7 @@
           "warning": "Outed Minions can nominate the Virgin before anyone else if it's public"
         },
         "spy": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "great": "Spy can appear as Townsfolk"
         },
         "summoner": {
@@ -21550,7 +21803,7 @@
           "warning": "Outed Minions can nominate the Virgin before anyone else if it's public"
         },
         "widow": {
-          "good": "Good target for Widow poison",
+          "good": "Good target for Widow poison. Knowing this character isn't in-play is powerful for evil",
           "warning": "Confirmable characters shouldn't receive the ping"
         },
         "wizard": {
@@ -21563,6 +21816,7 @@
           "good": "Used once per game roles will always choose death. Dead ones are more likely to choose live (and potentially seem like Minions)"
         },
         "kazali": {
+          "good": "Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions"
         },
         "legion": {
@@ -21579,7 +21833,7 @@
           "good": "Lleech can nominate the Virgin without too much risk"
         },
         "lordoftyphon": {
-          "good": "Good players don't neighbor the Demon in LoT games",
+          "good": "Good players don't neighbor the Demon in LoT games. Knowing this character isn't in-play is powerful for evil",
           "warning": "Hard role to bluff for Minions, but LoT can more easily share bluffs"
         },
         "nodashii": {
@@ -21885,7 +22139,8 @@
           "good": "Interesting Boffin ability"
         },
         "cerenovus": {
-          "good": "Cerenovus can hide the WW target"
+          "good": "Cerenovus can hide the WW target",
+          "warning": "First night info is very easy to be mad as, but also looks suspicious if it happens late"
         },
         "eviltwin": {
           "warning": "If WW sees one of the twins, it must see the other (not a good idea). WW twin will have to invent targets"
