@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T13:06:50.329Z",
+    "generated_at": "2026-08-06T02:04:24.177Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -892,7 +892,7 @@
           "good": "Artist question can help guide Amnesiac"
         },
         "atheist": {
-          "warning": "Amnesiac raises the bar for weird stuff happening if in the game. Amensiac with an Atheist-like ability is a bad idea"
+          "warning": "Amnesiac raises the bar for weird stuff happening if in the game. Amnesiac with an Atheist-like ability is a bad idea"
         },
         "bountyhunter": {
           "good": "Evil Amnesiac can get a Minion-like ability"
@@ -2475,7 +2475,8 @@
           "warning": "Hidden Outsiders make Xaan hard to solve for"
         },
         "alhadikhia": {
-          "good": "Extra deaths work well with this Outsider"
+          "good": "Extra deaths work well with this Outsider",
+          "warning": "Al-Had may not know who died to perform a Barber \"resurrection\""
         },
         "fanggu": {
           "warning": "Fang Gu jumping to this Outsider is kind of a loss"
@@ -2861,7 +2862,7 @@
           "good": "Allows the Boffin to give death abilities, and potentially duplicates it"
         },
         "spy": {
-          "warning": "Spy can change the Boffed character by registering as it"
+          "info": "Spy can change the Boffed character by registering as it"
         },
         "summoner": {
           "warning": "Boffin is useless until a Demon is summoned"
@@ -5608,8 +5609,7 @@
           "good": "Godfather can trigger off an Outsider that doesn't know it"
         },
         "marionette": {
-          "good": "Drunk can easily replace an Outsider Marionette",
-          "warning": "There is little reason to make a player both the Drunk & Marionette besides messing with outsider count"
+          "good": "Drunk can easily replace an Outsider Marionette"
         },
         "mezepheles": {
           "warning": "Usefulness as evil dependent on what role they saw"
@@ -13480,7 +13480,7 @@
           "good": "Mathematician can help first night info"
         },
         "drunk": {
-          "good": "Good source of malfunction (with the optional jinx)"
+          "good": "Good source of malfunction"
         },
         "lunatic": {
           "good": "Good source of malfunction"
@@ -13492,7 +13492,7 @@
           "good": "Can help figure out the twins if one of them would be a malfunction. Causes a malfunction if it prevents another good win ability"
         },
         "marionette": {
-          "good": "Good source of malfunction (if using the optional jinx)"
+          "good": "Good source of malfunction"
         },
         "spy": {
           "good": "Good source of malfunction"
@@ -15106,6 +15106,9 @@
         }
       ],
       "groups": [
+        {
+          "name": "Explains evil night deaths (ignoring extra evil)"
+        },
         {
           "name": "Explains night deaths"
         },
@@ -22676,6 +22679,9 @@
         }
       ],
       "groups": [
+        {
+          "name": "Explains evil night deaths (ignoring extra evil)"
+        },
         {
           "name": "Explains night deaths"
         },
