@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-06T02:04:24.177Z",
+    "generated_at": "2026-08-17T00:56:41.989Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -800,7 +800,7 @@
           "good": "Alsaahir benefits from longer games"
         },
         "lilmonsta": {
-          "warning": "Demon can move"
+          "warning": "Demon can move. Alsaahir must guess one of the Minions as the Demon if it's Lil Monsta, which isn't the case for other Demons"
         },
         "lleech": {
           "warning": "Lleech can be an outed Demon"
@@ -13215,6 +13215,7 @@
           "good": "Legion can make it easier to make a good player believe they're a Marionette"
         },
         "lilmonsta": {
+          "info": "Marionette doesn't learn they're the Marionette if they hold Lil Monsta, nor do they wake with the other Minions",
           "good": "A dead Minion has no reason to hide to a Marionette. Minions choose where the Marionette can be"
         },
         "lleech": {
