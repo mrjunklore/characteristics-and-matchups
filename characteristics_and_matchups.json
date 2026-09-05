@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-17T00:56:41.989Z",
+    "generated_at": "2026-09-05T09:51:09.240Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -290,8 +290,41 @@
       ],
       "groups": [],
       "matchups": {
+        "fanggu": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "imp": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "kazali": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "lilmonsta": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "lleech": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "lordoftyphon": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "nodashii": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
         "po": {
           "good": "Al-had hiding on night 2 can fake a Po charge"
+        },
+        "pukka": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "vigormortis": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "vortox": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
+        },
+        "zombuul": {
+          "warning": "Al-Had will significantly change the game flow compared to a Demon that kills once per night or less"
         },
         "barista": {
           "warning": "Loud double"
@@ -18190,7 +18223,7 @@
           "good": "Trap characters with multi-kill Demons work well"
         },
         "zombuul": {
-          "good": "This Demon can die safely in the night. Sage can see dead players"
+          "good": "This Demon can die safely in the night. Dead players shown to Sage might be the Demon"
         },
         "apprentice": {
           "warning": "Bad Apprentice ability"
