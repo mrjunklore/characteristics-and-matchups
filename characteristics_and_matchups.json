@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-05T09:51:09.240Z",
+    "generated_at": "2026-09-12T09:57:09.810Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -462,9 +462,6 @@
         "cerenovus": {
           "warning": "Alch-Cerenovus is pretty weak"
         },
-        "eviltwin": {
-          "good": "Evil Twin can prevent Alchemist from winning through certain abilities"
-        },
         "godfather": {
           "good": "Alch-Godfather can confirm executed Outsiders",
           "warning": "Alchemist with a killing is powerful"
@@ -641,6 +638,9 @@
         },
         "magician": {
           "warning": "Alsaahir can accidentally out the Magician"
+        },
+        "mathematician": {
+          "good": "Mathematician can detect if a droisoned Alsaahir would've been correct"
         },
         "minstrel": {
           "good": "Minstrel can help guide Alsaahir"
@@ -1123,7 +1123,7 @@
           "good": "This role benefits from the extra survivability"
         },
         "tor": {
-          "warning": "This role immediately knows who they are if they go ask the ST"
+          "warning": "This role immediately knows who they are if they go ask the ST, and incentivizes everyone to go to the ST on day 1 which can be burdensome"
         },
         "ventriloquist": {
           "good": "Amnesiac benefits from longer games"
@@ -1690,6 +1690,9 @@
         "harlot": {
           "warning": "Confirming the Atheist is not a good idea"
         },
+        "judge": {
+          "conflict": "If the Judge can force execution on the ST, Evil Judge can do it to win"
+        },
         "angel": {
           "warning": "Angel doesn't work with ST-controlled deaths. Not beginner-friendly"
         },
@@ -2186,7 +2189,8 @@
           "warning": "Non-Demon kills ignore this role. Needs more than one extra killing source, or a droison source to not be confirmed"
         },
         "boffin": {
-          "good": "Knowing this character isn't in-play is powerful for evil"
+          "good": "Knowing this character isn't in-play is powerful for evil",
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "boomdandy": {
           "good": "Helps with execution"
@@ -2449,6 +2453,9 @@
         },
         "baron": {
           "good": "Baron works better with hidden Outsiders"
+        },
+        "boffin": {
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "boomdandy": {
           "good": "Moving Boomdandy around is interesting"
@@ -2763,7 +2770,7 @@
           "good": "This role gives good opportunities for phrases"
         },
         "apprentice": {
-          "warning": "Apprentice can't have this ability if they joined late"
+          "warning": "Apprentice can't have this ability if they joined late (also RAW, it's technically not present during setup)"
         },
         "barista": {
           "warning": "Cannot be doubled"
@@ -3550,6 +3557,9 @@
         "barista": {
           "warning": "Useless to double or sober"
         },
+        "bonecollector": {
+          "warning": "Bone Collector is kinda mean on this role"
+        },
         "gangster": {
           "warning": "This role is fine to die to this Traveller"
         },
@@ -3871,7 +3881,7 @@
       ],
       "matchups": {
         "devilsadvocate": {
-          "warning": "This role can make players survive Cerenovus madness break"
+          "warning": "This role can make other players survive Mutant madness breaks"
         },
         "eviltwin": {
           "good": "Can explain the Twins not claiming the same role"
@@ -4399,8 +4409,7 @@
           "good": "Knowing this character isn't in-play is powerful for evil"
         },
         "boffin": {
-          "good": "Knowing this character isn't in-play is powerful for evil",
-          "warning": "The Demon with a King's abilitty appears as the King to the Choirboy"
+          "good": "Knowing this character isn't in-play is powerful for evil. The Demon with a King's ability appears as the King to the Choirboy"
         },
         "cerenovus": {
           "good": "Making a player that just died in the night mad as the King can throw shade on a Choirboy that received nothing"
@@ -4716,6 +4725,9 @@
         },
         "lycanthrope": {
           "good": "Used once per game roles are good target for Lycanthrope kills"
+        },
+        "mathematician": {
+          "good": "Mathematician can detect a successful Courtier use"
         },
         "pacifist": {
           "good": "Confirming no evil execution survival role is active is good"
@@ -5119,6 +5131,9 @@
         "baron": {
           "good": "Baron works better with hidden Outsiders"
         },
+        "boffin": {
+          "warning": "This ability is useless to the Demon"
+        },
         "godfather": {
           "warning": "Godfather already knows if a Damsel is in-play or not"
         },
@@ -5181,6 +5196,9 @@
         },
         "yaggababble": {
           "good": "This role gives good opportunities for phrases"
+        },
+        "bonecollector": {
+          "good": "Bone Collector can force the Damsel to hide a day after dying"
         },
         "cacklejack": {
           "good": "Hidden Outsiders give a reason not to out a character change"
@@ -5305,30 +5323,63 @@
         }
       ],
       "matchups": {
+        "eviltwin": {
+          "good": "Good role to protect"
+        },
+        "fearmonger": {
+          "info": "DA protected Fearmonger target still triggers"
+        },
+        "goblin": {
+          "info": "DA protected Goblin still triggers"
+        },
         "godfather": {
           "warning": "Can prevent Outsiders dying during the day"
+        },
+        "organgrinder": {
+          "warning": "OG discourages nominations, making a DA trigger less likely"
+        },
+        "psychopath": {
+          "warning": "Not very useful to DA protect. DA target can die before being nominated"
+        },
+        "summoner": {
+          "good": "DA can protect the future Demon choice"
         },
         "vizier": {
           "good": "Vizier can help setup a play with DA"
         },
+        "witch": {
+          "warning": "Witch discourages nominations, making a DA trigger less likely. DA target can die before being nominated"
+        },
         "wraith": {
           "good": "Wraith can guide this role"
+        },
+        "xaan": {
+          "good": "Can help the Xaan night happen by protecting it"
+        },
+        "fanggu": {
+          "good": "DA can protect Outsiders for a jump"
+        },
+        "legion": {
+          "warning": "DA execution survival confirms no Legion"
         },
         "leviathan": {
           "info": "Protected executions still count fror Leviathan",
           "conflict": "DA protecting the Leviathan every other day can be very hard for good"
         },
         "lilmonsta": {
-          "warning": "DA can constantly protect the new babysitter"
+          "conflict": "DA can constantly protect the new babysitter until killed"
         },
         "lleech": {
           "good": "Lleech explains random good players being chosen by DA"
         },
-        "riot": {
-          "good": "An Alchemist with this ability is interesting for a Riot game"
+        "pukka": {
+          "good": "DA can protect the Pukka target to ensure their death in the night"
         },
         "vigormortis": {
           "great": "Good synergy"
+        },
+        "yaggababble": {
+          "info": "Can kill after a protected execution (don't)"
         },
         "zombuul": {
           "warning": "DA can't protect the Zombuul while it's dead",
@@ -5340,17 +5391,41 @@
         "beggar": {
           "warning": "Protection gives less use to the Beggar"
         },
+        "bishop": {
+          "good": "ST can nominate the DA protected player to make them more likely to be executed"
+        },
+        "bonecollector": {
+          "warning": "Bone Collector is near useless on this role (very likely to miss)"
+        },
         "bureaucrat": {
           "good": "Helps with execution"
         },
         "butcher": {
           "good": "Extra executions gives more chances for this role to do something"
         },
+        "gangster": {
+          "warning": "DA target can die before being nominated"
+        },
+        "gnome": {
+          "warning": "DA target can die before being nominated"
+        },
+        "gunslinger": {
+          "warning": "DA target can die before being nominated"
+        },
         "scapegoat": {
           "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
         },
+        "angel": {
+          "good": "Can prevent something bad happening if the target is executed"
+        },
+        "doomsayer": {
+          "warning": "DA target can die before being nominated"
+        },
         "revolutionary": {
           "good": "Partner can help this role out"
+        },
+        "hindu": {
+          "good": "Can prevent good players from becoming Travellers"
         },
         "knaves": {
           "good": "This role benefits from longer games"
@@ -5360,9 +5435,6 @@
         },
         "ventriloquist": {
           "good": "DA can obfuscate a Ventriloquist"
-        },
-        "zenomancer": {
-          "good": "Longer games are good for quests"
         }
       },
       "hermit": {}
@@ -5704,9 +5776,6 @@
         },
         "harlot": {
           "good": "Gives a reason to accept a Harlot visit to check if you are the Drunk (though risky if the Harlot is evil). Gives a good reason for difference of claims"
-        },
-        "fibbin": {
-          "good": "Can cause a Drunk to get good information"
         },
         "sentinel": {
           "warning": "Sentinel adding a Drunk is completely untraceable"
@@ -6249,7 +6318,8 @@
           "good": "Forcing executions works well with this role"
         },
         "yaggababble": {
-          "good": "This role gives good opportunities for phrases"
+          "good": "This role gives good opportunities for phrases",
+          "warning": "DA target can die before being nominated (ST should avoid that)"
         },
         "apprentice": {
           "warning": "Apprentice can't have this ability"
@@ -6280,7 +6350,7 @@
           "conflict": "Can kill this role without executions"
         },
         "judge": {
-          "warning": "Evil Judge can force an execution on the good twin"
+          "conflict": "Evil Judge can force an execution on the good twin"
         },
         "scapegoat": {
           "good": "Can delay a Twin execution"
@@ -6302,6 +6372,9 @@
         },
         "bigwig": {
           "warning": "Good twin doesn't fear this madness, which means it's likely the twins picked as Big Wigs but might not participate"
+        },
+        "gardener": {
+          "good": "Can put the Twins next to each other which can be fun socially"
         },
         "godofug": {
           "good": "Interesting dynamic with the twins"
@@ -6353,6 +6426,9 @@
         },
         "innkeeper": {
           "warning": "Beware too much protection without multiple sources of death"
+        },
+        "mathematician": {
+          "good": "Getting exorcised counts as a malfunction"
         },
         "monk": {
           "warning": "Beware too much protection without multiple sources of death"
@@ -6729,7 +6805,8 @@
           "good": "Multiple night deaths are good for trap characters"
         },
         "boffin": {
-          "good": "Knowing this character isn't in-play is powerful for evil"
+          "good": "Knowing this character isn't in-play is powerful for evil",
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "cerenovus": {
           "good": "Can help support a Farmer bluff if evil dies in the night. Making players mad as trap characters when they die is interesting"
@@ -6996,6 +7073,9 @@
         },
         "gnome": {
           "good": "Gnome can protect from a Fearmonger nomination"
+        },
+        "judge": {
+          "conflict": "Evil Judge can force an execution of the Fearmonger target"
         },
         "scapegoat": {
           "good": "Scapegoat can save a Fearmonger execution if town is in a really bad shape"
@@ -7605,6 +7685,7 @@
           "warning": "When resurrected, this gets another use of its ability"
         },
         "yaggababble": {
+          "info": "Can kill after a protected execution (don't)",
           "good": "Protection with multi-kill Demons works well",
           "warning": "Yaggababble targets are chosen by the ST"
         },
@@ -7926,7 +8007,7 @@
           "good": "This role can bluff Gambler"
         },
         "boffin": {
-          "warning": "This ability is useless to the Demon"
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "cerenovus": {
           "good": "Cerenovus can get the Gambler killed with false claims"
@@ -8246,6 +8327,9 @@
         "boomdandy": {
           "good": "General can gage who is a Boomdandy"
         },
+        "devilsadvocate": {
+          "good": "General can learn when the Demon is protected or can point to the alignment of someone saved"
+        },
         "eviltwin": {
           "good": "General can gauge which twin is the evil one, and if the Demon has died while the ET is active"
         },
@@ -8481,7 +8565,7 @@
           "warning": "Can kill this role without executions"
         },
         "judge": {
-          "warning": "Evil Judge can force an execution of a Goblin"
+          "conflict": "Evil Judge can force an execution of a Goblin"
         },
         "scapegoat": {
           "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
@@ -8811,6 +8895,9 @@
         "beggar": {
           "good": "Beggar likes more death and makes it more valuable"
         },
+        "bonecollector": {
+          "warning": "Bone Collector is useless on this role"
+        },
         "cacklejack": {
           "warning": "Confirmed character change"
         },
@@ -8933,6 +9020,9 @@
         },
         "boomdandy": {
           "warning": "Beware not having picking non-Demon evil picking players with a Goon"
+        },
+        "devilsadvocate": {
+          "good": "More likely to pick the Goon by having to change targets, and less of a downside to not doing anything that night"
         },
         "eviltwin": {
           "warning": "Beware not having picking non-Demon evil picking players with a Goon"
@@ -9157,6 +9247,9 @@
         "librarian": {
           "good": "First night info roles are good targets for Gossip kills"
         },
+        "mathematician": {
+          "good": "Mathematician can detect if a droisoned Gossip would've been correct (or if their kill was sunk)"
+        },
         "mayor": {
           "warning": "Multiple night deaths can cause the 3-player day to be skipped"
         },
@@ -9368,6 +9461,9 @@
         "lycanthrope": {
           "good": "Grandmother can confirm Lycanthrope kill",
           "warning": "Grandchild cannot be the faux paw"
+        },
+        "mathematician": {
+          "good": "Mathematician can detect if a droisoned or protected Grandmother would've died"
         },
         "mayor": {
           "good": "Confirming this role is in-play is good"
@@ -9781,6 +9877,9 @@
         },
         "baron": {
           "good": "Baron can become an active Minion"
+        },
+        "boffin": {
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "boomdandy": {
           "good": "Swapping into a Boomdandy can be an interesting deterrent"
@@ -10417,6 +10516,9 @@
           "warning": "Librarian seeing Damsel potentially makes Huntsman's job very easy, if they find them",
           "good": "Librarian is a great bluff for Minions to get the Damsel to out/find them"
         },
+        "mathematician": {
+          "good": "Mathematician can detect if a droisoned Huntsman would've been correct"
+        },
         "poppygrower": {
           "warning": "This role is useless to give as a new role to Damsel"
         },
@@ -10469,7 +10571,7 @@
           "warning": "When resurrected, this gets another use of its ability"
         },
         "apprentice": {
-          "warning": "Apprentice can't have this ability if they joined late, unless a Damsel is already in-play"
+          "warning": "Apprentice can't have this ability if they joined late, unless a Damsel is already in-play (also RAW, it's technically not present during setup)"
         },
         "bonecollector": {
           "good": "Once per game abilities are good to bone collect"
@@ -10592,6 +10694,9 @@
         },
         "lycanthrope": {
           "good": "Innkeeper can cause a failed Lycanthrope kill"
+        },
+        "mathematician": {
+          "good": "Failing to kill this role's target counts as a malfunction"
         },
         "monk": {
           "warning": "Beware too much protection without multiple sources of death"
@@ -11518,7 +11623,7 @@
           "good": "Baron works better with hidden Outsiders"
         },
         "boffin": {
-          "warning": "This ability is useless to the Demon"
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "boomdandy": {
           "warning": "Klutz should probably not get killed when Boomdandy explodes"
@@ -12698,6 +12803,9 @@
         "magician": {
           "good": "Obvious faux paw"
         },
+        "mathematician": {
+          "good": "Mathematician can detect if a droisoned Lycanthrope would've been killed (or was protected against)"
+        },
         "mayor": {
           "warning": "Lycanthrope can keep trying to kill the Mayor",
           "good": "Obvious faux paw"
@@ -12836,7 +12944,8 @@
           "good": "Lycanthrope can hide a Mastermind day"
         },
         "mezepheles": {
-          "good": "Extra evil players increase the chance of a miss"
+          "good": "Extra evil players increase the chance of a miss",
+          "warning": "Faux paw cannot be turned, as they already appear evil"
         },
         "pithag": {
           "good": "Targeted Minions prevent the Lycanthrope from outing"
@@ -13408,6 +13517,9 @@
         "shabaloth": {
           "warning": "Not much use in getting resurrected"
         },
+        "vigormortis": {
+          "warning": "Vigormortis has no use killing this Minion"
+        },
         "vortox": {
           "good": "Forcing executions works well with this role"
         },
@@ -13431,6 +13543,9 @@
         },
         "gnome": {
           "good": "Interesting amigo"
+        },
+        "judge": {
+          "warning": "Evil Judge can force an execution of a good player on Mastermind day"
         },
         "angel": {
           "good": "This Minion needs to remain alive"
@@ -13471,6 +13586,9 @@
         "minstrel": {
           "good": "Mathematician can detect day characters that were drunk the day afterward"
         },
+        "monk": {
+          "good": "Failing to kill this role's target counts as a malfunction"
+        },
         "noble": {
           "good": "Mathematician can help first night info"
         },
@@ -13501,11 +13619,17 @@
         "slayer": {
           "good": "Mathematician can help once per game roles"
         },
+        "snakecharmer": {
+          "good": "Mathematician can detect if a droisoned Snake Charmer would've been swapped"
+        },
         "soldier": {
           "good": "Failing to kill this role counts as a malfunction"
         },
         "steward": {
           "good": "Mathematician can help first night info"
+        },
+        "tealady": {
+          "good": "Failing to kill a neighbor counts as a malfunction"
         },
         "virgin": {
           "good": "Mathematician can help detect if the Virgin failed because of droison/triggered because of misregistration"
@@ -13860,6 +13984,9 @@
         "shabaloth": {
           "warning": "Beware two extra evil players"
         },
+        "vigormortis": {
+          "great": "Good synergy"
+        },
         "yaggababble": {
           "good": "This role gives good opportunities for phrases"
         },
@@ -13990,10 +14117,13 @@
         },
         "boffin": {
           "good": "Knowing this character isn't in-play is powerful for evil",
-          "warning": "This ability is useless to the Demon"
+          "warning": "This ability is almost always useless to the Demon"
         },
         "boomdandy": {
           "conflict": "Minstrel disables the Boomdandy if still alive"
+        },
+        "devilsadvocate": {
+          "good": "Can protect Minions to prevent Minstrel nights. A protection might signal a Minion wasn't killed yesterday"
         },
         "eviltwin": {
           "warning": "Evil Twin is hard to execute. Minstrel can confirm that the Evil Twin was executed. If the good twin is executed on a Minstrel day, good doesn't lose"
@@ -14151,7 +14281,7 @@
         },
         "boffin": {
           "good": "Knowing this character isn't in-play is powerful for evil",
-          "warning": "This ability is useless to the Demon"
+          "warning": "This ability is almost always useless to the Demon"
         },
         "eviltwin": {
           "warning": "Bad choice for a Twin"
@@ -14302,6 +14432,9 @@
         },
         "baron": {
           "good": "Baron works better with hidden Outsiders"
+        },
+        "boffin": {
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "cerenovus": {
           "warning": "This role must claim itself even if mad. Dead players mad as Moonchild is hard to convincingly pull off"
@@ -14499,6 +14632,9 @@
         "cerenovus": {
           "warning": "The Cerenovus can make the Mutant mad as an Outsider",
           "good": "Cerenovus makes mutant madness executions not confirmable"
+        },
+        "devilsadvocate": {
+          "warning": "This role can make other players survive Mutant madness breaks"
         },
         "eviltwin": {
           "good": "Can explain the Twins not claiming the same role"
@@ -15543,6 +15679,7 @@
           "good": "Forcing executions works well with this role. This role's info is immune to Vortox"
         },
         "yaggababble": {
+          "info": "Can kill after a protected execution (don't)",
           "good": "This role gives good opportunities for phrases"
         },
         "zombuul": {
@@ -15556,6 +15693,9 @@
         },
         "scapegoat": {
           "good": "Interesting synergy"
+        },
+        "angel": {
+          "good": "Can prevent something bad happening if the target is executed"
         },
         "fibbin": {
           "warning": "Mechanical info is immune to Fibbin"
@@ -16077,6 +16217,9 @@
         "baron": {
           "good": "Baron works better with hidden Outsiders",
           "warning": "Plague Doctor + base Baron can result in 4 extra Outsiders, requiring extras or duplicates in most scripts"
+        },
+        "boffin": {
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "boomdandy": {
           "good": "The PD created Boomdandy can be either alignmnt"
@@ -16730,6 +16873,9 @@
         "boffin": {
           "warning": "This ability is near-useless to the Demon"
         },
+        "devilsadvocate": {
+          "warning": "Even if removing the possibility of a DA, it's hard for a Preacher to be certain of that. The ability is unlikely to trigger already"
+        },
         "eviltwin": {
           "warning": "Bad choice for a Twin. Preacher can easily disable an Evil Twin"
         },
@@ -16787,6 +16933,9 @@
         },
         "stormcatcher": {
           "warning": "Storm catching this role removes its downside"
+        },
+        "tor": {
+          "warning": "Being preached to reveals that you are a Minion"
         },
         "zenomancer": {
           "good": "Interesting role to give information about"
@@ -17330,6 +17479,9 @@
         "toymaker": {
           "warning": "Outed evil is redundant with Toymaker"
         },
+        "bigwig": {
+          "warning": "Outed evil players might be hard to defend convincingly (can sidestep by arguing just against their execution)"
+        },
         "godofug": {
           "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
         },
@@ -17556,6 +17708,9 @@
         "zombuul": {
           "good": "Puzzlemaster benefits from long games"
         },
+        "barista": {
+          "info": "Barista 1 guarantees they learn the correct Demon (don't)"
+        },
         "deviant": {
           "info": "Don't drunk the Deviant, it's rude"
         },
@@ -17564,6 +17719,9 @@
         },
         "angel": {
           "good": "Gives more time to a newer player to figure out the ability"
+        },
+        "fibbin": {
+          "warning": "Fibbin can make it hard to differentiate the Puzzledrunk. Can cause the Puzzlemaster to learn opposite info"
         },
         "revolutionary": {
           "good": "Partner can help this role out"
@@ -17662,7 +17820,8 @@
           "good": "Multiple night deaths are good for trap characters"
         },
         "boffin": {
-          "good": "Knowing this character isn't in-play is powerful for evil"
+          "good": "Knowing this character isn't in-play is powerful for evil",
+          "warning": "This ability is useless to the Demon unless it can die safely"
         },
         "boomdandy": {
           "warning": "Found Boomdandy is useless"
@@ -18437,6 +18596,7 @@
           "warning": "This role's info is immune to Vortox"
         },
         "yaggababble": {
+          "info": "Can kill after a protected execution (don't)",
           "warning": "Yaggababble targets are chosen by the ST"
         },
         "zombuul": {
@@ -18447,7 +18607,7 @@
           "warning": "Useless to double (unless evil)"
         },
         "bonecollector": {
-          "warning": "Bone Collector is useless on this role"
+          "warning": "Bone Collector is near useless on this role (basically outs them as evil, and the Sailor will say who they drank with)"
         },
         "butcher": {
           "good": "Extra executions gives more chances for this role to do something"
@@ -18531,6 +18691,9 @@
         "boomdandy": {
           "good": "Both make executions scary"
         },
+        "devilsadvocate": {
+          "warning": "Can stop a potential Saint loss"
+        },
         "eviltwin": {
           "warning": "Saint already can't be executed"
         },
@@ -18609,6 +18772,9 @@
         },
         "beggar": {
           "warning": "This role is more unlikely to die and so can't give its vote token"
+        },
+        "bonecollector": {
+          "warning": "Bone Collector is useless on this role"
         },
         "gangster": {
           "warning": "This role is fine to die to this Traveller"
@@ -19570,6 +19736,9 @@
         "scarletwoman": {
           "warning": "Demon can move"
         },
+        "spy": {
+          "info": "Grim lookers might be incentivized to not tell the Demon about the Snake Charmer"
+        },
         "summoner": {
           "good": "Snake charmer can safe the future Demon"
         },
@@ -19577,6 +19746,7 @@
           "good": "Outed characters are safe picks"
         },
         "widow": {
+          "info": "Grim lookers might be incentivized to not tell the Demon about the Snake Charmer",
           "good": "Interesting role to give the Widow ping to",
           "warning": "If this role learns of a Widow and becomes evil, a good player learns the Widow is in-play again, if still alive"
         },
@@ -20451,6 +20621,9 @@
         "baron": {
           "good": "Baron works better with hidden Outsiders"
         },
+        "boffin": {
+          "warning": "This ability is useless to the Demon unless it can die safely"
+        },
         "godfather": {
           "good": "Extra deaths work well with this Outsider"
         },
@@ -20758,6 +20931,7 @@
           "warning": "This role's info is immune to Vortox"
         },
         "yaggababble": {
+          "info": "Can kill after a protected execution (don't)",
           "warning": "Yaggababble targets are chosen by the ST"
         },
         "zombuul": {
@@ -20769,6 +20943,9 @@
         },
         "beggar": {
           "warning": "Protection gives less use to the Beggar"
+        },
+        "bishop": {
+          "good": "ST can nominate a Tea Lady protected player to make them more likely to be executed"
         },
         "butcher": {
           "good": "Extra executions gives more chances for this role to do something"
@@ -20796,7 +20973,8 @@
           "warning": "This role might prefer the execution to go through even if on the same team as the Scapegoat"
         },
         "angel": {
-          "warning": "Angel protecting a neighbor of a Tea Lady makes it less likely for them to be attacked or executed"
+          "warning": "Angel protecting a neighbor of a Tea Lady makes it less likely for them to be attacked or executed",
+          "good": "Can prevent something bad happening if the target is executed"
         },
         "doomsayer": {
           "warning": "Can cause a doomsay to have no effect (check if both teams have characters that can explain this)"
@@ -22089,6 +22267,9 @@
         },
         {
           "name": "Is a Demon that causes misinformation"
+        },
+        {
+          "name": "Helps with execution"
         }
       ],
       "matchups": {
@@ -22107,9 +22288,6 @@
         },
         "harlot": {
           "warning": "Traveller info is immune to Vortox"
-        },
-        "voudon": {
-          "conflict": "Evil Voudon can choose not to vote on day 1, causing a loss"
         },
         "duchess": {
           "good": "Duchess is immune to Vortox"
@@ -22655,6 +22833,9 @@
         "riot": {
           "warning": "Riot means Xaan must be a 1 or 2"
         },
+        "vigormortis": {
+          "great": "Good synergy"
+        },
         "vortox": {
           "warning": "Xaan only affects mechanical roles with Vortox"
         },
@@ -22857,7 +23038,7 @@
           "warning": "Zealot will vote on every nomination"
         },
         "bonecollector": {
-          "warning": "Bone Collector is mean on this role"
+          "warning": "Bone Collector is mean on this role. Zealot should be informed they are bone collected"
         },
         "bureaucrat": {
           "good": "Interesting target for a Bureaucrat"
@@ -22876,9 +23057,6 @@
         },
         "harlot": {
           "warning": "This role is fine to die to this Traveller"
-        },
-        "judge": {
-          "warning": "Judge will always be able to execute with a Zealot"
         },
         "scapegoat": {
           "good": "Helps with execution"
