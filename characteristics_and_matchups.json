@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T17:28:50.840Z",
+    "generated_at": "2026-10-20T21:09:05.108Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -1363,6 +1363,9 @@
         "godofug": {
           "warning": "This ability is hard to do when wearing the hat"
         },
+        "hindu": {
+          "good": "Can use its ability and die early to get a new Traveller ability"
+        },
         "knaves": {
           "warning": "This role can easily detect which ST is lying. Can also circumvent the Knaves with an XOR statement"
         },
@@ -1458,6 +1461,9 @@
         },
         "revolutionary": {
           "good": "Partner can help this role out"
+        },
+        "hindu": {
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "knaves": {
           "warning": "This role benefits from longer games"
@@ -2809,6 +2815,9 @@
         "sentinel": {
           "warning": "Sentinel can obfuscate the presence of this role"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "pope": {
           "warning": "Can add more than 2 Outsiders with the duplicates"
         },
@@ -3056,7 +3065,8 @@
           "warning": "Legion can't bluff outed evils"
         },
         "leviathan": {
-          "conflict": "If the Boomdandy explodes, this Demon can't end the game the next night if no one dies"
+          "warning": "If the Boomdandy explodes, this Demon can't end the game the next night if no one dies",
+          "good": "Interesting combination to suddenly reduce the amount of days"
         },
         "lilmonsta": {
           "warning": "Boomdandy can't be babysitter"
@@ -3361,7 +3371,8 @@
           "good": "Evil player can be a new babysitter. Great bluff for Minions"
         },
         "lleech": {
-          "warning": "Semi-bad target for Bounty Hunter"
+          "warning": "Semi-bad target for Bounty Hunter. Unless the target is evil, Bounty Hunter can't learn the target for good to kill",
+          "good": "Lleech can choose the evil Townsfolk, which is a substantial buff to the evil team, even more if they can figure it out. However, the Bounty Hunter would eventually point towards it"
         },
         "lordoftyphon": {
           "warning": "Evil TF must be in the line",
@@ -3940,10 +3951,10 @@
           "good": "This Minion can learn who was made mad and try and make their task harder"
         },
         "wizard": {
-          "good": "Wizard could fake this role. This Minion can learn who was made mad and try and make their task harder"
+          "good": "Wizard could fake this role"
         },
         "wraith": {
-          "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith"
+          "good": "Wraith can guide this role. Making an (extra) evil mad forces them to wake with the Wraith. This Minion can learn who was made mad and try and make their task harder"
         },
         "fanggu": {
           "warning": "This Minion might accidentally target a newly jumped Fang Gu"
@@ -4347,7 +4358,8 @@
           "good": "This role can be said in ug speak"
         },
         "hindu": {
-          "warning": "Players leaving influences this role"
+          "warning": "Players leaving influences this role",
+          "good": "Can die early to get a new Traveller ability"
         },
         "pope": {
           "warning": "All copies of this role receive the same info"
@@ -4733,7 +4745,8 @@
           "warning": "This role depends a lot on the gardening"
         },
         "hindu": {
-          "warning": "Players leaving influences this role"
+          "warning": "Players leaving influences this role",
+          "good": "Can die early to get a new Traveller ability"
         },
         "pope": {
           "warning": "All copies of this role receive the same info"
@@ -4915,7 +4928,7 @@
           "conflict": "Can cause multiple extra days and free executions"
         },
         "lilmonsta": {
-          "conflict": "Droisoned LM is a rules nightmare"
+          "info": "LM cannot be drunk or poisoned"
         },
         "shabaloth": {
           "warning": "If resurrected, they can use their ability again and might have a better idea which Demon it is"
@@ -5931,7 +5944,7 @@
           "warning": "The Hermit Drunk cannot know they're the other role"
         },
         "ogre": {
-          "conflict": "Doesn't work"
+          "conflict": "Doesn't work, unless the ST has every player that received a Townsfolk token do an \"ogre pick\" on the first night"
         },
         "zealot": {
           "conflict": "The Hermit Drunk cannot know they're the other role, unless everyone must claim it"
@@ -6288,7 +6301,8 @@
           "warning": "Swapping and changing characters might mess with the intended setup"
         },
         "hindu": {
-          "warning": "Engineer can choose extra roles if Minions have been tranformed into Travellers"
+          "warning": "Engineer can choose extra roles if Minions have been tranformed into Travellers",
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "pope": {
           "warning": "Multiple copies of this role can interfere with each other"
@@ -7360,6 +7374,9 @@
         },
         "godofug": {
           "warning": "This info is hard to spread when wearing the hat"
+        },
+        "hindu": {
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "tor": {
           "good": "This role can find out for sure who they are if their ability triggers/is used"
@@ -9953,6 +9970,9 @@
         "godofug": {
           "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
         },
+        "hindu": {
+          "warning": "Day deaths matter a lot less while Hindu is active"
+        },
         "knaves": {
           "warning": "This role benefits from longer games"
         },
@@ -10736,7 +10756,8 @@
           "good": "Can put the Huntsman and Damsel as players that are close socially (can be meta'd)"
         },
         "hindu": {
-          "warning": "The Damsel is likely to prefer becoming a Traveller"
+          "warning": "The Damsel is likely to prefer becoming a Traveller",
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "knaves": {
           "info": "Role/alignment changes are immune to Knaves"
@@ -11245,6 +11266,9 @@
         "harlot": {
           "good": "This role is fine to die to this Traveller"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "knaves": {
           "warning": "Knaves can make this info near useless"
         },
@@ -11458,6 +11482,9 @@
         },
         "godofug": {
           "warning": "This ability is hard to do when wearing the hat"
+        },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
         },
         "knaves": {
           "warning": "Knaves can make this info near useless"
@@ -12129,6 +12156,9 @@
         "godofug": {
           "good": "This role can be said in ug speak"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "knaves": {
           "warning": "Knaves can make this info very powerful"
         },
@@ -12523,6 +12553,9 @@
         "sentinel": {
           "good": "More reason for a Librarion 0"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "knaves": {
           "warning": "Knaves can make this info near useless"
         },
@@ -12576,7 +12609,7 @@
           "warning": "Angel doesn't work with ST-controlled deaths"
         },
         "hindu": {
-          "good": "Hindu-ed Minions can still hold the baby (even if it's risky)"
+          "good": "Reincarnated Minions can still hold the baby (even if it's risky)"
         },
         "pope": {
           "good": "Pope helps Minions who don't have bluffs"
@@ -13733,6 +13766,9 @@
         "fiddler": {
           "good": "Allows a fiddle between an alive and dead player (though hard to convinvingly orchestrate)"
         },
+        "hindu": {
+          "good": "Can allow the Demon player to use their Traveller ability if they die early"
+        },
         "knaves": {
           "good": "This role benefits from longer games"
         },
@@ -14219,6 +14255,9 @@
         },
         "godofug": {
           "warning": "This ability is hard to do when wearing the hat. If an extra evil gets the hat, evil can even more easily out vote town"
+        },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
         },
         "stormcatcher": {
           "warning": "Stormcaught can be evil"
@@ -15105,7 +15144,8 @@
           "warning": "Confirmed players are a bad choice for fiddling"
         },
         "hindu": {
-          "warning": "Confirmed good Traveller can be very powerful"
+          "warning": "Confirmed good Traveller can be very powerful",
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "knaves": {
           "warning": "This role's info is immune to Knaves"
@@ -15152,6 +15192,9 @@
         },
         "gardener": {
           "warning": "This role depends a lot on the gardening"
+        },
+        "hindu": {
+          "good": "No Dashii poison moves when a poisoned Townsfolk becomes a Traveller. This can offset Hindu's good-sided nature"
         },
         "ventriloquist": {
           "good": "Misinformation can make pivots more convincing"
@@ -15343,6 +15386,9 @@
         },
         "duchess": {
           "great": "Good synergy"
+        },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
         },
         "pope": {
           "good": "Cross-referencing information can be powerful"
@@ -16184,6 +16230,9 @@
         },
         "godofug": {
           "info": "Cannot be said in ug speak (counts as a single word)"
+        },
+        "hindu": {
+          "warning": "Cannot change reincarnated players (might vary with STs)"
         },
         "pope": {
           "info": "Pit-Hag cannot create duplicates, only remove them"
@@ -17443,6 +17492,9 @@
         "godofug": {
           "good": "Helps with execution"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "knaves": {
           "good": "This role benefits from longer games"
         },
@@ -17577,7 +17629,8 @@
           "good": "Partner can help this role out. Rev can misregister to get resurrected"
         },
         "hindu": {
-          "warning": "Travellers can't be resurrected"
+          "warning": "Travellers can't be resurrected",
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "knaves": {
           "good": "This role benefits from longer games",
@@ -17646,7 +17699,8 @@
           "warning": "Legion can't bluff outed evils"
         },
         "leviathan": {
-          "good": "Psychopath can bring kills to a Leviathan game"
+          "good": "Psychopath can bring kills to a Leviathan game",
+          "warning": "Psychopath killing players eliminates Demon candidates and reveals a Minion"
         },
         "lordoftyphon": {
           "warning": "Loud Minions might give out the extra one added by LoT, and the LoT itself"
@@ -17707,7 +17761,8 @@
           "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
         },
         "hindu": {
-          "good": "A Psychopath can kill used evil players to give them new abilities"
+          "good": "A Psychopath can kill used evil players to give them new abilities",
+          "warning": "Day deaths matter a lot less while Hindu is active"
         },
         "knaves": {
           "warning": "This role benefits from longer games"
@@ -18430,6 +18485,9 @@
         },
         "godofug": {
           "warning": "Votes only matter before day 3"
+        },
+        "hindu": {
+          "warning": "Traveller Minions don't become Riot on final day, making the evil team a lot weaker"
         },
         "knaves": {
           "warning": "This role benefits from longer games"
@@ -19343,6 +19401,9 @@
         "doomsayer": {
           "good": "SW can make the Demon survive the Doomsayer"
         },
+        "hindu": {
+          "good": "Can allow the Demon player to use their Traveller ability if they die early"
+        },
         "knaves": {
           "good": "This role benefits from longer games"
         },
@@ -19485,6 +19546,9 @@
         },
         "duchess": {
           "great": "Good synergy"
+        },
+        "hindu": {
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "pope": {
           "good": "Cross-referencing information can be powerful"
@@ -19713,6 +19777,9 @@
         "gardener": {
           "warning": "This role depends a lot on the gardening"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "pope": {
           "good": "Cross-referencing information can be powerful"
         },
@@ -19890,6 +19957,9 @@
         },
         "revolutionary": {
           "good": "Partner can help this role out. Rev can misregister and be killed"
+        },
+        "hindu": {
+          "good": "Can use its ability and die early to get a new Traveller ability"
         },
         "knaves": {
           "warning": "This role's info is immune to Knaves"
@@ -20539,7 +20609,7 @@
           "warning": "This info is hard to spread when wearing the hat"
         },
         "hindu": {
-          "info": "Can become a good Traveller (dont)"
+          "info": "Can become a good Traveller (don't)"
         },
         "knaves": {
           "warning": "Evil team misinformation is not great"
@@ -20715,6 +20785,9 @@
         "fiddler": {
           "warning": "Confirmed players are a bad choice for fiddling"
         },
+        "hindu": {
+          "good": "Can die early to get a new Traveller ability"
+        },
         "knaves": {
           "warning": "Knaves can make this info very powerful"
         }
@@ -20841,6 +20914,9 @@
         },
         "gardener": {
           "warning": "Swapping and changing characters might mess with the intended setup"
+        },
+        "hindu": {
+          "warning": "Cannot change reincarnated players (might vary with STs)"
         },
         "knaves": {
           "warning": "Evil team misinformation is not great, especially for bluffs"
@@ -22850,6 +22926,9 @@
         "legion": {
           "warning": "Legion can't bluff outed evils"
         },
+        "leviathan": {
+          "warning": "Witch killing players eliminates Demon candidates"
+        },
         "lleech": {
           "warning": "Can kill the Lleech host"
         },
@@ -22890,6 +22969,9 @@
         "godofug": {
           "good": "This role can be said in ug speak",
           "warning": "Day deaths before executions might make the challenge not worth it"
+        },
+        "hindu": {
+          "warning": "Day deaths matter a lot less while Hindu is active"
         },
         "knaves": {
           "warning": "This role benefits from longer games"
@@ -23069,6 +23151,9 @@
         "toymaker": {
           "good": "Wraith can help decide the night of no kills"
         },
+        "gardener": {
+          "good": "Gardened Grimoires will generally have something interesting to look out for"
+        },
         "godofug": {
           "good": "This role can be said in ug speak"
         },
@@ -23224,6 +23309,9 @@
         },
         "godofug": {
           "warning": "This ability is hard to do when wearing the hat. Day deaths before executions might make the challenge not worth it"
+        },
+        "hindu": {
+          "warning": "Day deaths matter a lot less while Hindu is active"
         },
         "knaves": {
           "warning": "This role benefits from longer games"
