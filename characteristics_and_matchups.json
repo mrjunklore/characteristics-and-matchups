@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T21:09:05.108Z",
+    "generated_at": "2026-11-15T22:24:18.197Z",
     "normalization": "remove '-' and '_' then lowercase"
   },
   "characteristics": {
@@ -17147,7 +17147,6 @@
           "good": "Preacher can confirm that the players they have picked don't have the Golbin ability"
         },
         "marionette": {
-          "warning": "Marionette that gets hit by Preacher learns this, and stops having their fake ability",
           "good": "This role doesn't have many ways to know if they're the Marionette"
         },
         "mastermind": {
